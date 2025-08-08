@@ -20,7 +20,7 @@ Insert here a screeshot of the schedule for PHYS 1145
 | 2025-11-24 |           |           |           |           |           |
 | 2025-12-01 |           |           |           |           |           |
 
-```{figure} /IntroductionFigures/schedulePHYS1145.jpg
+```{figure} /IntroductionFigures/2025_Fall_LabSchedulePrintout_1145L_simplified.jpg
 :name: schedulePHYS1145
 :width: 80%
 :align: center
