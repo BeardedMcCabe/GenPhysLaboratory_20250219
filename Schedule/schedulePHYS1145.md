@@ -1,40 +1,42 @@
 (lab-days-1145-1146-links)=
-# Lab Days for PHYS 1146L (with links)
+# Lab Days for PHYS 1145L (with links)
+
+See printed schedule below {numref}`schedulePHYS1145L`.
+
+## Schedule with links to relevant lab
+
+| Week Of | M | T | W | R | F |
+|--------|---|---|---|---|---|
+| 09-07   | ***Labor Day*** | ***[First Day of Classes]*** | --- | --- | --- |
+| 09-14   | [Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall) | --- | [Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall) | --- | --- |
+| 09-21   | [Introductory Lab: Domino Size & Density](#intro-lab-dominos-overall) | --- | [Introductory Lab: Domino Size & Density](#intro-lab-dominos-overall) | --- | --- |
+| 09-28   | [Force Table with 3 Vectors at Equilibrium](#force-table-with-3-vectors-overall) | --- | [Force Table with 3 Vectors at Equilibrium](#force-table-with-3-vectors-overall) | --- | --- |
+| 10-05   | [Acceleration due to Gravity, g, with Glider on Tilted Air Track](#acceleration-due-to-g-overall) | --- | [Acceleration due to Gravity, g, with Glider on Tilted Air Track](#acceleration-due-to-g-overall) | --- | --- |
+| 10-12   | ***Fall Break <br>(no lab)*** | ***Fall Break <br>(no lab)*** | [Simple Projectile Motion with Kinematics](#simple-projectile-motion-overall) | --- | --- |
+| 10-19   | [Simple Projectile Motion with Kinematics](#simple-projectile-motion-overall) | --- | [Centripetal Force with Mass on Rotating Arm](#centripetal-force-lab-overall) | --- | --- |
+| 10-26   | [Centripetal Force with Mass on Rotating Arm](#centripetal-force-lab-overall) | --- | [Conservation of Energy with Glider on Tilted Air Track](#cons-energy-glider-track-lab-overall) | --- | --- |
+| 11-02   | [Conservation of Energy with Glider on Tilted Air Track](#cons-energy-glider-track-lab-overall) | --- | [Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion](#ballistic-pendulum-lab-overall) | --- | --- |
+| 11-09   | [Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion](#ballistic-pendulum-lab-overall) | --- | [Ideal gas law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](#ideal-gas-absolute-zero-lab-overall) | --- | --- |
+| 11-16   | [Ideal gas law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](#ideal-gas-absolute-zero-lab-overall) | --- | [Fluid Physics with Archimedes’ & Bernoulli’s Principles](#fluid-physics-arch-bern-lab-overall) | --- | --- |
+| 11-23   | [Fluid Physics with Archimedes’ & Bernoulli’s Principles](#fluid-physics-arch-bern-lab-overall) | --- | ***Thanksgiving <br>(no lab)*** | ***Thanksgiving <br>(no lab)*** | ***Thanksgiving <br>(no lab)*** |
+| 11-30   | [Determination of Acceleration due to Gravity, g, with Simple Pendulum](#simple-pendulum-g-lab-overall) | --- | [Determination of Acceleration due to Gravity, g, with Simple Pendulum](#simple-pendulum-g-lab-overall) | --- | --- |
+| 12-07   | [Makeup for snowdays] | --- | [Makeup for snowdays] | --- | ***[Last Day of Classes]*** |
+| 12-14   | *Finals week* | *Finals week* | *Finals week* | *Finals week* | *Finals week* | --- |
+| 12-21   | --- | [Final Grades Due] | --- | --- | ***Christmas*** |
 
 
-<!---
-# Schedule for PHYS 1145
 
 
 ## Printed Lab Schedule
 
-```{figure} ScheduleFigures/2025_Fall_LabSchedulePrintout_1145L_simplified.jpg
+```{figure} ScheduleFigures/2026_Fall_LabSchedulePrintout_1145L_ONLY_v1.png
 :name: schedulePHYS1145L
 :width: 100%
+:class: full-height
 :align: center
 Schedule for PHYS 1145L
 ```
 
-## Schedule with links to relevant lab
-
-| Week Of | M                                                                 | T                                                                 | W                                                                 | R                                                                 | F                                                                 |
-|:-------:|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|
-| 09-01   | Labor Day                                                         | [First Day of Classes]                                            |                                                                   |                                                                   |                                                                   |
-| 09-08   | [Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall) |                                                                   | [Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall) |                                                                   |                                                                   |
-| 09-15   | [Introductory Lab: Domino Size & Density](#intro-lab-dominos-overall) |                                                                   | [Introductory Lab: Domino Size & Density](#intro-lab-dominos-overall) |                                                                   |                                                                   |
-| 09-22   | [Force Table with 3 Vectors at Equilibrium](#force-table-with-3-vectors-overall) |                                                                   | [Force Table with 3 Vectors at Equilibrium](#force-table-with-3-vectors-overall) |                                                                   |                                                                   |
-| 09-29   | [Acceleration due to Gravity, g, with Glider on Tilted Air Track](#acceleration-due-to-g-overall) |                                                                   | [Acceleration due to Gravity, g, with Glider on Tilted Air Track](#acceleration-due-to-g-overall) |                                                                   |                                                                   |
-| 10-06   | [Simple Projectile Motion with Kinematics](#simple-projectile-motion-overall) |                                                                   | [Simple Projectile Motion with Kinematics](#simple-projectile-motion-overall) |                                                                   |                                                                   |
-| 10-13   | *Fall Break <br>(no lab)*                                         | *Fall Break <br>(no lab)*                                         | [Centripetal Force with Mass on Rotating Arm](#centripetal-force-lab-overall) |                                                                   |                                                                   |
-| 10-20   | [Centripetal Force with Mass on Rotating Arm](#centripetal-force-lab-overall) |                                                                   | [Conservation of Energy with Glider on Tilted Air Track](#cons-energy-glider-track-lab-overall) |                                                                   |                                                                   |
-| 10-27   | [Conservation of Energy with Glider on Tilted Air Track](#cons-energy-glider-track-lab-overall) |                                                                   | [Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion](#ballistic-pendulum-lab-overall) |                                                                   |                                                                   |
-| 11-03   | [Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion](#ballistic-pendulum-lab-overall) |                                                                   | [Ideal gas law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](#ideal-gas-absolute-zero-lab-overall) |                                                                   |                                                                   |
-| 11-10   | [Ideal gas law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](#ideal-gas-absolute-zero-lab-overall) |                                                                   | [Fluid Physics with Archimedes’ & Bernoulli’s Principles](#fluid-physics-arch-bern-lab-overall) |                                                                   |                                                                   |
-| 11-17   | [Fluid Physics with Archimedes’ & Bernoulli’s Principles](#fluid-physics-arch-bern-lab-overall) |                                                                   | [Determination of Acceleration due to Gravity, g, with Simple Pendulum](#simple-pendulum-g-lab-overall) |                                                                   |                                                                   |
-| 11-24   | [Determination of Acceleration due to Gravity, g, with Simple Pendulum](#simple-pendulum-g-lab-overall) | *Thanksgiving <br>(no lab)*                                       | *Thanksgiving <br>(no lab)*                                       | *Thanksgiving <br>(no lab)*                                       |                                                                   |
-| 12-01   | [Makeup for snowdays]                                             |                                                                   | [Makeup for snowdays]                                             |                                                                   |                                                                   |
-| 12-08   | [Last Day of Classes]                                             | *Reading day*                                                     | *Reading day*                                                     | *Finals week*                                                     | *Finals week*                                                     |
-| 12-15   | *Finals week*                                                     | *Finals week*                                                     | *Finals week*                                                     | ---                                                               | ---                                                               |
 
 
 <!---
@@ -63,7 +65,7 @@ Schedule for PHYS 1145L
 --->
 
 
-
+<!---
 
 ## Schedule with links to relevant lab
 
@@ -97,6 +99,8 @@ Schedule for PHYS 1145L
 :align: center
 Schedule for PHYS 1146L
 ```
+
+--->
 
 
 <!---

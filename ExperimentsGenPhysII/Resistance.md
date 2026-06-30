@@ -1,6 +1,10 @@
 (resistivity-resistors-dc-circuits-overall)=
 # Resistivity with Resistors & DC Circuits
 
+```{admonition} Review Post-lab Interpretation Questions before lab
+:class: important
+**❓❓ See {ref}`postlabs_resistors` ❓❓**
+```
 
 
 ## Background
@@ -331,7 +335,7 @@ R_\text{trial\#} = \frac{V_\text{trial\#}}{I_\text{trial\#}}
     If you were to rearrange {eq}`eq-ohms-law` to be in the linear form of $y=mx+b$, what does the slope $m$ end up representing? When creating your summary table later, ensure you reference the `LINEST` slope's cell and it's uncertainty (remember not to just copy/paste) and accurately describe what it represents, not just described as slope.
     ```
 
-14. Calculate the **difference** between your experimental resistance value (as determined in previous step) and actual values (i.e. $R_\text{experimental} - R_\text{actual}$). Also calculate the **percent difference** between your experimental and actual values (reminder of this in {eq}`eq-percentChangeinErrorAnalysis`). (Generally should be $<10\%$)
+14. Calculate the **difference** between your experimental resistance value (as determined in previous step) and actual values (i.e. $R_\text{experimental} - R_\text{actual}$). Also calculate the **percent difference** between your experimental and actual values (reminder of this in {eq}`eq-percentDifferenceinErrorAnalysis`). (Generally should be $<10\%$)
 
 15. ***PLOT*** the voltage ($y$) vs. current ($x$) for all cases all on the same plot, starting with this first one ($R_1$). Add the other cases ($R_2$, $R_3$, and light bulb) as you return to this step later. This will be similar to how you plotted both cases on the same plot in last week's lab. 
     - For each case, add a **linear** trendline. 
@@ -496,7 +500,7 @@ You will apply a constant $4.00\,\text{V}$ to the circuit with all three resisto
 
 
 
-
+(postlabs_resistors)=
 ## Post-Lab Submission --- Interpretation of Results
 
 ### ● Finalized Spreadsheets

@@ -1,51 +1,11 @@
 (simple-pendulum-g-lab-overall)=
 # Determination of Acceleration due to Gravity, *g*, with Simple Pendulum
 
-
-
-## Post-Lab Submission --- Interpretation of Results
-<!---
-- Make sure to submit your finalized data table (Excel sheet)
-- What are your experimental values of g, and how do they compare to the accepted value? Do this for:
-  - Case averages of $g_{\text{avg}}$, (i.e. does $g_{\text{avg}} \pm \delta g_{\text{avg}}$ overlap with the accepted value by covering the difference between the experimental and actual values?)
-  - Case averaged of $g_\text{corrected,avg}$ (assuming similar uncertainty)
-  - Slope-derived $g_\text{slope}$ (assuming similar uncertainty)
-- Case 5 (large angle):
-  - How is Case 5 (large angle) different from the previous four?
-  - How does $g_\text{avg}$ of Case 5 compare to $g_{\text{avg}}$ of Case 4 (at the same $L$)?
-  - How does $g_\text{corrected,avg}$ of Case 5 compare to $g_{\text{avg}}$ of Case 4 (at the same $L$)? Do they agree more or less after the consideration of additional terms.
-- How do the periods relate to different lengths of pendulum?
---->
-
-```{admonition} Defend your conclusions with your data
+```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important
-Defend why your data agrees with or disagrees with the actual value of $g$ and pendulum physics. Use error propagation from your uncertainties and precision of your equipment to help your argument.
+**❓❓ See {ref}`postlabs_simple_pendulum` ❓❓**
 ```
 
-### ● Finalized Spreadsheets
-
-  - Make sure to submit your finalized data table (Excel sheet).
-    - Please include relevant plot(s) including:
-      - $T^2$ vs. $L$ with all data points across the four small-angle cases (i.e. Cases 1 -- 4)
-
-
-### ● Post-lab Writeup
-
-- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-	- What is the precision of your equipment?
-  - What are your systematic and random errors?
-  - What are sources of uncertainty?
-  - How do your final results change based on your uncertainties (e.g. maximizing/minimizing values)?
-    - Of your quantities' uncertainties, which quantity affects your final result for $g$ the most?
-<!--- ~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! make g slope unceratinty from excel--->
-- In a **paragraph**, summarize the results you have determined in each case. Consider:
-  - Compare your averaged values to the accepted value of $g$ for Fairfield, CT, for each length case including:
-    - $g_{\text{small-amp,avg}}\pm\delta g_{\text{small-amp,avg}}$
-    - $g_{\text{corrected,avg}}\pm\delta g_{\text{small-amp,avg}}$ (reminder, reusing the uncertainty here)
-    - $g_{slope}\pm\delta g_{slope}$
-  - Do each of the small-angle cases agree with each other (Cases 1 -- 4)? Why or why not using physical arguements?
-  - How do the **uncorrected** and **corrected** accelerations due to gravity values for the large angle case (Case 5) compare to the other cases, including Case 4 of the same pendulum length?
-  - What is the relationship between period and length for a simple pendulum (i.e. longer/shorter)?
 
 
 ## Background
@@ -411,6 +371,50 @@ g_{\text{small-amp,max}} = 4\pi^2 \frac{(L + \delta L)}{(T - \delta T)^2}
 
 
 
+(postlabs_simple_pendulum)=
+## Post-Lab Submission --- Interpretation of Results
+<!---
+- Make sure to submit your finalized data table (Excel sheet)
+- What are your experimental values of g, and how do they compare to the accepted value? Do this for:
+  - Case averages of $g_{\text{avg}}$, (i.e. does $g_{\text{avg}} \pm \delta g_{\text{avg}}$ overlap with the accepted value by covering the difference between the experimental and actual values?)
+  - Case averaged of $g_\text{corrected,avg}$ (assuming similar uncertainty)
+  - Slope-derived $g_\text{slope}$ (assuming similar uncertainty)
+- Case 5 (large angle):
+  - How is Case 5 (large angle) different from the previous four?
+  - How does $g_\text{avg}$ of Case 5 compare to $g_{\text{avg}}$ of Case 4 (at the same $L$)?
+  - How does $g_\text{corrected,avg}$ of Case 5 compare to $g_{\text{avg}}$ of Case 4 (at the same $L$)? Do they agree more or less after the consideration of additional terms.
+- How do the periods relate to different lengths of pendulum?
+--->
+
+```{admonition} Defend your conclusions with your data
+:class: important
+Defend why your data agrees with or disagrees with the actual value of $g$ and pendulum physics. Use error propagation from your uncertainties and precision of your equipment to help your argument.
+```
+
+### ● Finalized Spreadsheets
+
+  - Make sure to submit your finalized data table (Excel sheet).
+    - Please include relevant plot(s) including:
+      - $T^2$ vs. $L$ with all data points across the four small-angle cases (i.e. Cases 1 -- 4)
+
+
+### ● Post-lab Writeup
+
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+	- What is the precision of your equipment?
+  - What are your systematic and random errors?
+  - What are sources of uncertainty?
+  - How do your final results change based on your uncertainties (e.g. maximizing/minimizing values)?
+    - Of your quantities' uncertainties, which quantity affects your final result for $g$ the most?
+<!--- ~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! make g slope unceratinty from excel--->
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
+  - Compare your averaged values to the accepted value of $g$ for Fairfield, CT, for each length case including:
+    - $g_{\text{small-amp,avg}}\pm\delta g_{\text{small-amp,avg}}$
+    - $g_{\text{corrected,avg}}\pm\delta g_{\text{small-amp,avg}}$ (reminder, reusing the uncertainty here)
+    - $g_{slope}\pm\delta g_{slope}$
+  - Do each of the small-angle cases agree with each other (Cases 1 -- 4)? Why or why not using physical arguements?
+  - How do the **uncorrected** and **corrected** accelerations due to gravity values for the large angle case (Case 5) compare to the other cases, including Case 4 of the same pendulum length?
+  - What is the relationship between period and length for a simple pendulum (i.e. longer/shorter)?
 
 
 

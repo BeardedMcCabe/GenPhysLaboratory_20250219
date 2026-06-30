@@ -5,7 +5,7 @@ project:
   title: Fairfield U. Physics Lab Manual
   # description: 
   # keywords: []
-  authors: [Drs. Angela Biselli & Ryan M. McCabe]
+  authors: [Drs. Ryan M. McCabe & Angela Biselli]
   # github: https://github.com/AngelaBi/GenPhysLaboratory
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:

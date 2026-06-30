@@ -1,6 +1,13 @@
 (electric-force-and-epsilon-overall)=
 # Electric Force & the Determination of ε₀
 
+
+```{admonition} Review Post-lab Interpretation Questions before lab
+:class: important
+**❓❓ See {ref}`postlabs_eps0` ❓❓**
+```
+
+
 ## Background
 
 ### ● Background Overview
@@ -594,6 +601,7 @@ Safety: regarding electricity and the plates touching.
     ```
 
 
+(postlabs_eps0)=
 ## Post-Lab Submission --- Interpretation of Results
 
 ### ● Finalized Spreadsheets

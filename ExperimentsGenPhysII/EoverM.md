@@ -1,6 +1,10 @@
 (measurement-of-helmholtz-magnetic-field-electrons-em-ratio-overall)=
 # Measurement of Helmholtz Magnetic Field & Electrons' e/m Ratio
 
+```{admonition} Review Post-lab Interpretation Questions before lab
+:class: important
+**❓❓ See {ref}`postlabs_electron_charge_mass_ratio` ❓❓**
+```
 
 ## Background Overview
 
@@ -415,7 +419,7 @@ Bulb rotator.
 
 
 
-
+(postlabs_electron_charge_mass_ratio)=
 ## Post-Lab Submission --- Interpretation of Results
 
 ### ● Finalized Spreadsheets

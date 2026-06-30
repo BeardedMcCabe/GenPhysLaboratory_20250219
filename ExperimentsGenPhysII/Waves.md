@@ -1,6 +1,11 @@
 (wave-motion-overall)=
 # Wave Motion
 
+```{admonition} Review Post-lab Interpretation Questions before lab
+:class: important
+**❓❓ See {ref}`postlabs_waves` ❓❓**
+```
+
 ## Background
 
 ### ● Background Overview
@@ -295,7 +300,7 @@ The cases today are as shown in {numref}`waves-cases-table`.
 
 
 
-
+(postlabs_waves)=
 ## Post-Lab Submission --- Interpretation of Results
 
 ### ● Finalized Spreadsheets

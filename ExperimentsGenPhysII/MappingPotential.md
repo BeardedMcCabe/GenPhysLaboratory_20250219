@@ -1,6 +1,11 @@
 (electirc-field-equipotential-mapping-overall)=
 # Equipotential & Electric Field Mapping
 
+```{admonition} Review Post-lab Interpretation Questions before lab
+:class: important
+**❓❓ See {ref}`postlabs_equipotential_mapping` ❓❓**
+```
+
 ## Background
 
 ### ● Background Overview
@@ -256,6 +261,7 @@ Electrode configurations. The stars show minimum required starting positions for
     ```
 
 
+(postlabs_equipotential_mapping)=
 ## Post-Lab Submission --- Interpretation of Results
 
 Note: For this lab, your results will be very qualitative.
