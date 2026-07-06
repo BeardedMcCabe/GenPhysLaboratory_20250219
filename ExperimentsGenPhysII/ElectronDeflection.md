@@ -1,14 +1,15 @@
 (acceleration-and-deflection-of-electrons-overall)=
 # Acceleration & Deflection of Electrons
 
+```{admonition} Review Post-lab Interpretation Questions before lab
+:class: important
+**❓❓ See {ref}`postlabs_electron_deflection` ❓❓**
+```
+
 ## Background
 
 ### ● Background Overview
 
-```{admonition} NOTE REGARDING THE HOMEWORK Spring 2026
-:class: important
-The numerical question in this week's homework references the "towards the CRT screen" direction as "X direction". Throughout this current version of the lab manual, the direction towards the CRT screen will be instead listed as ***"Z direction"*** to match both the apparatus itself and the schematic of the tube in {numref}`E3Fig01`. Any X direction used will refer to the left-right direction when looking directly at the screen of the CRT (generally put to zero deflection and ignored today).
-```
 
 
 ```{admonition} OVERALL GOALS
@@ -290,7 +291,7 @@ The previous steps have focused on how the deflection of the electron beam depen
 
 
 
-
+(postlabs_electron_deflection)=
 ## Post-Lab Submission --- Interpretation of Results
 
 ### ● Finalized Spreadsheets

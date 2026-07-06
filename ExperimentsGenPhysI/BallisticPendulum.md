@@ -1,32 +1,11 @@
 (ballistic-pendulum-lab-overall)=
 # Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion
 
-
-## Post-Lab Submission --- Interpretation of Results
-
-```{admonition} Defend your conclusions with your data
+```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important
-Defend why your data agrees with or disagrees between both experiments. Use error propagation from your uncertainties and precision of your equipment to help your argument.
+**❓❓ See {ref}`postlabs_ballisticPendulum` ❓❓**
 ```
 
-### ● Finalized Spreadsheets
-
-  - Make sure to submit your finalized data table (Excel sheet).
-
-### ● Post-lab Writeup
-
-- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-	- What is the precision of your equipment?
-   - What are possible random errors for today's experiment?
-   - What are possible systematic errors for today’s experiments?
-	- What are the effects of your measurement uncertainties on your determined exit velocities for both experiments?
-      - Use error propagation to defend your results; look back at {eq}`eq-M06v0` and {eq}`eq-M06v0pro` as needed.
-- In a **paragraph**, summarize the results you have determined in each case. Consider:
-   - What were your initial exit velocity results for both pendulum and projectile experiments? Use your average values and treat your standard deviations as your $\pm$ uncertainty of those average values.
-   - Do the initial velocities from both experiments agree with one another?
-      - How and why are they (or could be more) different regarding physical concepts?
-   - Considering both experiments and their sources of error, which experimental exit velocity do you trust more? Explain your answer using both physical concepts and your error propagation.
-   - Suppose you would have used a more massive marble in the projectile motion portion of the experiment. How would this affect your result? Explain your answer using a physics argument.
 
 
 
@@ -401,6 +380,32 @@ Create a *summary table* to summarize the results from both experiments includin
 
    
    
+(postlabs_ballisticPendulum)=
+## Post-Lab Submission --- Interpretation of Results
+
+```{admonition} Defend your conclusions with your data
+:class: important
+Defend why your data agrees with or disagrees between both experiments. Use error propagation from your uncertainties and precision of your equipment to help your argument.
+```
+
+### ● Finalized Spreadsheets
+
+  - Make sure to submit your finalized data table (Excel sheet).
+
+### ● Post-lab Writeup
+
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+	- What is the precision of your equipment?
+   - What are possible random errors for today's experiment?
+   - What are possible systematic errors for today’s experiments?
+	- What are the effects of your measurement uncertainties on your determined exit velocities for both experiments?
+      - Use error propagation to defend your results; look back at {eq}`eq-M06v0` and {eq}`eq-M06v0pro` as needed.
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
+   - What were your initial exit velocity results for both pendulum and projectile experiments? Use your average values and treat your standard deviations as your $\pm$ uncertainty of those average values.
+   - Do the initial velocities from both experiments agree with one another?
+      - How and why are they (or could be more) different regarding physical concepts?
+   - Considering both experiments and their sources of error, which experimental exit velocity do you trust more? Explain your answer using both physical concepts and your error propagation.
+   - Suppose you would have used a more massive marble in the projectile motion portion of the experiment. How would this affect your result? Explain your answer using a physics argument.
 
 
 

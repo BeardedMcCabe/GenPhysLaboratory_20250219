@@ -1,35 +1,11 @@
 (cons-energy-glider-track-lab-overall)=
 # Conservation of Energy with Glider on Tilted Air Track
 
-
-
-## Post-Lab Submission --- Interpretation of Results
-
-```{admonition} Defend your conclusions with your data
+```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important
-Defend why your data agrees with or disagrees with the concept of energy conservation. Use your error analysis to help your argument.
+**❓❓ See {ref}`postlabs_cons_energy_track` ❓❓**
 ```
 
-
-### ● Finalized Spreadsheets
-
-  - Make sure to submit your finalized data table (Excel sheet).
-
-### ● Post-lab Writeup
-
-- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-	- What is the precision of your equipment?
-  - What are possible random errors for today's experiment?
-  - What are possible systematic errors for today’s experiments?
-  - Answering using physics reasoning: How could one gain energy during the top-to-bottom sequence?
-  - For today’s lab, assume that your calculated kinetic energies are their average +/- standard deviation values where the uncertanty comes from only the spread of the data. However, regarding the quantities of potential energy (at both top and rebound positions), ***consider*** for just one case:
-    - Our measurable quantities (reminder {eq}`eq:potential-energy`) and their estimated uncertainties (i.e. how confident you are in each of those values, rather than just your tools' precision). 
-    - What are the effects of those measurement uncertainties on your determined potential energies? (e.g.  how does $m\pm\delta\,m$ affect $U$)?
-- In a **paragraph**, summarize the results you have determined in each case. Consider:
-	- Arguing your responses with your average values $\pm$ standard deviations:
-	    - Is kinetic plus potential energy conserved going from the top to the bottom?
-      - Is kinetic plus potential energy conserved between the top and the rebound position?
-  - Why is there a difference in energy conservation between the top-to-bottom sequence and top-to-bottom-to-rebound sequence? Explain using physical concepts and reasoning.
 
 
 
@@ -430,6 +406,41 @@ Reminder, run your first case completely **before** moving on to additional case
       :class: tip
       To ensure your summary table has the correct values, reference the cells (e.g. `$A$1`) you are collecting rather than just copying and pasting. See {ref}`spreadsheet-data-analysis-setup`.
       ```
+
+
+
+
+
+(postlabs_cons_energy_track)=
+## Post-Lab Submission --- Interpretation of Results
+
+```{admonition} Defend your conclusions with your data
+:class: important
+Defend why your data agrees with or disagrees with the concept of energy conservation. Use your error analysis to help your argument.
+```
+
+
+### ● Finalized Spreadsheets
+
+  - Make sure to submit your finalized data table (Excel sheet).
+
+### ● Post-lab Writeup
+
+- In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+	- What is the precision of your equipment?
+  - What are possible random errors for today's experiment?
+  - What are possible systematic errors for today’s experiments?
+  - Answering using physics reasoning: How could one gain energy during the top-to-bottom sequence?
+  - For today’s lab, assume that your calculated kinetic energies are their average +/- standard deviation values where the uncertanty comes from only the spread of the data. However, regarding the quantities of potential energy (at both top and rebound positions), ***consider*** for just one case:
+    - Our measurable quantities (reminder {eq}`eq:potential-energy`) and their estimated uncertainties (i.e. how confident you are in each of those values, rather than just your tools' precision). 
+    - What are the effects of those measurement uncertainties on your determined potential energies? (e.g.  how does $m\pm\delta\,m$ affect $U$)?
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
+	- Arguing your responses with your average values $\pm$ standard deviations:
+	    - Is kinetic plus potential energy conserved going from the top to the bottom?
+      - Is kinetic plus potential energy conserved between the top and the rebound position?
+  - Why is there a difference in energy conservation between the top-to-bottom sequence and top-to-bottom-to-rebound sequence? Explain using physical concepts and reasoning.
+
+
 
 
 ## The Whiteboard

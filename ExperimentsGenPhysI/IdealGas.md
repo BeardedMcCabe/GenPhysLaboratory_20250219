@@ -1,98 +1,11 @@
 (ideal-gas-absolute-zero-lab-overall)=
 # 1145L-ONLY | Ideal Gas Law with Isothermal & Adiabatic Compression; Estimating Absolute Zero
 
+```{admonition} Review Post-lab Interpretation Questions before lab
+:class: important
+**❓❓ See {ref}`postlabs_ideal_gas_law` ❓❓**
+```
 
-
-## Post-Lab Submission --- Interpretation of Results
-<!---
-- Make sure to submit your finalized data table (Excel sheet)
-- Constant Temperature (Isothermal):
-  - What properties of a system must be proportional if compression is isothermal?
-  - How do the two ratios, $X_{1}$ and $X_{2}$, compare?
-  - What may cause a discrepancy between the ratios of volumes and pressures?
-- Varying Temperature (Adiabatic):
-  - What properties of a system must be proportional if compression is adiabatic?
-  - How do the two ratios, $Y_{1}$ and $Y_{2}$, compare?
-  - What may cause a discrepancy between the ratios of volumes and pressures?
-  - Consider the uncertainty as due to volume, do the ratios agree based on that uncertainty range?
-- Absolute Zero:
-  - What does absolute zero represent about a system?
-  - What is your extrapolated result for absolute zero; how does it compare to the accepted value?
-  - What measurement uncertainties exist; how do they affect your determined value for absolute zero?
-- What are possible systematic errors for today's experiments?
---->
-
-
-<!--- - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
-  - What are possible systematic errors for today's experiments?
-  - Constant Temperature (Isothermal):
-	  - What may cause a discrepancy between the ratios of volumes and pressures?
-  - Varying Temperature (Adiabatic):
-      - What may cause a discrepancy between the ratios of volumes and pressures?
-      - Consider the uncertainty due to volume; do the ratios agree within that uncertainty range?
-  - Absolute Zero:
-	  - What measurement uncertainties exist? How do they affect your determined value for absolute zero?
-- In a **paragraph**, summarize the results you have determined in each case. Consider:
-	- Constant Temperature (Isothermal):
-	  - What properties of a system must be proportional if compression is isothermal?
-	  - How do the two ratios, $X_{1}$ and $X_{2}$, compare?
-	- Varying Temperature (Adiabatic):
-	  - What properties of a system must be proportional if compression is adiabatic?
-	  - How do the two ratios, $Y_{1}$ and $Y_{2}$, compare?
-	- Absolute Zero:
-	  - What does absolute zero represent about a system?
-	  - What is your extrapolated result for absolute zero? How does it compare to the accepted value?
---->
-
-This week's lab is built of essentially two different, but still related to thermodynamics, experiments. To assist in your analysis and writeups, the suggested talking points below are broken up into the Thermodynamic Processes and Absolute Zero parts of the lab. You will still have single document for error analysis and single document for results as assignments in Blackboard.
-
-  ### ● Finalized Spreadsheets
-  - Make sure to submit your finalized data table (Excel sheet).
-    - Please include relevant screenshots of your Capstone plots including:
-      - 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Isothermal Compression
-      - 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Adiabatic Compression
-      - 1 of Temperature vs. Pressure plot with axes scaled to see y-intercept(full absolute zero extrapolation)
-
-
-  ### ● Thermodynamic Processes Post-Lab
-  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-    - What are possible random errors for today’s experiments?
-    - What are possible systematic errors for today’s experiments?
-    - Constant Temperature (Isothermal):
-      - What may cause a discrepancy between the ratios of volumes and pressures?
-    - Varying Temperature (Adiabatic):
-      - What may cause a discrepancy between the ratios of volumes, pressures, temperatures?
-      - Consider the uncertainty due to volume; do the ratios agree within that uncertainty range?
-  - In a **paragraph**, summarize the results you have determined in each case. Consider:
-    - Constant Temperature (Isothermal):
-	    - How do the two ratios, $X_{1}$ and $X_{2}$, compare? 
-          - What is the percent difference between the two ratios?
-          - Do your average ratios $\pm$ standard deviations agree?
-      - What properties of a system must be proportional if compression is isothermal?
-        - Assuming your ratios are comparable for the isothermal process:
-          - What properties of the system changed, and how did they change? 
-          - What assumption do we make for an isothermal process (i.e. were there properties of the system that didn't change)?
-        - If your ratios did not agree, why?
-    - Varying Temperature (Adiabatic):
-	    - How do the two ratios, $Y_{1}$ and $Y_{2}$, compare?
-          - What is the percent difference between the two ratios?
-          - Do your average ratios $\pm$ standard deviations agree?
-      - What properties of a system must be proportional if compression is adiabatic?
-        - Assuming your ratios are comparable for the adiabatic process:
-          - What properties of the system changed, and how did they change? 
-          - What assumption do we make for an adiabatic process (i.e. were there properties of the system that didn't change)?
-        - If your ratios did not agree, why?
-
-	
-
-  ### ● Absolute Zero Post-Lab
-  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-    - What are possible systematic errors for today's experiments?
-    - How did you determine your uncertainty in your absolute zero value?
-    - How may systematic errors affect your determined value for absolute zero (i.e. increase or decrease)?
-  - In a **paragraph**, summarize the results you have determined in each case. Consider:
-    - What is your extrapolated result for absolute zero including uncertainty range? How does it compare to the accepted value?
-    - What does absolute zero represent about a system?
 
 
 
@@ -377,6 +290,98 @@ Take **1 trial** of data by doing the following hot-warm-cold procedure.\
     - Don't leave a mess, leave it better than you found it, thank you.
     ```
 
+
+(postlabs_ideal_gas_law)=
+## Post-Lab Submission --- Interpretation of Results
+<!---
+- Make sure to submit your finalized data table (Excel sheet)
+- Constant Temperature (Isothermal):
+  - What properties of a system must be proportional if compression is isothermal?
+  - How do the two ratios, $X_{1}$ and $X_{2}$, compare?
+  - What may cause a discrepancy between the ratios of volumes and pressures?
+- Varying Temperature (Adiabatic):
+  - What properties of a system must be proportional if compression is adiabatic?
+  - How do the two ratios, $Y_{1}$ and $Y_{2}$, compare?
+  - What may cause a discrepancy between the ratios of volumes and pressures?
+  - Consider the uncertainty as due to volume, do the ratios agree based on that uncertainty range?
+- Absolute Zero:
+  - What does absolute zero represent about a system?
+  - What is your extrapolated result for absolute zero; how does it compare to the accepted value?
+  - What measurement uncertainties exist; how do they affect your determined value for absolute zero?
+- What are possible systematic errors for today's experiments?
+--->
+
+
+<!--- - In a **paragraph**, summarize your error analysis. Be qualitative, not only quantitative.
+  - What are possible systematic errors for today's experiments?
+  - Constant Temperature (Isothermal):
+	  - What may cause a discrepancy between the ratios of volumes and pressures?
+  - Varying Temperature (Adiabatic):
+      - What may cause a discrepancy between the ratios of volumes and pressures?
+      - Consider the uncertainty due to volume; do the ratios agree within that uncertainty range?
+  - Absolute Zero:
+	  - What measurement uncertainties exist? How do they affect your determined value for absolute zero?
+- In a **paragraph**, summarize the results you have determined in each case. Consider:
+	- Constant Temperature (Isothermal):
+	  - What properties of a system must be proportional if compression is isothermal?
+	  - How do the two ratios, $X_{1}$ and $X_{2}$, compare?
+	- Varying Temperature (Adiabatic):
+	  - What properties of a system must be proportional if compression is adiabatic?
+	  - How do the two ratios, $Y_{1}$ and $Y_{2}$, compare?
+	- Absolute Zero:
+	  - What does absolute zero represent about a system?
+	  - What is your extrapolated result for absolute zero? How does it compare to the accepted value?
+--->
+
+This week's lab is built of essentially two different, but still related to thermodynamics, experiments. To assist in your analysis and writeups, the suggested talking points below are broken up into the Thermodynamic Processes and Absolute Zero parts of the lab. You will still have single document for error analysis and single document for results as assignments in Blackboard.
+
+  ### ● Finalized Spreadsheets
+  - Make sure to submit your finalized data table (Excel sheet).
+    - Please include relevant screenshots of your Capstone plots including:
+      - 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Isothermal Compression
+      - 1 set of Pressure vs. Time & Temperature vs. Time plots representative of the Adiabatic Compression
+      - 1 of Temperature vs. Pressure plot with axes scaled to see y-intercept(full absolute zero extrapolation)
+
+
+  ### ● Thermodynamic Processes Post-Lab
+  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+    - What are possible random errors for today’s experiments?
+    - What are possible systematic errors for today’s experiments?
+    - Constant Temperature (Isothermal):
+      - What may cause a discrepancy between the ratios of volumes and pressures?
+    - Varying Temperature (Adiabatic):
+      - What may cause a discrepancy between the ratios of volumes, pressures, temperatures?
+      - Consider the uncertainty due to volume; do the ratios agree within that uncertainty range?
+  - In a **paragraph**, summarize the results you have determined in each case. Consider:
+    - Constant Temperature (Isothermal):
+	    - How do the two ratios, $X_{1}$ and $X_{2}$, compare? 
+          - What is the percent difference between the two ratios?
+          - Do your average ratios $\pm$ standard deviations agree?
+      - What properties of a system must be proportional if compression is isothermal?
+        - Assuming your ratios are comparable for the isothermal process:
+          - What properties of the system changed, and how did they change? 
+          - What assumption do we make for an isothermal process (i.e. were there properties of the system that didn't change)?
+        - If your ratios did not agree, why?
+    - Varying Temperature (Adiabatic):
+	    - How do the two ratios, $Y_{1}$ and $Y_{2}$, compare?
+          - What is the percent difference between the two ratios?
+          - Do your average ratios $\pm$ standard deviations agree?
+      - What properties of a system must be proportional if compression is adiabatic?
+        - Assuming your ratios are comparable for the adiabatic process:
+          - What properties of the system changed, and how did they change? 
+          - What assumption do we make for an adiabatic process (i.e. were there properties of the system that didn't change)?
+        - If your ratios did not agree, why?
+
+	
+
+  ### ● Absolute Zero Post-Lab
+  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+    - What are possible systematic errors for today's experiments?
+    - How did you determine your uncertainty in your absolute zero value?
+    - How may systematic errors affect your determined value for absolute zero (i.e. increase or decrease)?
+  - In a **paragraph**, summarize the results you have determined in each case. Consider:
+    - What is your extrapolated result for absolute zero including uncertainty range? How does it compare to the accepted value?
+    - What does absolute zero represent about a system?
 
 
 ## The Whiteboard

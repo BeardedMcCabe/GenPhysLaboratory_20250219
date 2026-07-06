@@ -1,7 +1,10 @@
 (magnetic-force-mu0-overall)=
 # Magnetic Force & the Determination of μ₀
 
-
+```{admonition} Review Post-lab Interpretation Questions before lab
+:class: important
+**❓❓ See {ref}`postlabs_mu0` ❓❓**
+```
 
 ## Background
 
@@ -425,7 +428,7 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
     ```
 
 
-
+(postlabs_mu0)=
 ## Post-Lab Submission --- Interpretation of Results
 
 ### ● Finalized Spreadsheets

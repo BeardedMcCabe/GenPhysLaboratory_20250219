@@ -1,6 +1,10 @@
 (faradays-law-induction-overall)=
 # 1172L-ONLY | Faraday's Law of Induction
 
+```{admonition} Review Post-lab Interpretation Questions before lab
+:class: important
+**❓❓ See {ref}`postlabs_faraday_induction` ❓❓**
+```
 
 ## Background
 
@@ -427,7 +431,7 @@ The resistor fully plugged-in.
 #### ○ Part II.2: Energy Lost Overall
 
 16. Using the same data run as Part II.1.B, measure the initial angle ($\theta_{i}$) and the angle to which the pendulum rises after it has passed once through the magnet ($\theta_{f}$), but now that the resistor was fully plugged in.
-17. ***PLOT 2 of 2*** --- for just when the resistor was plugged in: take a photo/screenshot of Capstone's Voltage vs. Time and related Angle vs. Time for one-half swing (out but not back, example in {numref}`fig-faraday-POWERExample`).
+17. ***PLOT 2 of 2*** --- for just when the resistor was plugged in: take a photo/screenshot of Capstone's Power vs. Time and related Angle vs. Time for one-half swing (out but not back, example in {numref}`fig-faraday-POWERExample`).
 18. Calculate the total energy lost using {eq}`eq-energy-lost-angle`.
 19. Compare this total energy lost value (Part II.2) to the sum of the energy lost due to friction (Part II.1.A) and the energy dissipated by the resistor (Part II.1.B).
     - Calculate the percent difference between the two.
@@ -455,7 +459,7 @@ The resistor fully plugged-in.
 
 
 
-
+(postlabs_faraday_induction)=
 ## Post-Lab Submission --- Interpretation of Results
 
 ### ● Finalized Spreadsheets

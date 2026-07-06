@@ -1,16 +1,14 @@
 (electrical-example-of-an-exponential-decay-process-overall)=
 # Electrical Example of an Exponential Decay Process with Resistors & Capacitors (RC Circuits)
 
+```{admonition} Review Post-lab Interpretation Questions before lab
+:class: important
+**❓❓ See {ref}`postlabs_rcCircuits` ❓❓**
+```
 
 ## Background
 
 ### ● Background Overview
-
-
-```{admonition} NOTE REGARDING THE HOMEWORK Spring 2026
-:class: important
-The numerical question in this week's homework does not like scientific notation. Still round your answer to the stated sig. figs., but write out the whole number (e.g. write 1.23E5 as 123,000)
-```
 
 
 ```{admonition} OVERALL GOALS
@@ -576,7 +574,7 @@ Modular electronic circuit with two capacitors. Left) Example with lower capacit
 
 
 
-
+(postlabs_rcCircuits)=
 ## Post-Lab Submission --- Interpretation of Results
 
 ### ● Finalized Spreadsheets

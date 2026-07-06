@@ -7,9 +7,10 @@ root: intro
 parts:
   - caption: Schedule
     chapters:
+    - file: schedulePHYS_summer
     - file: scheduleByMeetingTimesAll
-    - file: schedulePHYS1171
-    - file: schedulePHYS1145
+    - file: schedulePHYS1171_1172
+    - file: schedulePHYS1145_1146
     - file: scheduleByProfessor
   - caption: General information
     chapters:

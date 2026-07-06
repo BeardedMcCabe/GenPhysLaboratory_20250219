@@ -1,6 +1,11 @@
 (light-diffraction-lasers-and-geometric-optics-imaging-overall)=
 # 1146L-ONLY | Light – Geometric Optics and Imaging
 
+```{admonition} Review Post-lab Interpretation Questions before lab
+:class: important
+**❓❓ See {ref}`postlabs_optics` ❓❓**
+```
+
 <!--- # 1146L-ONLY | Light – Diffraction with Lasers & Geometric Optics and Imaging
 
 
@@ -681,7 +686,7 @@ In the ideal case, all of the lines should intersect at the point $(f,f)$. Visua
     - Compare both, is one $f$ longer than the other? Physically, why might you expect that? What about $m$?
 
 
-
+(postlabs_optics)=
 ## Post-Lab Submission --- Interpretation of Results
 
 ### ● Finalized Spreadsheets

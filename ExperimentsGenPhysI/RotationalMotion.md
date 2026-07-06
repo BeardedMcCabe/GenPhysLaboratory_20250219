@@ -1,46 +1,10 @@
 (rotational-dynamics-moi-angmom-lab-overall)=
 # 1171L-ONLY | Rotational Dynamics with Moment of Inertia & Angular Momentum
 
-
-
-## Post-Lab Submission --- Interpretation of Results
-
-```{admonition} Defend your conclusions with your data
+```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important
-Defend why your data agrees with or disagrees with the expected values. Use error propagation from your uncertainties and precision of your equipment to help your argument.
+**❓❓ See {ref}`postlabs_rotationaldynamics` ❓❓**
 ```
-
-This week's lab is built of essentially two different, but still related to rotational motion, experiments. To assist in your analysis and writeups, the suggested talking points below are broken up into the Moment of Inertia and Angular Momentum parts of the lab. You will still have single document for error analysis and single document for results as assignments in Blackboard.
-
-  ### ● Finalized Spreadsheets
-  - Make sure to submit your finalized data table (Excel sheet).
-    - Please include relevant screenshots of your Capstone plots including:
-      - Moment of Inertia:
-        - 1 plot of Angular Velocity vs. Time for disk (apparatus)
-        - 1 plot of Angular Velocity vs. Time for disk plus thick black ring (total)
-        - 1 plot of Angular Velocity vs. Time for empty rod (apparatus)
-        - 1 plot of Angular Velocity vs. Time for empty rod plus point masses (total)
-      - Angular Momentum:
-        - 1 plot of Angular Position vs. Time showing changing slope before and after collision (dropping of ring)
-
-  ### ● Moment of Inertia Post-Lab
-  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-	  - What are your measurement uncertainties for each experiment?
-	  - What are possible systematic uncertainties for each experiment?
-    - How do these uncertainties affect your final results for $I$?
-  - In a **paragraph**, summarize the results you have determined in each case. Consider:
-	  - Part 1: How do the values of both the **ring's** and **two-point masses'** measured $I$ compare to the “predicted (from geometry)” value? Treating your standard deviations as your uncertainty, do your results span the difference between experimental and theoretical, thereby agreeing?
-	  - Part 1 (empty rod): In the part of the experiment measuring the moment of inertia of the rod apparatus without the weights, notice that the rod turns quite fast and that the angular acceleration decreases as the speed increases (see plot in **Capstone**). Why does this happen?
-
-
-  ### ● Angular Momentum Post-Lab
-  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
-	  - What are your measurement uncertainties for each experiment?
-	  - What are possible systematic uncertainties for each experiment?
-    - How do these uncertainties affect your final results for $L$?
-  - In a **paragraph**, summarize the results you have determined in each case. Consider:
-	  - Part 2: Is angular momentum $L$ conserved? What might cause any discrepancies in the conservation of angular momentum?
-  	- Part 2: What is the effect of dropping the ring off-center? Is $L$ conserved when considering the off-axis portion?
 
 
 
@@ -468,6 +432,50 @@ Investigate the Parallel Axis Theorem by:
     - Close, **DO NOT SAVE**, the Capstone file you used today.
     - Don't leave a mess, leave it better than you found it, thank you.
     ```
+
+
+
+(postlabs_rotationaldynamics)=
+## Post-Lab Submission --- Interpretation of Results
+
+```{admonition} Defend your conclusions with your data
+:class: important
+Defend why your data agrees with or disagrees with the expected values. Use error propagation from your uncertainties and precision of your equipment to help your argument.
+```
+
+This week's lab is built of essentially two different, but still related to rotational motion, experiments. To assist in your analysis and writeups, the suggested talking points below are broken up into the Moment of Inertia and Angular Momentum parts of the lab. You will still have single document for error analysis and single document for results as assignments in Blackboard.
+
+  ### ● Finalized Spreadsheets
+  - Make sure to submit your finalized data table (Excel sheet).
+    - Please include relevant screenshots of your Capstone plots including:
+      - Moment of Inertia:
+        - 1 plot of Angular Velocity vs. Time for disk (apparatus)
+        - 1 plot of Angular Velocity vs. Time for disk plus thick black ring (total)
+        - 1 plot of Angular Velocity vs. Time for empty rod (apparatus)
+        - 1 plot of Angular Velocity vs. Time for empty rod plus point masses (total)
+      - Angular Momentum:
+        - 1 plot of Angular Position vs. Time showing changing slope before and after collision (dropping of ring)
+
+  ### ● Moment of Inertia Post-Lab
+  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+	  - What are your measurement uncertainties for each experiment?
+	  - What are possible systematic uncertainties for each experiment?
+    - How do these uncertainties affect your final results for $I$?
+  - In a **paragraph**, summarize the results you have determined in each case. Consider:
+	  - Part 1: How do the values of both the **ring's** and **two-point masses'** measured $I$ compare to the “predicted (from geometry)” value? Treating your standard deviations as your uncertainty, do your results span the difference between experimental and theoretical, thereby agreeing?
+	  - Part 1 (empty rod): In the part of the experiment measuring the moment of inertia of the rod apparatus without the weights, notice that the rod turns quite fast and that the angular acceleration decreases as the speed increases (see plot in **Capstone**). Why does this happen?
+
+
+  ### ● Angular Momentum Post-Lab
+  - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
+	  - What are your measurement uncertainties for each experiment?
+	  - What are possible systematic uncertainties for each experiment?
+    - How do these uncertainties affect your final results for $L$?
+  - In a **paragraph**, summarize the results you have determined in each case. Consider:
+	  - Part 2: Is angular momentum $L$ conserved? What might cause any discrepancies in the conservation of angular momentum?
+  	- Part 2: What is the effect of dropping the ring off-center? Is $L$ conserved when considering the off-axis portion?
+
+
 
 
 
