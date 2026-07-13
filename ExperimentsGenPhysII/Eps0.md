@@ -362,7 +362,7 @@ Bottom) Example of mirror-to-scale distance.
     - $D$: ruler (a.k.a. scale) distance between $S_0$ and $S_1$
     - $d$: Separation distance between the plates when the top plate is **parallel** to the bottom plate when equilibrium mass ($50\,\text{mg}$) is placed on the top plate (see examples in {numref}`E1Fig_01` top-right and {numref}`E1Fig_02` middle)
 
-
+ 
 
     ```{admonition} Calculations in Spreadsheet
     :class: tip
