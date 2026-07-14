@@ -377,11 +377,11 @@ You will have two resistors (treated as constants) and two capacitors (all shown
 
 7. Create a data table with TWO MAIN SECTIONS (half-life analysis method, linear-fit analysis method) for the first resistor and capacitor case (once you have this all set up, you'll then be able to just copy and paste this data table for the other RC combinations):
 
-   - With **five columns** (one for each of the 5 decay trials, the act of discharging a capacitor through resistor) --- trials are suggested to go horizontal on the spreadsheet today due to the many variables we will use within each case. Also include **columns** for the average values and for the standard deviation ($\sigma$) as needed. *NOTE: For today, this $\sigma$ is effectively an overestimation of your $\pm$ uncertainty range around the average.* 
+   - With **three columns** (one for each of the 3 decay trials, the act of discharging a capacitor through resistor) --- trials are suggested to go horizontal on the spreadsheet today due to the many variables we will use within each case. Also include **columns** for the average values, standard deviation ($\sigma$), difference $\Delta _{\text{experimental vs. accepted}}$, and percent difference as needed. *NOTE: For today, this $\sigma$ is effectively an overestimation of your $\pm$ uncertainty range around the average.* 
 
    - Include a section for the **Half-Life analysis method** ($t_{1/2})$:
      - $V_{\text{init}}$: Initial voltage, right ***after*** decay starts
-     - $V_{\text{final}}$: Final voltage, voltage that is half the value of the initial voltage, $V_{\text{init}}/2$
+     - $V_{\text{final}}$: Final voltage after one half-life, i.e. voltage that is half the value of the initial voltage, $V_{\text{init}}/2$
      - $t_{\text{init}}$: Initial time, when $V=V_{\text{init}}$. Found either with the multi-coordinates tool in the Capstone graphs, or in the Capstone data table.
      - $t_{\text{final}}$: Final time, when $V=V_{\text{final}}$. Found in a similar way in Capstone, just when voltage reaches half of its initial voltage.
      - $t_{1/2}$: Half-life, the duration it takes for initial quantity to halve ($t_{\text{final}}-t_{\text{init}}$, characteristic of an exponential decay)
@@ -399,7 +399,7 @@ You will have two resistors (treated as constants) and two capacitors (all shown
 8. **DATA TAKING:**
 
    - Start recording in Capstone. Confirm, with the SPDT switch not connected to either circuit and the capacitor discharged (use the red wire to connect either side of the capacitor to rapidly discharge it), that the voltage sensor is reading zero volts --- if not, double check the zeroeing procedure earlier.
-   - Conduct **5 decay trials** (can be done in the same Capstone recording):
+   - Conduct **3 decay trials** (can be done in the same Capstone recording):
      - Flip the SPDT switch **DOWN** to connect the batteries to the capacitor ({numref}`fig-rc-decay-circuit`-left) and observe the voltage plot as the capacitor rapidly charges to $V_\text{init}$ (should be near $3\,\text{V}$ as can be seen in the top plots of {numref}`FigE5_014_halflife`).
      - Once the capacitor is fully charged, flip the switch **UP** to connect the capacitor to the resistor ({numref}`fig-rc-decay-circuit`-right); observe the decay of the voltage across the capacitor. In essence, the battery has been eliminated from the circuit and the capacitor is now acting as the voltage source.
         - **Wait until the voltage drops to less than** $10\%~\text{of}\,V_\text{init}$ (e.g. if $V_\text{init}=3.0\,\text{V}$, then $V_\text{10-percent}= 0.3\,\text{V}$ as can be seen in the top plots of {numref}`FigE5_014_halflife`).
@@ -429,8 +429,10 @@ You will have two resistors (treated as constants) and two capacitors (all shown
       - Divide your initial voltage by 2 to calculate the final voltage $V_\text{final}$ (i.e. when your quanity has decayed to half of its initial value)
       - Find and record the final time $t_\text{final}$ for when your data reaches that final voltage (e.g. {numref}`FigE5_014_halflife`-center).
       - Determine half-life from the time difference $t_{1/2}= t_\text{final}-t_\text{init}$.
-      - From this and {eq}`eq-rc-from-half-life`, determine your experimental capacitance, calculate the average capacitance and standard deviation of capacitance from the five trials.
-   
+      - From this and {eq}`eq-rc-from-half-life`, determine your experimental capacitance.
+      - Calculate the average and standard deviation of both the half-life $t_{1/2}$ and capacitance $C$ from the current case's trials.
+      - Calculate the **difference** $\Delta _{C\text{,experimental vs. accepted}}$ between your experimental average capacitance value and actual values from common data. Also calculate the **percent difference** between your experimental and actual values (reminder of this in {eq}`eq-percentDifferenceinErrorAnalysis`). (Generally should be $<10\%$)
+ 
 
 
 <!--- Alternatively, you could clicking the data point and selecting the crosshair, then note the time and voltage. Alternatively, in the exponential decay plot (V vs. T), zoom in to the area right before decay and use the data highlight tool to make a small selection box which will then also highlight those same data points in the Capstone table of voltages and times.
@@ -461,7 +463,9 @@ You will have two resistors (treated as constants) and two capacitors (all shown
        - Highlight the data of the linear portion of the decay curve with the highlighter tool ![alt text](../Intro/CapstoneFigures/FigCapstone_013_DataHighlightTool.png). The linear section covers the time it took voltage to decay from 100% to 10% of the initial voltage (i.e. go from $V_\text{init}$ to $V_\text{10-percent}$). You can use the multi-coordinates tool you used in the previous method to help you determine the temporal range (see example in {numref}`FigE5_015_graphical`). If the fit does not display for the selected data, check the Curve Fit tool ![alt text](../Intro/CapstoneFigures/FigCapstone_002_CurveFitTool.png) is enabled.
        - Increase the fit's coefficient sig. figs. to 4. (for reminder, see {numref}`CapstoneExampleFig02_SigFigs`).
      - Record the slope --- *What does the slope represent; where did it come from?* The natural log of the exponential function gives us a linear relationship between LN(Voltage) and Time, as described in {eq}`eq-linear-voltage-decay`. When plotted in Capstone, it should be in the form $y=mt + b$.
-     - Determine the time constant $RC$, the capacitance $C_\text{linear-fit-method}$ from that time constant, and calculate the average capacitance and standard deviation of capacitance from the five trials. *What does the $RC$ represent?*
+     - Determine the time constant $RC$ and the capacitance $C_\text{linear-fit-method}$ from that time constant. *What does the $RC$ represent?*
+     - Calculate the average and standard deviation of both the time constant $RC$ and capacitance $C$ from the current case's trials.
+     - Calculate the **difference** $\Delta _{C\text{,experimental vs. accepted}}$ between your experimental average capacitance value and actual values from common data. Also calculate the **percent difference** between your experimental and actual values (reminder of this in {eq}`eq-percentDifferenceinErrorAnalysis`). (Generally should be $<10\%$)
 
         ```{figure} RCCircuitFigures/E5_Fig_015_GraphicalExample_v03.png
         ---
@@ -485,7 +489,7 @@ You will have two resistors (treated as constants) and two capacitors (all shown
 
 8. For your capacitance that you determined ***graphically*** from the LN(V) vs. time slope, calculate the average, standard deviation, and standard error of the mean. For your capacitance that you determined with the ***half-life*** $t_{1/2}$ (time span for initial voltage to halve), determine the standard deviation (σ) and standard error of the mean ($\frac{\sigma}{\sqrt{n-1}}$).
 
-   %\item Then repeat this step **four more times** for a total of **five time trials**.
+   %\item Then repeat this step **two more times** for a total of **three time trials**.
 
   %  \item Using those time values, calculate $\Delta t$ for each trial's voltages. For your $\Delta t$ values at each target voltage, calculate their average (mean) values.
 --->
@@ -508,6 +512,11 @@ You will have two resistors (treated as constants) and two capacitors (all shown
 
 
 13. Replace the resistor and/or capacitor for the next combination case and repeat the procedure (from {ref}`rc-circuits-determine-capacitance-dataacquisition`) above for each of the other cases listed in {numref}`rc-combinations-table`. Think about: *How do different RC (resistor-capacitor) combinations affect the change of their circuits' voltages over time (i.e. decay)?*
+
+14. ***COMBINED PLOT FOR ALL 5 CASE COMBINATIONS*** --- Now that you've tested each case, and to assist in comparing the case combinations later, run one more trial of each case all in the same data run in Capstone. You're aiming to essentially combine the 5 previous plots in one single plot. Allow the voltage to drop to near-zero before swapping resistors and capacitors (don't press stop in capstone until you've run all five case combinations). Take a screenshot or photo of this overall data plot for $V$ vs. $T$ and LN(V) vs. T plots in Capstone. ***You should have 5 total decays from the 5 case combinations.*** Include in your spreadsheet and label the different cases.
+
+
+
 
 
 ### ● EXPERIMENT II --- Dividing Charge across Two Capacitors (CC Circuit)
@@ -536,7 +545,8 @@ Modular electronic circuit with two capacitors. Left) Example with lower capacit
 3. Create a data table including:
     - Your experimentally-determined average capacitance values for $C_1$ and $C_2$ (remember to use Excel referencing)
     - Also include an area for the expected final voltage
-    - Include **three columns** for initial and final voltages as well as the difference between the two. Create **five rows** for five trials. 
+    - Include **five columns** for initial and final voltages, the change in voltage during a trial, expected final voltage, and percent difference between experimental and expected final voltages.
+    - Create **seven rows** for five trials, average, and standard deviation
     - Note: Initial voltage is $V$ when the battery is connected to $C_\text{first}$ *before* you throw the switch to connect the capacitors together. Final voltage is $V$ *after* you throw the switch to connect $C_\text{first}$ with $C_\text{second}$ and allow the charge in the `first` capacitor to be distributed between the two capacitors.
 
 4. **Temporarily connect the red wire across each capacitor to discharge them before flipping the switch (i.e. ensure the capacitors start with no charge stored and both circuits are open).**
@@ -547,7 +557,7 @@ Modular electronic circuit with two capacitors. Left) Example with lower capacit
 
 6. Flip the SPDT switch to disconnect $C_\text{first}$ from the battery and connect it to $C_\text{second}$. Flip the switch back and forth quickly **for a total of five trials**.
 
-7. From the $V$ vs. $T$ plot, record for each of the trials the initial voltage before charge is distributed and final voltage after the charge is distributed between the capacitors (notice the near immediate change). Examples are shown in {numref}`fig-capacitor-charge-division-voltage-plot`.
+7. From the $V$ vs. $T$ plot, record for each of the trials the initial voltage before charge is distributed and final voltage after the charge is distributed between the capacitors (notice the near immediate change, **why does this occur?**). Examples are shown in {numref}`fig-capacitor-charge-division-voltage-plot`.
 
 
     ```{figure} RCCircuitFigures/E5_Fig_016_CtoCExample_v01.png
@@ -559,18 +569,43 @@ Modular electronic circuit with two capacitors. Left) Example with lower capacit
     Example Voltage vs. Time plot for experiment two.
     ```
 
-8. ***PLOTS: Experiment II - Plot 1*** --- Take a screenshot or photo that includes all five trais in one image of your $V$ vs. $T$ plot in Capstone.
+8. ***PLOTS: Experiment II - Plot 1*** --- Take a screenshot or photo that includes all five trials in one image of your $V$ vs. $T$ plot in Capstone.
 
 9. Calculate your expected final voltage using your initial voltage and the experimental $C_1$ and $C_2$ values with {eq}`eq-charge-division`.
 
-10. Calculate the difference in voltage for each trial. Notice how the final voltage is drifting up towards the initial voltage and the difference between the two is changing. Something is wrong with the assumptions built into {eq}`eq-charge-division` (which should be true) which we used to. The problem is that after the first time throwing the switch, $C_\text{second}$ is not at zero charge. So the total charge is higher than $Q_\text{first}=C_\text{first}V$. *Challenge: Can you figure out what the voltage will be after the second, third, or $n$th time you flip the switch?*
+10. Calculate the change in voltage for each trial. Notice how the final voltage is drifting up towards the initial voltage and the difference between the two is changing. Is there something wrong with the assumptions built into {eq}`eq-charge-division` (which should be true)? The problem is that after the first time throwing the switch, $C_\text{second}$ is not at zero charge, so the total charge is higher than $Q_\text{first}=C_\text{first}V$. *Challenge: Can you figure out what the voltage will be after the second, third, or $n$th time you flip the switch?*
 
-11. Repeat the five trials in a new section of your spreadsheet, capacitors still in their current positions. But now, try temporarily connecting a wire across $C_\text{second}$ to discharge it before flipping the switch for each trial. Record the initial and final voltages after doing this. Now you should consistently get the final voltage predicted by {eq}`eq-charge-division`. Does this voltage difference agree with {eq}`eq-charge-division`?
+11. Calculate the percent difference between experimental and expected final voltages (reminder of this in {eq}`eq-percentDifferenceinErrorAnalysis`). ***What do these percentages represent?***
 
-12. ***PLOTS: Experiment II - Plot 2*** --- Take a similar screenshot or photo that includes all five trais in one image of your $V$ vs. $T$ plot in Capstone after using the wire to discharge the second capacitor between each flip.
+12. Calculate the averages and standard deviations.
 
-13. Instead of repeating this for the capacitors in swapped positions due to lab time constraints, discuss in the post lab what you would expect when the capacitors are swapped. <!--- from step 4 with the low- and high-capacitance capacitors in swapped positions in the circuit. --->
+13. Repeat the five trials in a new section of your spreadsheet, capacitors still in their current positions. But now, try temporarily connecting a wire across $C_\text{second}$ to discharge it before flipping the switch for each trial. Record the initial and final voltages after doing this. Now you should consistently get the final voltage predicted by {eq}`eq-charge-division`. Does this voltage difference agree with {eq}`eq-charge-division`?
 
+14. ***PLOTS: Experiment II - Plot 2*** --- Take a similar screenshot or photo that includes all five trials in one image of your $V$ vs. $T$ plot in Capstone after using the wire to discharge the second capacitor between each flip.
+
+15. Instead of repeating this for the capacitors in swapped positions due to lab time constraints, discuss in the post lab what you would expect when the capacitors are swapped. <!--- from step 4 with the low- and high-capacitance capacitors in swapped positions in the circuit. --->
+
+
+
+16. Create a concise summary table summarizing all three parts of today's lab.
+    - Part I including for each case:
+      - Half-life-derived average capacitance
+      - Linear-fit-derived average capacitance
+      - Difference between average experimental and actual values
+      - Percent difference between average experimental and actual values
+    - Part II including:
+      - Average and standard deviations of experimental initial and final voltages, change between final and initial voltages, expected final voltage, and percent difference between experimental and expected final voltages.
+
+
+17. When you are finished with all experiments, reset your experimental setup before leaving.
+
+    ```{admonition} CLEAN UP
+    :class: important
+    Please return your experimental station back to the way you found it or better:
+     - Return resistors, capacitors, jumper wire back to baggies
+     - Capstone closed (DO NOT SAVE, thanks)
+     - Multimeters off
+    ```
 
 
 
@@ -582,9 +617,13 @@ Modular electronic circuit with two capacitors. Left) Example with lower capacit
   - Make sure to submit your finalized data table (Excel sheet).
   - Please include concise summary table.
   - Please include examples of the relevant plot(s) (seven total) in your spreadsheet for
-    - First Experiment (5 plots)
+    - First Experiment (6 plots)
       - 5 cases
         - Use a single image that shows at least 1 trial (1 decay for the given case) that clearly shows the nature of the exponential decay with both graphs (example in {numref}`FigE5_015_graphical`-right):
+          - V vs. T
+          - LN(V) vs. T
+      - All five cases in **one plot**.
+        - Use a single image that shows 1 decay for each resistor-capacitor case that clearly shows the nature of all the exponential decays compared to each other. Label which decay is which:
           - V vs. T
           - LN(V) vs. T
     - Second Experiment (2 plots)
@@ -608,11 +647,12 @@ Modular electronic circuit with two capacitors. Left) Example with lower capacit
   - What was the point of today's lab; what did we aim to discover?
   - First Experiment:
     - For each case, using standard deviation as our uncertainty for this lab, do your experimental results for average capacitance agree with your expected values (as measured with the multimeter)?
-    - Of the two (graphical and half-life), which method's results could we be more confident in and why?
+    - Of the two (half-life and linear-fit), which method's results could we be more confident in and why?
     - How do different RC (resistor-capacitor) combinations affect the change of their circuits' voltages over time (i.e. decay)? Remember, you had five cases of various combinations:
       - How did an increase of resistance affect the decay (shorter/longer)? Physically why?
       - How did an increase of capacitance affect the decay (shorter/longer)? Physically why?
       - How did capacitors in parallel and series each affect the decay (shorter/longer)? Physically why?
+      - What do your plots show?
   - Second Experiment
     - How does the difference in voltage (final - initial) change after each switch back and forth when using $C_{2\text{,small}}$ to charge up $C_{1\text{,big}}$?
       - Do the experimental final voltages agree or disagree with the expected final voltage from {eq}`eq-charge-division`? Why or why not; what assumptions must be true?

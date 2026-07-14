@@ -347,7 +347,7 @@ Bottom) Example of mirror-to-scale distance.
 
 1. Prepare a common data table including given values.
    Reminder -- keep variable names and units in the row and column titles, and numbers in their own Excel cells to be able to reference in your equations. Include, but not limited to:
-    - $g = 9.803 \,\text{m/s}^2$: Accepted value of accel. due to garvity for Fairfield University
+    - $g = 9.803 \,\text{m/s}^2$: Accepted value of accel. due to gravity for Fairfield University
     - $\varepsilon_{0\text{,accepted}} = 8.8542\times 10^{-12}\,\text{C}^2 \, \text{N}^{-1} \text{m}^{-2}$: Accepted value of electric constant
     <!---   - $a \pm \delta a=0.279\pm0.001\,\meter$: Length of the frame (see Fig.~\ref{E1Fig:01}) --->
     - $a=0.279\,\text{m}$: Length of the frame from pivot to end of plate (see {numref}`E1Fig_01`)
@@ -359,9 +359,10 @@ Bottom) Example of mirror-to-scale distance.
     - $F_0 = m_0 g$: Equilibrium force
     - $S_{0}$: Scale reading at equilibrium (m)
     - $S_{1}$: Scale reading when plates are in contact (m)
+    - $D$: ruler (a.k.a. scale) distance between $S_0$ and $S_1$
     - $d$: Separation distance between the plates when the top plate is **parallel** to the bottom plate when equilibrium mass ($50\,\text{mg}$) is placed on the top plate (see examples in {numref}`E1Fig_01` top-right and {numref}`E1Fig_02` middle)
 
-
+ 
 
     ```{admonition} Calculations in Spreadsheet
     :class: tip
