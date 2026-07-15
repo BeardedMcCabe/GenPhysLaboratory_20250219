@@ -1,5 +1,5 @@
 (magnetic-force-mu0-overall)=
-# Magnetic Force & the Determination of μ₀
+# Lab 6 | Magnetic Force & the Determination of μ₀
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important
@@ -113,7 +113,7 @@ With the required balancing current determined along with the other dimensions o
 | Category | Items |
 |---|---|
 | **Optical Measurement** | • Telescope with crosshair<br>• Centimeter-scale ruler mounted on vertical pole |
-| **Power Supply** | • AC power from wall outlet controlled by large cylindrical transformer/potentiometer (0–100% of wall power, ~0–20 A) *Dial markings are not accurate; ignore scale on knob* <br>• Voltage transformer (small metal cube) reducing AC voltage to ~6 V |
+| **Power Supply** | • AC power from wall outlet controlled by large cylindrical transformer/potentiometer (0–100% of wall power, ~0–15 A) *Dial markings are not accurate; ignore scale on knob* <br>• Voltage transformer (small metal cube) reducing AC voltage to ~6 V |
 | **Current Measurement** | • Fluke multimeter used as AC ammeter ($\tilde{\text{A}}$, ![alt text](../Intro/IntroductionFigures/FigExtra_034_ACCurrent_v01.png)), connected **in series** with circuit<br>• One lead in **10 A** port ![alt text](../Intro/IntroductionFigures/FigExtra_031_HighAmp_v01.png), other lead to **COM** port ![alt text](../Intro/IntroductionFigures/FigExtra_033_COM_v01.png) |
 | **Masses & Tools** | • Small masses (5, 20, 50, 100, 200 mg)<br>• Plastic tweezers for handling masses |
 | **Parallel-Conductor Apparatus** | • Bottom conductor fixed in place<br>• Top conductor free to swing vertically when current or mass changes<br>• Adjust so conductors are parallel when **0 mg** is applied<br>• Mirror used with telescope to read ruler and determine balance beam angle<br>• Beam lift knobs to reset top conductor position<br>• Leveling screws to level apparatus |
@@ -140,7 +140,7 @@ The apparatus has been carefully adjusted before your lab and should not require
 
 Some clarifications, additions, or corrections since this video is slightly outdated:
 
-- Wires are thicker and safer now, still don't touch, don't exceed 20 A
+- Wires are thicker and safer now, still don't touch, don't exceed 15 A
 - White board slightly outdated as there have been slight changes
 - Masses in **decreasing** order, rather than increasing order
 - Using average and **uncertainty** (not standard deviation)
@@ -175,7 +175,7 @@ https://www.youtube.com/watch?v=EpYTWOcaFSU
 
     ```{danger}
       - **DO NOT TOUCH THE METAL CONDUCTORS (BARS) or WIRE PLUGS**
-      - **The current should not exceed 20 A!**
+      - **The current should not exceed 15 A!**
     ```
 
 
@@ -314,7 +314,7 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
     - When the $S_0$ value is approximately reached, call out to the power supply operator.
     - Power supply operator shall decrease the current *until the telescope observer is no longer confident* the crosshair is at the $S_0$ position, at which point the telescope observer shall call for a minimum current reading from the multimeter and record the lower end of the range of current $I_\text{min}$.
     - Power supply operator shall then increase the current *until the telescope observer is no longer confident* the crosshair is at the $S_0$ position, at which point the telescope observer shall call for a maximum current reading from the multimeter and record the upper end of the range of current $I_\text{max}$.
-    - **As soon as you make these readings, reduce the transformer setting to zero and turn off 🟥 the power switch. Under no circumstances should the current exceed 20 A.**
+    - **As soon as you make these readings, reduce the transformer setting to zero and turn off 🟥 the power switch. Under no circumstances should the current exceed 15 A.**
     - Calculate applied current $I$ as the average of the min and max currents, $I\,=\,(\,I_\text{max}\,
     +\,I_\text{min}\,)\,/\,2$
     - Calculate applied current uncertainty $\delta I$ as half the difference between max and min current, $\delta I\,=\,(\,I_\text{max}\,-\,I_\text{min}\,)\,/\,2$
@@ -472,7 +472,7 @@ Schematic of the measuring apparatus, similar to the setup and measurement metho
 
 2026 updates/notes on whiteboard summaries:
 
-  - Wires are thicker and safer now, still don't touch, don't exceed 20 A
+  - Wires are thicker and safer now, still don't touch, don't exceed 15 A
   - Masses in **decreasing** order, rather than increasing order
   - Using average and **uncertainty** (not standard deviation)
   - Speed of light just from **plotting-derived** (i.e. from `LINEST`) values from first lab ($\varepsilon_0$) and today's lab ($\mu_0$)

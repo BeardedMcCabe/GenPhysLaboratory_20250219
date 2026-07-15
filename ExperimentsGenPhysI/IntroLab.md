@@ -1,5 +1,5 @@
 (intro-lab-dominos-overall)=
-# Introductory Lab: Domino Size & Density
+# Lab 0 | Introductory Lab: Domino Size & Density
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

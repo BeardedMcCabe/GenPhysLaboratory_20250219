@@ -1,5 +1,5 @@
 (electric-force-and-epsilon-overall)=
-# Electric Force & the Determination of ε₀
+# Lab 1 | Electric Force & the Determination of ε₀
 
 
 ```{admonition} Review Post-lab Interpretation Questions before lab

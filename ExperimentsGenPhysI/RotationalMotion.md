@@ -1,5 +1,5 @@
 (rotational-dynamics-moi-angmom-lab-overall)=
-# 1171L-ONLY | Rotational Dynamics with Moment of Inertia & Angular Momentum
+# Lab 7-[1171L-ONLY] | Rotational Dynamics with Moment of Inertia & Angular Momentum
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

@@ -1,5 +1,5 @@
 (simple-pendulum-g-lab-overall)=
-# Determination of Acceleration due to Gravity, *g*, with Simple Pendulum
+# Lab 9 | Determination of Acceleration due to Gravity, *g*, with Simple Pendulum
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

@@ -1,5 +1,5 @@
 (acceleration-and-deflection-of-electrons-overall)=
-# Acceleration & Deflection of Electrons
+# Lab 3 | Acceleration & Deflection of Electrons
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

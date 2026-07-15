@@ -1,5 +1,5 @@
 (ideal-gas-absolute-zero-lab-overall)=
-# 1145L-ONLY | Ideal Gas Law with Isothermal & Adiabatic Compression; Estimating Absolute Zero
+# Lab 7-[1145L-ONLY] | Ideal Gas Law with Isothermal & Adiabatic Compression; Estimating Absolute Zero
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

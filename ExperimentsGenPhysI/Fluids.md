@@ -1,5 +1,5 @@
 (fluid-physics-arch-bern-lab-overall)=
-# Fluid Physics with Archimedes' & Bernoulli's Principles
+# Lab 8 | Fluid Physics with Archimedes' & Bernoulli's Principles
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

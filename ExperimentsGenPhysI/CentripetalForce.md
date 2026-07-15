@@ -1,5 +1,5 @@
 (centripetal-force-lab-overall)=
-# Centripetal Force with Mass on Rotating Arm
+# Lab 4 | Centripetal Force with Mass on Rotating Arm
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

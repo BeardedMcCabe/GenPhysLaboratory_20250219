@@ -1,5 +1,5 @@
 (cons-energy-glider-track-lab-overall)=
-# Conservation of Energy with Glider on Tilted Air Track
+# Lab 5 | Conservation of Energy with Glider on Tilted Air Track
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

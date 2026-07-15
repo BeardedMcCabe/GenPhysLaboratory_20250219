@@ -1,5 +1,5 @@
 (measurement-of-helmholtz-magnetic-field-electrons-em-ratio-overall)=
-# Measurement of Helmholtz Magnetic Field & Electrons' e/m Ratio
+# Lab 7 | Measurement of Helmholtz Magnetic Field & Electrons' e/m Ratio
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

@@ -1,5 +1,5 @@
 (ballistic-pendulum-lab-overall)=
-# Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion
+# Lab 6 | Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

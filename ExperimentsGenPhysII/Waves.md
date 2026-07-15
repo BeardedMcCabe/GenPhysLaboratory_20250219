@@ -1,5 +1,5 @@
 (wave-motion-overall)=
-# Wave Motion
+# Lab 8-[1146L] or 9-[1172L] | Wave Motion
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important
