@@ -218,7 +218,7 @@ Depicted across {numref}`E1Fig_00` -- {numref}`E1Fig_02`. All equipment as liste
 - Telescope with crosshair & centimeter-scale ruler (a.k.a. scale) on vertical pole
 - High voltage DC power supply, 0 -- 500 V
 - Fluke multimeter -- set to read DC voltage (in parallel with parallel-plate capacitor)
-- Small masses of 10, 20, 20, 50, 500 mg with plastic tweezers
+- Small masses of 10, 20, 20, 500 mg with plastic tweezers
 - Parallel-plate capacitor apparatus:
   - Bottom plate held in static position on lower plate adjustment towers
   - Balanced plate/beam on thin, conductive, knife edges with:
@@ -594,7 +594,7 @@ Safety: regarding electricity and the plates touching.
     ```{admonition} CLEAN UP
     :class: important
     Please return your experimental station back to the way you found it or better:
-     - Return all masses (10, 20, 20, 50, 100 mg) and tweezers to black mass case, ensuring the clear plastic cover holds the masses down inside the case. Place black case near or on top of power supply.
+     - Return all masses (10, 20, 20, 100 mg) and tweezers to black mass case, ensuring the clear plastic cover holds the masses down inside the case. Place black case near or on top of power supply.
         - Please inform instructor of any lost masses
      - Power supply is off, voltage knobs turned down to zero
      - Multimeter off
