@@ -78,7 +78,7 @@ site:
     #  url: /generalphysicslabi
       children:
         - title: Lab 0 | Intro Dominoes
-          url: /introlab-1
+          url: /introlab
         - title: Lab 1 | Force Table, 3 Vectors
           url: /vectortable
         - title: Lab 2 | Accel. Gravity, g, Air Track

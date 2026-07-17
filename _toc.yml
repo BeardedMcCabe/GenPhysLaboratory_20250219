@@ -14,7 +14,7 @@ parts:
     - file: Schedule/scheduleByProfessor
   - caption: Data Analysis Information
     chapters:
-    - file: Intro/IntroLab
+    - file: Intro/IntroToDataAnalysis
     - file: Intro/DataAcquisition
     - file: Intro/ErrorAnalysis
     - file: Intro/GraphicalRepresentation
