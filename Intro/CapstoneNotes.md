@@ -10,13 +10,20 @@
 
 ```{admonition} Recording/Deleting Data in Capstone
 :class: tip
-*NEVER* need to click the Delete Last Run button in **Capstone**. ![dontDeleteCapstone](../ExperimentsGenPhysI/CentripetalForceFigures/Figure10_v2025-01.png) **Capstone** will just hold on to that data as a past trial that you could go back and look at as needed. When you press Record, **Capstone** will just create a new *Run* of data to keep track of. 
+*NEVER* need to click the Delete Last Run button in **Capstone**. **Capstone** will just hold on to that data as a past trial that you could go back and look at as needed. When you press Record, **Capstone** will just create a new *Run* of data to keep track of. 
 ```
 
+```{figure} ../Intro/CapstoneFigures/FigCapstone_022_DoNotDelete.png
+:name: CapstoneExampleFig022
+:width: auto
+:align: center
+
+DO NOT DELETE DATA RUNS.
+```
 
 ## Plot Toolbar Tools
 
-```{figure} ../ExperimentsGenPhysI/CentripetalForceFigures/Figure06_v2025-01.png
+```{figure} ../Intro/CapstoneFigures/FigCapstone_021_autoScaleAxes.png
 :name: CapstoneExampleFig01
 :width: auto
 :align: center
@@ -73,7 +80,7 @@ Process for applying fits to plotted data, updating the y-intercept and other cu
 
 ## Replay/display Previous Data Run
 
-```{figure} ../ExperimentsGenPhysI/CentripetalForceFigures/Figure09_v2025-01.png
+```{figure} ../Intro/CapstoneFigures/FigCapstone_030_ReplayData.png
 :name: CapstoneExampleFig03
 :width: auto
 :align: center

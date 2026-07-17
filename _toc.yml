@@ -23,7 +23,7 @@ parts:
     - file: Intro/CapstoneNotes
     - file: Intro/VernierCaliper
     - file: Intro/GeneralEquipment
-  - caption: Experiments - Gen. Phys. Lab I (Fall)
+  - caption: Gen. Phys. Lab I (Fall) --- Experiments
     chapters:
       - file: ExperimentsGenPhysI/IntroLab
       - file: ExperimentsGenPhysI/VectorTable
@@ -36,7 +36,7 @@ parts:
       - file: ExperimentsGenPhysI/IdealGas
       - file: ExperimentsGenPhysI/Fluids
       - file: ExperimentsGenPhysI/Pendulum
-  - caption: Experiments - Gen. Phys. Lab II (Spring)
+  - caption: Gen. Phys. Lab II (Spring) --- Experiments
     chapters:
       - file: ExperimentsGenPhysII/Eps0
       - file: ExperimentsGenPhysII/MappingPotential
