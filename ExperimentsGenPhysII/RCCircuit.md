@@ -1,5 +1,5 @@
 (electrical-example-of-an-exponential-decay-process-overall)=
-# Electrical Example of an Exponential Decay Process with Resistors & Capacitors (RC Circuits)
+# Lab 5 | Electrical Example of an Exponential Decay Process with Resistors & Capacitors (RC Circuits)
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

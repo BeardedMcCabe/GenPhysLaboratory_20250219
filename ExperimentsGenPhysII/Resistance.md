@@ -1,5 +1,5 @@
 (resistivity-resistors-dc-circuits-overall)=
-# Resistivity with Resistors & DC Circuits
+# Lab 4 | Resistivity with Resistors & DC Circuits
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

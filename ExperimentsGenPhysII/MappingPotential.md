@@ -1,5 +1,5 @@
 (electirc-field-equipotential-mapping-overall)=
-# Equipotential & Electric Field Mapping
+# Lab 2 | Equipotential & Electric Field Mapping
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

@@ -1,5 +1,5 @@
 (centripetal-force-lab-overall)=
-# Centripetal Force with Mass on Rotating Arm
+# Lab 4 | Centripetal Force with Mass on Rotating Arm
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important
@@ -205,7 +205,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
 15. **Before** returning the power supply to zero, press the **STOP** button in **Capstone** to stop data acquisition. When you are finished taking data, you can scale both axes of either graph using the tool shown in {numref}`M04Fig06`.
 
-    ```{figure} CentripetalForceFigures/Figure06_v2025-01.png
+    ```{figure} ../Intro/CapstoneFigures/FigCapstone_021_autoScaleAxes.png
     :name: M04Fig06
     :width: auto
     :align: center
@@ -215,7 +215,15 @@ Reminder, run your first case completely **before** moving on to additional case
 
     ```{admonition} Recording/Deleting Data in Capstone
     :class: tip
-    *NEVER* need to click the Delete Last Run button in **Capstone**. ![dontDeleteCapstoneCentripetal](CentripetalForceFigures/Figure10_v2025-01.png) **Capstone** will just hold on to that data as a past trial that you could go back and look at as needed. When you press Record, **Capstone** will just create a new *Run* of data to keep track of. 
+    *NEVER* need to click the Delete Last Run button in **Capstone**. **Capstone** will just hold on to that data as a past trial that you could go back and look at as needed. When you press Record, **Capstone** will just create a new *Run* of data to keep track of. 
+    ```
+
+    ```{figure} ../Intro/CapstoneFigures/FigCapstone_022_DoNotDelete.png
+    :name: M04Fig06_delete
+    :width: auto
+    :align: center
+
+    DO NOT DELETE DATA RUNS.
     ```
 
 16. Once you have finished your trial:
@@ -304,7 +312,7 @@ Reminder, run your first case completely **before** moving on to additional case
     If you need to return to a previous trial/run in **Capstone**, see {numref}`M04Fig09` for that process.
     ```
 
-    ```{figure} CentripetalForceFigures/Figure09_v2025-01.png
+    ```{figure} ../Intro/CapstoneFigures/FigCapstone_030_ReplayData.png
     :name: M04Fig09
     :width: auto
     :align: center

@@ -1,5 +1,5 @@
 (acceleration-and-deflection-of-electrons-overall)=
-# Acceleration & Deflection of Electrons
+# Lab 3 | Acceleration & Deflection of Electrons
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important
@@ -166,7 +166,7 @@ Controls and parameters for the CRT of the *Complete Properties of Electrons App
 
 4. Now set the CRT voltage selector `3` to read the focus voltage $V_\text{I}$. Adjust the focus voltage to the given value using the focus potentiometer `20` whose voltage also appears on the top voltmeter display `24`.
 
-5. Next, set the CRT voltage selector `3` to read the acceleration or cathode voltage $V_\text{K}$. Set the accel. voltage to the given values using the accel. potentiometer `21` whose voltage also appears on the top voltmeter display `24`. ($V_\text{K, case 1} = 950$ V, $V_\text{K, case 2} = 1100$ V)
+5. Next, set the CRT voltage selector `3` to read the acceleration or cathode voltage $V_\text{K}$. Set the accel. voltage to the given values using the accel. potentiometer `21` whose voltage also appears on the top voltmeter display `24`. ($V_\text{K, case 1} = 950\,\text{V}$, $V_\text{K, case 2} = 1100\,\text{V}$)
 
 6. Set electrostatic deflection selector switch `8` to X-deflection $V_\text{X}$, and set the X-deflection voltage potentiometers `13` to zero (0.0 V) which appears on the middle voltmeter display `23`.
 
@@ -190,12 +190,16 @@ Example of CRT grid and 4 mm spacings.
     - $L$ = distance from plates to screen of tube
     - For both cases, record the grid voltages $V_\text{G}$, focus voltages $V_\text{I}$, and accelerating voltages $V_\text{K}$
 
-11. Create a data table with columns for the deflection voltage $V_\text{Y}$ and the deflection position $D_\text{experimental}$ (e.g. $0, 4, 8,\text{ … }48\,\text{mm}$). $D_\text{experimental}$ is based on the CRT grid and not to be calculated. At the start of each case, list the acceleration voltage to gelp clarify which case is which.
+11. Create a data table with columns for trial number, deflection voltage $V_\text{Y}$ and the deflection position $D_\text{experimental}$ (e.g. $0, 4, 8,\text{ … }48\,\text{mm}$) and its uncertainty. $D_\text{experimental}$ is based on the CRT grid and not to be calculated. Also include the ratio of the deflection voltage to the accelerating voltage $\text{(}V_\text{Y}/V_\text{K}\text{)}$. At the start of each case, list the acceleration voltage to help clarify which case is which.
 
-12. Record the initial deflection voltage $V_\text{Y}$ and calculate the ratio of the deflection voltage to the accelerating voltage ($V_\text{Y}/V_\text{K}$). Then record the deflection position on the screen ($D_\text{experimental}=0\,\text{mm}$ at starting point) as well as your best estimate of your uncertainty in deflection position $\delta D_\text{experimental}$. Then, slowly increase the Y-deflection voltage $V_\text{Y}$ using the Y-deflection potentiometer `12`. Move the bright spot 4 mm in the Y direction; record the deflection voltage $V_\text{Y}$, ratio $V_\text{Y}/V_\text{K}$, $D_\text{experimental}$ and $\delta D_\text{experimental}$. Continue this process every $4\,\text{mm}$ up to $48\,\text{mm}$ for a total of 13 data points.
-    **Double check:** The acceleration voltage $V_\text{K}$ and the horizontal deflection voltage $V_\text{X}$ must be constant during this procedure.
+12. For each trial:
+    - Record the deflection voltage $V_\text{Y}$ (presumably $0\,\text{V}$ for the first trial since you'll have zeroed the voltmeter in previous steps)
+    - Record the deflection position on the screen ($D_\text{experimental}=0\,\text{mm}$ at starting point) as well as your best estimate of your uncertainty in deflection position $\delta D_\text{experimental}$. *Consider: How much up or down could you shift the beam while still being at your claimed deflection position.*
+    - Calculate the ratio of the deflection voltage to the accelerating voltage $\text{(}V_\text{Y}/V_\text{K}\text{)}$.
+    - Repeat for each subsequent trial by slowly increasing the Y-deflection voltage $V_\text{Y}$ using the Y-deflection potentiometer `12` to move the bright spot $4\,\text{mm}$ upwards in the Y direction. Record the deflection voltage $V_\text{Y}$, $D_\text{experimental}$ and $\delta D_\text{experimental}$, and calculate ratio $V_\text{Y}/V_\text{K}$. Continue this process every $4\,\text{mm}$ up to $48\,\text{mm}$ for a total of 13 data points.
+    - **Double check other voltages:** The other voltages like acceleration voltage $V_\text{K}$ and the horizontal deflection voltage $V_\text{X}$ must be constant during this procedure; switch to them periodically to confirm they are constant.
 
-13. **FOR CASE 2**, repeat steps 3 to 12 above using Case 2 data listed on the apparatus including an acceleration voltage of 1100 V.
+13. **FOR CASE 2**, repeat steps 3 to 12 above using Case 2 data listed on the apparatus including an acceleration voltage of $1100\,\text{V}$.
 
 
 ### ● Experimental Data Analysis

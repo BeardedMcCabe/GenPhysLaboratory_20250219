@@ -1,5 +1,5 @@
 (simple-projectile-motion-overall)=
-# Simple Projectile Motion
+# Lab 3 | Simple Projectile Motion
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

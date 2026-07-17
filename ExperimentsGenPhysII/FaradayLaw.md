@@ -1,5 +1,5 @@
 (faradays-law-induction-overall)=
-# 1172L-ONLY | Faraday's Law of Induction
+# Lab 8-[1172L-ONLY] | Faraday's Law of Induction
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

@@ -1,5 +1,5 @@
 (electric-force-and-epsilon-overall)=
-# Electric Force & the Determination of ε₀
+# Lab 1 | Electric Force & the Determination of ε₀
 
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
@@ -27,7 +27,7 @@
 ```{admonition} OVERALL GOALS
 :class: note
 Use a parallel-plate capacitor to create a uniform electric field to:
-  - Investigate the relationship between electric force $F_E$ and voltage $V$ (i.e. $F_E$ vs. $V$).
+  - Investigate the relationship between electric force $F_E$ and voltage $V$ (i.e. $F_E\,\text{vs.}\,V)\text{.}$
   - Experimentally determine the electric constant $\varepsilon_0$ (a.k.a. vacuum permittivity).
 ```
 
@@ -218,7 +218,7 @@ Depicted across {numref}`E1Fig_00` -- {numref}`E1Fig_02`. All equipment as liste
 - Telescope with crosshair & centimeter-scale ruler (a.k.a. scale) on vertical pole
 - High voltage DC power supply, 0 -- 500 V
 - Fluke multimeter -- set to read DC voltage (in parallel with parallel-plate capacitor)
-- Small masses of 10, 20, 20, 50, 500 mg with plastic tweezers
+- Small masses of 10, 20, 20, 500 mg with plastic tweezers
 - Parallel-plate capacitor apparatus:
   - Bottom plate held in static position on lower plate adjustment towers
   - Balanced plate/beam on thin, conductive, knife edges with:
@@ -436,6 +436,11 @@ d = \frac{D a}{2 b}
 (detailsteps-Epsilon0Data)=
 ### ● Experimental Data Collection
 
+    ```{admonition} Run Single Trial with Calculations First (Start to finish of just one trial)
+    :class: warning
+    Run a full trial, start to finish with calculations of $\varepsilon_0$. Ensure you are at least in the right ballpark with your methods before completing all other trials/cases. Otherwise, you may find yourselves redoing the whole experiment if you fail to check your measurement techniques early on in the process.
+    ```
+
 (procedure-epsilon0-trial-list)=
 6. Repeat the following steps for each trial with applied masses in order (to catch any procedural issues early):
     - The order of the trials for applied masses will be
@@ -594,7 +599,7 @@ Safety: regarding electricity and the plates touching.
     ```{admonition} CLEAN UP
     :class: important
     Please return your experimental station back to the way you found it or better:
-     - Return all masses (10, 20, 20, 50, 100 mg) and tweezers to black mass case, ensuring the clear plastic cover holds the masses down inside the case. Place black case near or on top of power supply.
+     - Return all masses (10, 20, 20, 100 mg) and tweezers to black mass case, ensuring the clear plastic cover holds the masses down inside the case. Place black case near or on top of power supply.
         - Please inform instructor of any lost masses
      - Power supply is off, voltage knobs turned down to zero
      - Multimeter off

@@ -1,5 +1,5 @@
 (light-diffraction-lasers-and-geometric-optics-imaging-overall)=
-# 1146L-ONLY | Light – Geometric Optics and Imaging
+# Lab 9-[1146L-ONLY] | Light – Geometric Optics and Imaging
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important

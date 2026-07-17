@@ -1,5 +1,5 @@
 (acceleration-due-to-g-overall)=
-# Acceleration due to Gravity, *g*, with Glider on Tilted Air Track
+# Lab 2 | Acceleration due to Gravity, *g*, with Glider on Tilted Air Track
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important
