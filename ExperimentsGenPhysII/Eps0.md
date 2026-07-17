@@ -27,7 +27,7 @@
 ```{admonition} OVERALL GOALS
 :class: note
 Use a parallel-plate capacitor to create a uniform electric field to:
-  - Investigate the relationship between electric force $F_E$ and voltage $V$ (i.e. $F_E$ vs. $V$).
+  - Investigate the relationship between electric force $F_E$ and voltage $V$ (i.e. $F_E\,\text{vs.}\,V)\text{.}$
   - Experimentally determine the electric constant $\varepsilon_0$ (a.k.a. vacuum permittivity).
 ```
 
@@ -435,6 +435,11 @@ d = \frac{D a}{2 b}
 
 (detailsteps-Epsilon0Data)=
 ### ● Experimental Data Collection
+
+    ```{admonition} Run Single Trial with Calculations First (Start to finish of just one trial)
+    :class: warning
+    Run a full trial, start to finish with calculations of $\varepsilon_0$. Ensure you are at least in the right ballpark with your methods before completing all other trials/cases. Otherwise, you may find yourselves redoing the whole experiment if you fail to check your measurement techniques early on in the process.
+    ```
 
 (procedure-epsilon0-trial-list)=
 6. Repeat the following steps for each trial with applied masses in order (to catch any procedural issues early):

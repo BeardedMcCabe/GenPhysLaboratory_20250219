@@ -16,8 +16,8 @@ See printed schedule below {numref}`schedulePHYS1145L`.
 | 10-19   | [\| Lab 3 \|<br>Simple Projectile Motion with Kinematics](#simple-projectile-motion-overall) | --- | [\| Lab 4 \|<br>Centripetal Force with Mass on Rotating Arm](#centripetal-force-lab-overall) | --- | --- |
 | 10-26   | [\| Lab 4 \|<br>Centripetal Force with Mass on Rotating Arm](#centripetal-force-lab-overall) | --- | [\| Lab 5 \|<br>onservation of Energy with Glider on Tilted Air Track](#cons-energy-glider-track-lab-overall) | --- | --- |
 | 11-02   | [\| Lab 5 \|<br>Conservation of Energy with Glider on Tilted Air Track](#cons-energy-glider-track-lab-overall) | --- | [\| Lab 6 \|<br>Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion](#ballistic-pendulum-lab-overall) | --- | --- |
-| 11-09   | [\| Lab 6 \|<br>Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion](#ballistic-pendulum-lab-overall) | --- | [\| Lab 7-[1145L-ONLY] \|<br>Ideal gas law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](#ideal-gas-absolute-zero-lab-overall) | --- | --- |
-| 11-16   | [\| Lab 7-[1145L-ONLY] \|<br>Ideal gas law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](#ideal-gas-absolute-zero-lab-overall) | --- | [\| Lab 8 \|<br>Fluid Physics with Archimedes’ & Bernoulli’s Principles](#fluid-physics-arch-bern-lab-overall) | --- | --- |
+| 11-09   | [\| Lab 6 \|<br>Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion](#ballistic-pendulum-lab-overall) | --- | [\| Lab 7-[1145L-ONLY] \|<br>Ideal Gas Law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](#ideal-gas-absolute-zero-lab-overall) | --- | --- |
+| 11-16   | [\| Lab 7-[1145L-ONLY] \|<br>Ideal Gas Law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](#ideal-gas-absolute-zero-lab-overall) | --- | [\| Lab 8 \|<br>Fluid Physics with Archimedes’ & Bernoulli’s Principles](#fluid-physics-arch-bern-lab-overall) | --- | --- |
 | 11-23   | [\| Lab 8 \|<br>Fluid Physics with Archimedes’ & Bernoulli’s Principles](#fluid-physics-arch-bern-lab-overall) | --- | ***Thanksgiving <br>(no lab)*** | ***Thanksgiving <br>(no lab)*** | ***Thanksgiving <br>(no lab)*** |
 | 11-30   | [\| Lab 9 \|<br>Determination of Acceleration due to Gravity, g, with Simple Pendulum](#simple-pendulum-g-lab-overall) | --- | [\| Lab 9 \|<br>Determination of Acceleration due to Gravity, g, with Simple Pendulum](#simple-pendulum-g-lab-overall) | --- | --- |
 | 12-07   | [Makeup for snowdays] | --- | [Makeup for snowdays] | --- | ***[Last Day of Classes]*** |
@@ -56,7 +56,7 @@ Schedule for PHYS 1145L
 
 [\| Lab 7-[1171L-ONLY] \|<br>Rotational Dynamics with Moment of Inertia & Angular Momentum](#rotational-dynamics-moi-angmom-lab-overall)
 
-[\| Lab 7-[1145L-ONLY] \|<br>Ideal gas law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](#ideal-gas-absolute-zero-lab-overall)
+[\| Lab 7-[1145L-ONLY] \|<br>Ideal Gas Law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](#ideal-gas-absolute-zero-lab-overall)
 
 [\| Lab 8 \|<br>Fluid Physics with Archimedes’ & Bernoulli’s Principles](#fluid-physics-arch-bern-lab-overall)
 

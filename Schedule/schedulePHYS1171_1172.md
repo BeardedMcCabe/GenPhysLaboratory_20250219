@@ -57,7 +57,7 @@ Schedule for PHYS 1171L
 
 [\| Lab 7-[1171L-ONLY] \|<br>Rotational Dynamics with Moment of Inertia & Angular Momentum](#rotational-dynamics-moi-angmom-lab-overall)
 
-[\| Lab 7-[1145L-ONLY] \|<br>Ideal gas law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](#ideal-gas-absolute-zero-lab-overall)
+[\| Lab 7-[1145L-ONLY] \|<br>Ideal Gas Law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](#ideal-gas-absolute-zero-lab-overall)
 
 [\| Lab 8 \|<br>Fluid Physics with Archimedes’ & Bernoulli’s Principles](#fluid-physics-arch-bern-lab-overall)
 

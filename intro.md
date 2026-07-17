@@ -7,7 +7,7 @@ thermodynamics, fluid dynamics, and periodic motion.
 
 Specific experimental measurements for Gen. Phys. II Lab (PHY1146L/1172L) that cover electric and magnetic phenomena includes electric forces, voltage, electric fields, electron motion, resistance and capacitance, magnetic fields, magnetic forces, electromagnetic induction, wave motion, and geometric optics.
 
-Students will complete a weekly lab writeup.
+Students will complete lab writeups interpreting error analysis and results.
 
 This page includes all the experiments for:
 - General Physics I Lab --- PHYS1145L & PHYS1171L

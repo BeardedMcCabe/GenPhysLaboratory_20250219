@@ -7,44 +7,44 @@ root: intro
 parts:
   - caption: Schedule
     chapters:
-    - file: schedulePHYS_summer
-    - file: scheduleByMeetingTimesAll
-    - file: schedulePHYS1171_1172
-    - file: schedulePHYS1145_1146
-    - file: scheduleByProfessor
-  - caption: General information
+    - file: Schedule/schedulePHYS_summer
+    - file: Schedule/scheduleByMeetingTimesAll
+    - file: Schedule/schedulePHYS1171_1172
+    - file: Schedule/schedulePHYS1145_1146
+    - file: Schedule/scheduleByProfessor
+  - caption: Data Analysis Information
     chapters:
     - file: Intro/IntroLab
     - file: Intro/DataAcquisition
     - file: Intro/ErrorAnalysis
     - file: Intro/GraphicalRepresentation
+  - caption: Software & Equipment
+    chapters:
     - file: Intro/CapstoneNotes
     - file: Intro/VernierCaliper
     - file: Intro/GeneralEquipment
-  - caption: Experiments
+  - caption: Experiments - Gen. Phys. Lab I (Fall)
     chapters:
-    - file: GeneralPhysicsLabI
-      sections:
-        - file: ExperimentsGenPhysI/IntroLab
-        - file: ExperimentsGenPhysI/VectorTable
-        - file: ExperimentsGenPhysI/AccGTrack
-        - file: ExperimentsGenPhysI/SimpleProjectile
-        - file: ExperimentsGenPhysI/CentripetalForce
-        - file: ExperimentsGenPhysI/ConsEnTrack
-        - file: ExperimentsGenPhysI/BallisticPendulum
-        - file: ExperimentsGenPhysI/RotationalMotion
-        - file: ExperimentsGenPhysI/IdealGas
-        - file: ExperimentsGenPhysI/Fluids
-        - file: ExperimentsGenPhysI/Pendulum
-    - file: GeneralPhysicsLabII
-      sections:
-        - file: ExperimentsGenPhysII/Eps0
-        - file: ExperimentsGenPhysII/MappingPotential
-        - file: ExperimentsGenPhysII/ElectronDeflection
-        - file: ExperimentsGenPhysII/Resistance
-        - file: ExperimentsGenPhysII/RCCircuit
-        - file: ExperimentsGenPhysII/Mu0
-        - file: ExperimentsGenPhysII/EoverM
-        - file: ExperimentsGenPhysII/FaradayLaw
-        - file: ExperimentsGenPhysII/Waves
-        - file: ExperimentsGenPhysII/Optics
+      - file: ExperimentsGenPhysI/IntroLab
+      - file: ExperimentsGenPhysI/VectorTable
+      - file: ExperimentsGenPhysI/AccGTrack
+      - file: ExperimentsGenPhysI/SimpleProjectile
+      - file: ExperimentsGenPhysI/CentripetalForce
+      - file: ExperimentsGenPhysI/ConsEnTrack
+      - file: ExperimentsGenPhysI/BallisticPendulum
+      - file: ExperimentsGenPhysI/RotationalMotion
+      - file: ExperimentsGenPhysI/IdealGas
+      - file: ExperimentsGenPhysI/Fluids
+      - file: ExperimentsGenPhysI/Pendulum
+  - caption: Experiments - Gen. Phys. Lab II (Spring)
+    chapters:
+      - file: ExperimentsGenPhysII/Eps0
+      - file: ExperimentsGenPhysII/MappingPotential
+      - file: ExperimentsGenPhysII/ElectronDeflection
+      - file: ExperimentsGenPhysII/Resistance
+      - file: ExperimentsGenPhysII/RCCircuit
+      - file: ExperimentsGenPhysII/Mu0
+      - file: ExperimentsGenPhysII/EoverM
+      - file: ExperimentsGenPhysII/FaradayLaw
+      - file: ExperimentsGenPhysII/Waves
+      - file: ExperimentsGenPhysII/Optics

@@ -19,7 +19,7 @@ The experiments you will conduct this semester are:
 
 [Lab 7-[1171L-ONLY] | Rotational Dynamics with Moment of Inertia & Angular Momentum](#rotational-dynamics-moi-angmom-lab-overall)
 
-[Lab 7-[1145L-ONLY] | Ideal gas law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](#ideal-gas-absolute-zero-lab-overall)
+[Lab 7-[1145L-ONLY] | Ideal Gas Law with Isothermal & Adiabatic Compression; Estimating Absolute Zero](#ideal-gas-absolute-zero-lab-overall)
 
 [Lab 8 | Fluid Physics with Archimedes’ & Bernoulli’s Principles](#fluid-physics-arch-bern-lab-overall)
 
