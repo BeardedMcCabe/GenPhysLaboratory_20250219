@@ -513,6 +513,7 @@ You will apply a constant $4.00\,\text{V}$ to the circuit with all three resisto
 
 ### ● Post-lab Writeup
 
+<!--- FROM SPRING 2026!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
   - What is the precision of your equipment?
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors? How would they change your final results (larger, smaller, more varied)?
@@ -526,9 +527,11 @@ You will apply a constant $4.00\,\text{V}$ to the circuit with all three resisto
       - Which has a bigger overall impact and why?
       - What was the overall uncertainty range of your equivalent resistances due to error propagation of both voltage and current at the same time?
     - For the resistor, series, and parallel, if your final results became larger or smaller, were they more or less accurate to expected values? 
+--->
 
 
-<!--- FOR SUMMER 2026!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<!--- FOR SUMMER 2026!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! --->
+
 - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
   - What is the precision of your equipment?
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting precision) errors? How would they change your final results (larger, smaller, more varied)?
@@ -544,7 +547,8 @@ You will apply a constant $4.00\,\text{V}$ to the circuit with all three resisto
         - What was the overall uncertainty range of your equivalent resistances due to error propagation of both voltage and current at the same time?
       - For the resistor, series, and parallel, if your final results became larger or smaller, were they more or less accurate to expected values? 
 
---->
+
+
 <!---    - How does this inform whether systematic or random errors. Did anything stand out as a causing less accuracy or less precision?
 --->
 

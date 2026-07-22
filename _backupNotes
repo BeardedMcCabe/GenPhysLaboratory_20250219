@@ -77,7 +77,7 @@ site:
 
     # A chapter grouped with multiple sub-pages (nested files)
     - title: Gen. Phys. Lab I (Fall)
-    #  url: /generalphysicslabi
+      file: GeneralPhysicsLabI.md
       children:
         - title: Lab 0 | Intro Dominoes
           url: /introlab
@@ -104,7 +104,7 @@ site:
       #  - file: chapters/code-cells.md
     # A chapter grouped with multiple sub-pages (nested files)
     - title: Gen. Phys. Lab II (Spring)
-    #  url: /generalphysicslabii
+      url: /generalphysicslabii
       children:
         - title: Lab 1 | Electric Force & εο
           url: /eps0
@@ -127,4 +127,6 @@ site:
         - title: Lab 9-[1146L-ONLY] | Light, Geometric Optics
           url: /optics
       #  - file: chapters/code-cells.md    
+
+
 
