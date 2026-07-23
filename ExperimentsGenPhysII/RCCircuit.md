@@ -377,7 +377,7 @@ You will have two resistors (treated as constants) and two capacitors (all shown
 
 7. Create a data table with TWO MAIN SECTIONS (half-life analysis method, linear-fit analysis method) for the first resistor and capacitor case (once you have this all set up, you'll then be able to just copy and paste this data table for the other RC combinations):
 
-   - With **three columns** (one for each of the 3 decay trials, the act of discharging a capacitor through resistor) --- trials are suggested to go horizontal on the spreadsheet today due to the many variables we will use within each case. Also include **columns** for the average values, standard deviation ($\sigma$), difference $\Delta _{\text{experimental vs. accepted}}$, and percent difference as needed. *NOTE: For today, this $\sigma$ is effectively an overestimation of your $\pm$ uncertainty range around the average.* 
+   - With **three columns** (one for each of the 3 decay trials, the act of discharging a capacitor through resistor) --- trials are suggested to go horizontal on the spreadsheet today due to the many variables we will use within each case. Also include **columns** for the average values, standard deviation ($\sigma$), difference $\Delta _{\text{experimental vs. accepted}}$, and percent difference as needed. *NOTE: For today, the standard deviation $\sigma$ will effectively be an overestimation of your $\pm$ uncertainty range around the average.* 
 
    - Include a section for the **Half-Life analysis method** ($t_{1/2})$:
      - $V_{\text{init}}$: Initial voltage, right ***after*** decay starts
