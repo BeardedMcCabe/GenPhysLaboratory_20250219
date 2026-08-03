@@ -377,7 +377,7 @@ You will have two resistors (treated as constants) and two capacitors (all shown
 
 7. Create a data table with TWO MAIN SECTIONS (half-life analysis method, linear-fit analysis method) for the first resistor and capacitor case (once you have this all set up, you'll then be able to just copy and paste this data table for the other RC combinations):
 
-   - With **three columns** (one for each of the 3 decay trials, the act of discharging a capacitor through resistor) --- trials are suggested to go horizontal on the spreadsheet today due to the many variables we will use within each case. Also include **columns** for the average values, standard deviation ($\sigma$), difference $\Delta _{\text{experimental vs. accepted}}$, and percent difference as needed. *NOTE: For today, this $\sigma$ is effectively an overestimation of your $\pm$ uncertainty range around the average.* 
+   - With **three columns** (one for each of the 3 decay trials, the act of discharging a capacitor through resistor) --- trials are suggested to go horizontal on the spreadsheet today due to the many variables we will use within each case. Also include **columns** for the average values, standard deviation ($\sigma$), difference $\Delta _{\text{experimental vs. accepted}}$, and percent difference as needed. *NOTE: For today, the standard deviation $\sigma$ will effectively be an overestimation of your $\pm$ uncertainty range around the average.* 
 
    - Include a section for the **Half-Life analysis method** ($t_{1/2})$:
      - $V_{\text{init}}$: Initial voltage, right ***after*** decay starts
@@ -403,7 +403,7 @@ You will have two resistors (treated as constants) and two capacitors (all shown
      - Flip the SPDT switch **DOWN** to connect the batteries to the capacitor ({numref}`fig-rc-decay-circuit`-left) and observe the voltage plot as the capacitor rapidly charges to $V_\text{init}$ (should be near $3\,\text{V}$ as can be seen in the top plots of {numref}`FigE5_014_halflife`).
      - Once the capacitor is fully charged, flip the switch **UP** to connect the capacitor to the resistor ({numref}`fig-rc-decay-circuit`-right); observe the decay of the voltage across the capacitor. In essence, the battery has been eliminated from the circuit and the capacitor is now acting as the voltage source.
         - **Wait until the voltage drops to less than** $10\%~\text{of}\,V_\text{init}$ (e.g. if $V_\text{init}=3.0\,\text{V}$, then $V_\text{10-percent}= 0.3\,\text{V}$ as can be seen in the top plots of {numref}`FigE5_014_halflife`).
-    - Repeat **four more times** for a total of **5 decay trials** within this single Capstone recording. You will analyze this whole data set in the following methods.
+    - Repeat **two more times** for a total of **3 decay trials** within this single Capstone recording. You will analyze this whole data set in the following methods.
 
       ```{figure} RCCircuitFigures/E5_Fig_014_HalfLifeExample_v02.png
       ---

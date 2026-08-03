@@ -13,7 +13,7 @@
 Use a set of Helmholtz coils and electron beam vacuum bulb to:
 - Discover the electron!
   - Measure magnetic field strength
-  - Experimentally determine the charge-to-mass (e/m) ratio for the electron
+  - Experimentally determine the charge-to-mass $(e/m)$ ratio for the electron
 - Understand the relationship between current, magnetic force, and electron deflection. *Consider:* if magnetic force increases, what happens to the electrons' path and why physically is that happening?
 ```
 
@@ -132,7 +132,7 @@ Throughout the following procedure, you will experimentally characterize the Hel
     - Also explore around the coils and find the shape of the magnetic field; does it change direction outside of the coils as in {numref}`fig-eoverm-02`?
     ```
 
-5. Compare your values for magnetic field strength near the axis within the coils to the expected values from {eq}`eq-bfield`. If they disagree beyond 1c0%, retake any necessary trials.
+5. Compare your values for magnetic field strength near the axis within the coils to the expected values from {eq}`eq-bfield`. If they disagree beyond 10%, retake any necessary trials.
 
 6. Plot your experimental $B$ vs. $I$. Also, determine the slope of the relationship using `LINEST()` (for review, see {ref}`data-acquisition-plotting-in-excel`). Take note as these values will be used later for B-field calculations. Note regarding later use of the slope representing the $B$ vs. $I$ relationship for our coils today: it will be called $S_\text{B.vs.I}$ in the next section.
 
@@ -207,14 +207,14 @@ One method of obtaining a value for the **linear velocity $v$** makes use of the
 v^{2}=\frac{2 V e}{m}
 ```
 
-Substituting for v in the expression for e/m, we obtain:
+Substituting for $v$ in the expression for $e/m$ {eq}`eq-e-over-m-basic`, we obtain:
 
 ```{math}
 :label: eq-e-over-m-ratio
 \frac{e}{m}=\frac{2V}{B^{2}r^{2}}
 ```
 
-Notice that we need know only the voltage through which the electron was accelerated, in addition to the value of B and r, in order to evaluate the ratio $e/m$ for the electron. The accepted value for e/m for the electron is $1.759\times 10^{11}$ C/kg.
+Notice that we need know only the voltage through which the electron was accelerated, in addition to the value of $B$ and $r$, in order to evaluate the ratio $e/m$ for the electron. The accepted value for $e/m$ for the electron is $1.759\times 10^{11}$ C/kg.
 
 <!--- The path of the electrons is made visible by the bombardment of gas atoms in the tube. The impact of the electrons on the atoms increases the energy of electrons in those atoms. These atoms spontaneously fall back to lower energy states by emitting the blue light that you see as the circular path of the electrons. Since the electrons will lose some energy when they bombard gas atoms, the brightest part of the path is **not** where the electrons with their 'full' energy are. The electrons that have energies closest to the energy we assume for them, namely $e V$, are at or near the outer edge. Thus the radius of the circular path which corresponds to the assumed electron velocity are at or near the outer edge. As the electrons bombard the gas atoms, they lose energy. As a result, they 'drop' into a smaller orbit. You can observe this process by observing the spreading of the illuminated path as the electrons move around their orbit. For this reason, it is important to measure the diameter of the orbit from the outer edge.
 --->
@@ -258,7 +258,7 @@ Left) Helmholtz coils with vacuum bulb in place (first experiment). Center) Helm
       - acceleration voltage $V$
       - coil current $I$
     - Measure left- and right-extents of the path at center of beam, lined up with itself in the mirror (parallax)
-    - Calculate e/m ratio using B-field found in Part I
+    - Calculate $e/m$ ratio using B-field found in Part I
    ```
 
 (demo-video-1-eOverM-constant)=
@@ -311,7 +311,7 @@ https://www.youtube.com/watch?v=vqtHMKxzGdg
     - $I$: coil current
     - $\delta I$: coil current uncertainty
     - $B$: magnetic field strength based on $S_\text{B.vs.I}$ found earlier
-    - $\delta B$: magnetic field strenght uncertainty based on $\delta S_\text{B.vs.I}$ found earlier
+    - $\delta B$: magnetic field strength uncertainty based on $\delta S_\text{B.vs.I}$ found earlier
     - left edge position & its uncertainty
     - right edge poisition & its uncertainty
     - diameter & its uncertainty
@@ -347,12 +347,12 @@ https://www.youtube.com/watch?v=vqtHMKxzGdg
 5. Calculate the B-field strength $B$ based on {eq}`eq-magnetic-field-current`. 
     - For uncertainty: MINIMIZE $B$ with both $\delta S_\text{B.vs.I}$ and $\delta I$ and take the difference from the calculated $B$ to get the uncertainty $\delta B$ (similar fashion to past labs, $\delta B = B - B_\text{minimized}$).
 
-6. **Radius:** With the electrons traveling in a circular path, the radius of the path will be determined by measuring the diameter and dividing by two. Therefore read the scale on both the left and right edges of the circular path. The scale and mirror at the rear of the tube is adjustable. Position the top of the scale horizontally **at the center** of the circular beam path. YOU MUST MOVE THE RULER UP OR DOWN TO BISECT THE CIRCULAR BEAM TO COVER WIDEST EXTENT OF THE CIRCLE.
-    - determine left position and estimate the position uncertainty
-    - similarly determine right position and estimate the position uncertainty
-    - The position readings are to be measured at the center of the beam. When determining the scale reading, close one eye and move your viewpoint so the electron path and its reflection in the mirror can be made coincident; this is correcting for parallax as discussed earlier. Align one side of the beam with its image in the mirror and read and record the position of the center of the beam on the scale. Then move your viewpoint to align the other side of the beam its image in the mirror and again read the scale.
-    - Read and record the scale reading to the nearest millimeter.
-    - Determine radius $r$ and its uncertainty $\delta r$ by first calculating diameter as the difference of the two positions and calculate the diameter uncertainty. Subtract the reading on the left edge from the reading on the right edge to calculate the diameter. Divide the diameter by two to find the radius and its uncertainty.
+6. **Radius:** With the electrons traveling in a circular path, the radius of the path will be determined by first measuring the diameter. Therefore, read the scale on both the left and right edges of the circular path. The scale and mirror at the rear of the tube is adjustable. **Before** taking measurements, position the top of the scale horizontally **at the center** of the circular beam path. YOU MUST MOVE THE RULER UP OR DOWN TO BISECT THE CIRCULAR BEAM TO COVER WIDEST EXTENT OF THE CIRCLE.
+    - Determine left position and estimate the position uncertainty
+    - Similarly determine right position and estimate the position uncertainty
+    - The position readings are to be measured at the center of the beam. When determining the scale reading, close one eye and move your viewpoint so the electron path and its reflection in the mirror can be made coincident (overlap); this is correcting for parallax as discussed earlier. Align either extent of the beam with its image in the mirror; and read and record the position of the center of the beam on the scale. Move your viewpoint to align the other extent of the beam with its image in the mirror, and again read the scale.
+    - Read and record the scale readings to the nearest millimeter.
+    - Determine radius $r$ and its uncertainty $\delta r$ by first calculating diameter as the difference of the two positions, and calculate the diameter uncertainty. Divide the diameter to find the radius and its uncertainty.
 
 <!---
 5. The readings *must* be taken at the beam's widest edges. When determining the scale reading, close one eye and move your viewpoint so the electron path and its reflection in the mirror can be made coincident; this is correcting for parallax arising from the electron beam and ruler existing in different planes (similar to the grid and screen of the CRT in the Acceleration of Electrons lab). Align one side of the beam with its image in the mirror and read and record the position on the scale of the farthest part of the beam from the center. Then move your viewpoint to align the other side of the beam its image in the mirror and again read the scale.
@@ -367,7 +367,7 @@ https://www.youtube.com/watch?v=vqtHMKxzGdg
       - Consider all uncertainties ($\delta V$, $\delta B$, and $\delta r$). *Does any one measurement uncertainty seem to have the largest impact?*
     - Difference to accepted value $\Delta e/m_\text{experimental vs. accepted}$
 
-8. If your e/m value seems reasonable, change the voltage and current to the values indicated for each subsequent trial (see {numref}`magnetic-force-Helmholtz-trials-table`), switch lab members as indicated, and complete the previous steps for that trial.
+8. If your $e/m$ value seems reasonable, change the voltage and current to the values indicated for each subsequent trial (see {numref}`magnetic-force-Helmholtz-trials-table`), switch lab members as indicated, and complete the previous steps for that trial.
 
 9. If any trials are clearly erroneous, retake the data.
 
@@ -475,7 +475,7 @@ Bulb rotator.
 
 ## The Whiteboard
 
-```{figure} EoverMFigures/EoverM_HHCoils_2025_Summer_01_v02.jpg
+```{figure} EoverMFigures/EoverM_HHCoils_2025_Summer_01_v03.jpg
 :name: EoverM_whiteboard_01
 :width: auto
 :align: center
