@@ -97,7 +97,7 @@ Throughout the following procedure, you will experimentally characterize the Hel
    ```{admonition} PROCEDURE OVERVIEW (Part I)
    :class: note
    - Characterize the magnetic field produced by the Helmholtz coils
-      - Measure the magnetic field strength near the center of the coils over a range of currents to determine the relationship between B-field strength and current (i.e. experimentally determine the coefficients in {eq}`eq-bfield`).
+      - Measure the magnetic field strength near the center axis of the coils (***same region as the bulb***) over a range of currents to determine the relationship between B-field strength and current (i.e. experimentally determine the coefficients in {eq}`eq-bfield`).
       - While the empty set of coils is slightly different to the one used later, they have comparable specifications and produce a magnetic field similar to that used later in {ref}`section-part-ii-eoverm-ratio`.
    ```
 
@@ -121,9 +121,9 @@ Throughout the following procedure, you will experimentally characterize the Hel
 
 #### ○ Experimental B vs. I
 
-3. While holding the B-field sensor near the center of the coils, turn on 🟢 the low-voltage power supply (likely the one on top). Turn current knob to max (preventing current limits), and use the voltage controls to gradually increase the current to 1.00 A through the Helmholtz coils. **Please do not exceed 2 A at any time (we don't want them burning out or breaking).** Record the max B-field strength for the this trial near the center of the coils. Repeat for currents of 1.2, 1.4, 1.6, and 1.8 A. Create a relevant data table including $I$, $B_\text{experimental}$, $B_\text{expected}$.
+3. Measure the maximum magnetic field strength of empty set of Helmholtz Coils *in the region similar to the bulb where the electron beam will be* in the second set of Helmholtz coils (see {numref}`fig-eoverm-01`-left). While holding the B-field sensor near the central-axis of the coils, turn on 🟢 the low-voltage power supply (likely the one on top). Turn current knob to max (preventing current limits), and use the voltage controls to gradually increase the current to 1.00 A through the Helmholtz coils. **Please do not exceed 2 A at any time (we don't want them burning out or breaking).** Record the max B-field strength for the this trial near the center of the coils. Repeat for currents of 1.2, 1.4, 1.6, and 1.8 A. Create a relevant data table including $I$, $B_\text{experimental}$, $B_\text{expected}$.
 
-4. Using the magnetic field sensor, explore the region within the coils and describe the region of consistent or inconsistent B-field.
+4. Using the magnetic field sensor, explore the region *within* and *outside* the coils; describe the region of consistent or inconsistent B-field.
 
     ```{admonition} Uniform B-Field?
     :class: question
@@ -137,6 +137,12 @@ Throughout the following procedure, you will experimentally characterize the Hel
 6. Plot your experimental $B$ vs. $I$. Also, determine the slope of the relationship using `LINEST()` (for review, see {ref}`data-acquisition-plotting-in-excel`). Take note as these values will be used later for B-field calculations. Note regarding later use of the slope representing the $B$ vs. $I$ relationship for our coils today: it will be called $S_\text{B.vs.I}$ in the next section.
 
 
+   ```{admonition} Prepping for Part II
+   :class: warning
+   As you prepare for Part II and finish up Part I:
+    - Go ahead and turn on 🟢 the high-voltage power supply (likely the one on bottom) to allow the cathode heater to heat up --- this will take about 10 minutes. Ensure the accelerating voltage is $\lt 200\,\text{V}$.
+    - While completing Part II, caution must be exercised in using the HIGH VOLTAGE DC power supply. You should not need to disconnect or change any wiring when moving from Part I to Part II. 
+   ```
 
 (section-part-ii-eoverm-ratio)=
 ## Part II: e/m Ratio of the Electron
@@ -292,17 +298,17 @@ https://www.youtube.com/watch?v=vqtHMKxzGdg
 
 #### ○ Preliminary Setup
 
-1. In doing the experiment, caution must be exercised in using the HIGH VOLTAGE DC power supply. You should not need to disconnect or change any wiring. Go ahead and turn on 🟢 the high-voltage power supply (likely the one on bottom) to allow the cathode heater to heat up --- this will take about 10 minutes.
+7. In doing this experiment, caution must be exercised in using the HIGH VOLTAGE DC power supply. You should not need to disconnect or change any wiring. If not already done, go ahead and turn on 🟢 the high-voltage power supply (likely the one on bottom) to allow the cathode heater to heat up --- this will take about 10 minutes. Ensure the accelerating voltage is $\lt 200\,\text{V}$.
 
 <!--- Before beginning the experiment, ask the instructor to indicate the proper procedure for operating the various power supplies and meters required. ---> 
 
-2. Create a common data table with:
+8. Create a common data table with:
 
-    - $e$: electron charge $1.602E^{-19}\,\text{C}$
-    - $m$: electron mass $9.109E^{-31}\,\text{kg}$
+    - $e$: electron charge $1.602 \times 10^{-19}\,\text{C}$
+    - $m$: electron mass $9.109 \times 10^{-31}\,\text{kg}$
     - $e/m_\text{accepted}$: accepted charge-to-mass ratio of the electron (can be calculated from above values)
 
-3. Create a single data table with columns including (but not limited to):
+9. Create a single data table with columns including (but not limited to):
 
     - Trial number
     - Lab member's initials (person looking at beam) --- Note: no need to break up the table by group member, this column considers that for you
@@ -325,7 +331,7 @@ https://www.youtube.com/watch?v=vqtHMKxzGdg
 
 
 
-4. For the first trial (and subsequent trials), adjust the accelerating voltage and coil current (record from multimeters with uncertainties) as indicated for all 12 trials today in {numref}`magnetic-force-Helmholtz-trials-table`. You should be close to the target voltages and currents; for later calculations you will use your experimental values. Please switch students between the different accelerating voltages. **DO NOT EXCEED 175 V OR 2.0 A AT ANY TIME!**
+10. For the first trial (and subsequent trials), adjust the accelerating voltage and coil current (record from multimeters with uncertainties) as indicated for all 12 trials today in {numref}`magnetic-force-Helmholtz-trials-table`. You should be close to the target voltages and currents; for later calculations you will use your experimental values. Please switch students between the different accelerating voltages. **DO NOT EXCEED 175 V OR 2.0 A AT ANY TIME!**
 
 <!---
     The twelve trial voltage, current combinations are:
@@ -344,10 +350,10 @@ https://www.youtube.com/watch?v=vqtHMKxzGdg
   | Student #3 (or #1<br>again for a group of two) | 160 | 1.00, 1.25, 1.50, 1.75 |
   ```
 
-5. Calculate the B-field strength $B$ based on {eq}`eq-magnetic-field-current`. 
+11. Calculate the B-field strength $B$ based on {eq}`eq-magnetic-field-current`. 
     - For uncertainty: MINIMIZE $B$ with both $\delta S_\text{B.vs.I}$ and $\delta I$ and take the difference from the calculated $B$ to get the uncertainty $\delta B$ (similar fashion to past labs, $\delta B = B - B_\text{minimized}$).
 
-6. **Radius:** With the electrons traveling in a circular path, the radius of the path will be determined by first measuring the diameter. Therefore, read the scale on both the left and right edges of the circular path. The scale and mirror at the rear of the tube is adjustable. **Before** taking measurements, position the top of the scale horizontally **at the center** of the circular beam path. YOU MUST MOVE THE RULER UP OR DOWN TO BISECT THE CIRCULAR BEAM TO COVER WIDEST EXTENT OF THE CIRCLE.
+12. **Radius:** With the electrons traveling in a circular path, the radius of the path will be determined by first measuring the diameter. Therefore, read the scale on both the left and right edges of the circular path. The scale and mirror at the rear of the tube is adjustable. **Before** taking measurements, position the top of the scale horizontally **at the center** of the circular beam path. YOU MUST MOVE THE RULER UP OR DOWN TO BISECT THE CIRCULAR BEAM TO COVER WIDEST EXTENT OF THE CIRCLE.
     - Determine left position and estimate the position uncertainty
     - Similarly determine right position and estimate the position uncertainty
     - The position readings are to be measured at the center of the beam. When determining the scale reading, close one eye and move your viewpoint so the electron path and its reflection in the mirror can be made coincident (overlap); this is correcting for parallax as discussed earlier. Align either extent of the beam with its image in the mirror; and read and record the position of the center of the beam on the scale. Move your viewpoint to align the other extent of the beam with its image in the mirror, and again read the scale.
@@ -360,20 +366,20 @@ https://www.youtube.com/watch?v=vqtHMKxzGdg
 
 <!---  Try to read and record the outside edges of the path for the energy-related reasons discussed previously.--->
 
-7. Calculate the individual trial's:
+13. Calculate the individual trial's:
     - Charge-to-mass ratio $e/m_\text{experimental}$ with {eq}`eq-e-over-m-ratio`
     - Charge-to-mass ratio uncertainty
       - MINIMIZE and take the difference to calculate its uncertainty. $\delta e/m_\text{experimental} = e/m_\text{experimental} - e/m_\text{experimental,minimized}$.
       - Consider all uncertainties ($\delta V$, $\delta B$, and $\delta r$). *Does any one measurement uncertainty seem to have the largest impact?*
     - Difference to accepted value $\Delta e/m_\text{experimental vs. accepted}$
 
-8. If your $e/m$ value seems reasonable, change the voltage and current to the values indicated for each subsequent trial (see {numref}`magnetic-force-Helmholtz-trials-table`), switch lab members as indicated, and complete the previous steps for that trial.
+14. If your $e/m$ value seems reasonable, change the voltage and current to the values indicated for each subsequent trial (see {numref}`magnetic-force-Helmholtz-trials-table`), switch lab members as indicated, and complete the previous steps for that trial.
 
-9. If any trials are clearly erroneous, retake the data.
+15. If any trials are clearly erroneous, retake the data.
 
 #### ○ Explore Electron Path in B-field
 
-10. The base that the bulb is plugged into can turn. Rotate the bulb while voltage and current are still on **(do not touch the bulb, just the rotator)**. See {numref}`fig-eOverM-rotator`. No need for data here, but take note for your post-lab analysis of how the electron path does and does not change. Does the radius change? Why or why not?
+16. The base that the bulb is plugged into can turn. Rotate the bulb while voltage and current are still on **(do not touch the bulb, just the rotator)**. See {numref}`fig-eOverM-rotator`. No need for data here, but take note for your post-lab analysis of how the electron path does and does not change. Does the radius change? Why or why not?
 
 
 ```{figure} EoverMFigures/Figure_07_HelmholtzBulbRotator_v01.png
@@ -387,7 +393,7 @@ Bulb rotator.
 
 #### ○ Data Analysis
 
-11. AFTER ALL TRIALS: Calculate the following average values, again remembering the note below: 
+17. AFTER ALL TRIALS: Calculate the following average values, again remembering the note below: 
   - $e/m_\text{experimental}$
   - $\delta e/m_\text{experimental}$
   - $\Delta e/m_\text{experimental vs. accepted}$
@@ -398,13 +404,13 @@ Bulb rotator.
     - However, for simplicity in today's lab and assuming systematic errors dominate, we can use it as an acceptable conservative upper bound of our experimental average's true uncertainty.
     ```
 
-12. Comparing them to the accepted value, does your average value agree with the accepted value within your uncertainty range? How does each measurement affect your final values?
+18. Comparing them to the accepted value, does your average value agree with the accepted value within your uncertainty range? How does each measurement affect your final values?
 
 ### ● Summary & Cleanup
 
-13. Create a summary table of your data (e.g. relevant final result values, averages, and differences from Part I and Part II).
+19. Create a summary table of your data (e.g. relevant final result values, averages, and differences from Part I and Part II).
 
-14. When you are finished, reset your experimental setup before leaving.
+20. When you are finished, reset your experimental setup before leaving.
 
     ```{admonition} CLEAN UP
     :class: important
