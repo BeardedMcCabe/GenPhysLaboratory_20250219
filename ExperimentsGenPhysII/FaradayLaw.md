@@ -206,10 +206,12 @@ Left) Coil wand with resistor and an example of the center of mass line and mass
 
 ## Experimental Procedure
 
+This lab is broken into two parts. In the first you will send a coil of wire through the magnetic field of a horseshoe magnet, and investigate magnetic flux, Faraday induction, and Lenz's Law. In the second part, you will analyze energy conservation and dissipation due to these concepts.
 
-### ● Preview
 
-```{admonition} PROCEDURE OVERVIEW
+### ● Part I: Faraday & Lenz's Laws
+
+```{admonition} PART I PROCEDURE OVERVIEW
 :class: note
 Run Part I for ***both 1.5 cm*** and ***3.0 cm*** magnetic plate spacing.
 - Part I.1: Magnetic Field
@@ -219,25 +221,8 @@ Run Part I for ***both 1.5 cm*** and ***3.0 cm*** magnetic plate spacing.
   - ● **PLOT** 1 of 2 ●: **photo/screenshot of Capstone's Voltage vs. Time and related Angle vs. Time for one full swing** (out and back) for just one of the 1.5 cm or 3.0 cm cases.
 - Part I.3: Lenz's Law
   - **Discuss & consider Lenz's Law**: Conceptual analysis for discussion in post-labs based on the existing plots
-
-Run Part II for narrow magnet spacing with magnetic plates **removed**.
-  - Part II.1: Energy Conservation by parts
-    - Determine total energy loss by measuring **change in energy of each individual part** of the system
-      - Part II.1.A.: Energy lost to just **friction** using change in *gravitational potential energy (angles)*
-        - Use Angle vs. Time plot and swing **without** resistor
-      - Part II.1.B.: Energy lost to just **resistor dissipation** using *power vs. time (power)*
-        - Use area under curve of Power vs. Time and swing **with resistor plugged in** to see amount of energy dissipated as heat by the resistor
-        - ● PLOT 2 of 2 ●: photo/screenshot of Capstone's Power vs. Time and related Angle vs. Time for one full swing (out and back).
-  - Part II.2 Energy Conservation on the whole
-    - Determine total energy loss by measuring **change in energy of the whole system**
-      - Total energy lost (combination of friction and circuitry) using change in *gravitational potential energy (angles)*
-        - Use same Angle vs. Time plot from Part II.1.B (**with resistor plugged in**)
-  - Compare Part II.1 sum of parts to Part II.2 total energy lost to friction and circuitry (resistor dissipation)
 ```
 
-
-
-### ● Part I: Preliminary Setup
 The experiment should be already set up for you as shown in {numref}`fig-faraday-setup`. If not, match the figure to include the magnetic pole plates (CAREFUL WITH FINGERS, ASK FOR ASSISTANCE AS NEEDED).
 
 ```{figure} FaradayLawFigures/Figure_05_EMFSetup_v02.png
@@ -248,9 +233,20 @@ The experiment should be already set up for you as shown in {numref}`fig-faraday
 Overall experimental setup consisting of induction wand mounted on the RMS as well as the horseshoe magnet. The cables connecting to the voltage sensor are plugged into the two jacks at the top of the wand.
 ```
 
+#### ○ Part I.0: Preliminary Setup
+
+1. Create a common data table including:
+
+    - $g = 9.803 \,\text{m/s}^2$: Accepted value of accel. due to gravity for Fairfield University
+    - $N = 200$: Number of turns of the coil
+    - $r = 0.013\,\text{m}$: Radius of the coil
+    - $A = \pi r^2$: Cross-sectional area of the wand's coil
+    - $B_{\text{max, 1.5 cm}}$: Max B-field strength between the magnetic plates at about $1.5\,\text{cm gap}$
+    - $B_{\text{max, 3.0 cm}}$: Max B-field strength between the magnetic plates at about $3.0\,\text{cm gap}$
 
 
 
+(Faraday_partI1MagneticField)=
 #### ○ Part I.1: Magnetic Field
 
 
@@ -264,24 +260,24 @@ How to measure positive magnetic field strength of horseshoe magnet. Use the per
 
 
 
-1. Set gap between the plates on the magnet to $1.5\,\text{cm}$ (Case 2 will be $3.0\,\text{cm}$).
-2. Starting in the first tab in the Capstone file, click Record and use the magnetic field sensor to measure the magnetic field strength between the poles of the magnet. First press the Tare button on the 2 Axis Magnetic Field Sensor with it held far from the magnets. Hold the field sensor sideways (same position as in {numref}`fig-faraday-setup`) and insert the tip into the gap between the poles of the magnet. When the measured field is positive the label of the magnetic field sensor points towards the South pole of the magnet. The magnetic field direction as measured (positive or negative) is as shown in the diagram on the sensor. The field lines coming out of the side of the sensor with the diagram and tare button on it indicate the magnetic field strength as positive, pointing North to South when external to the magnet.
-3. Hold the Induction Wand pendulum up out of the way. Insert the Magnetic Field Sensor probe between the magnetic pole plates. If the pole plate on the same side as the label on the magnetic field sensor is a south, the Magnetic Field Sensor signal is positive.
-4. Click RECORD. Use the Magnetic Field Sensor to determine which pole plate is north and put a label on it. You will need that for the Lenz's law part of the experiment. If a compass is available, check to make sure you have labeled your magnet correctly.
-5. Use the Magnetic Field Sensor to probe the field between the plates. Record the maximum field at the center of the plates.
-6. Determine the distance from the horseshoe magnet where the field drops to less than $0.001\,\text{T}$ (essentially zero). You will start the coil wand swinging this far from the magnet so that it begins its swing in approximately zero field. Enter your values in the Magnetic Field Data table.
-7. Click STOP.
+2. Set gap between the plates on the magnet to $1.5\,\text{cm}$ (Case 2 will be $3.0\,\text{cm}$).
+3. Starting in the first tab in the Capstone file, click *Record* and use the magnetic field sensor to measure the magnetic field strength between the poles of the magnet. First press the Tare button on the 2 Axis Magnetic Field Sensor while holding far from the magnets, in the same orientation as when taking measurements in following steps.
+4. Hold the Induction Wand pendulum up out of the way. Insert the tip of the Magnetic Field Sensor probe sideways between the magnetic pole plates as in {numref}`fig-setup-magnetic-field`. Note: The magnetic field direction as measured (positive or negative) is as shown in the diagram on the sensor. E.g. the value in Capstone will be positive if the B-field points in the same direction as the **perpendicular** arrow. ***Consider: What direction is positive for an external magnetic field? I.e. North-to-South or South-to-North?***
+5. Use the Magnetic Field Sensor to determine which pole plate is north and put a label on it. You will need that for the Lenz's law part of the experiment. If a compass is available, check to make sure you have labeled your magnet correctly. ***Which direction should the compass point?***
+6. Use the Magnetic Field Sensor to probe the field between the plates. Record the maximum field at the center of the plates.
+7. Determine the distance from the horseshoe magnet where the field drops to less than $0.001\,\text{T}$ (essentially zero). You will start the coil wand swinging from as least this far from the magnet so that it begins its swing in approximately zero field (later procedure steps will suggest $\sim 25^{\circ}$).
+8. Enter necessary values in your common data table.
+9. Click STOP. Repeat these steps when you return to this section for Case 2 ***after*** you complete the following sections for Case 1.
 
 
-
+(Faraday_partI2InducedEMF)=
 #### ○ Part I.2: Induced EMF (Voltage)
-8. In this section you will compare the calculated and experimental $\mathcal{E}$ (EMF or voltage) induced in the wand's coil.
-9. The coil should be able to move freely through the gap between the magnet poles, with the poles as close together as possible (about $1.5\,\text{cm}$ between the plates) without restricting the motion of the coil. The center of the coil should be moving right through the middle of the poles. The long axis of the plates is horizontal so the pendulum swings through a more uniform magnetic field.
-10. Switch the Capstone file to the second tab, with Voltage vs. time and angle vs. time plots.
-11. Ensure the Voltage Sensor banana plugs are plugged into the banana jacks on the end of the coil wand. Drape the Voltage Sensor wires over the rods so the wires will not exert a torque on the coil as it swings.
-12. Let the pendulum hang at rest. Press RECORD, and ZERO the voltage sensor by looking in the bottom recording bar, with the voltage sensor selected, click the zero button (zero with two yellow arrows pointing towards each other).
-13. You can now pull the pendulum back. Let the pendulum swing freely and ensure the pendulum can swing 10 oscillations over about 10 seconds. If it's longer, you may have extra friction from the wand hitting/scraping against the magnet or wires. No data is needed for this step, just double check your setup. Once you're sure the pendulum can freely swing, move on to the next step.
-14. WITH THE PENDULUM AT REST, click RECORD and pull the coil wand out a bit further than the zero-B-field position you measured in step 2 above ($\sim 25^{\circ}$). Release the wand and let it swing through the magnet out and back once (see {numref}`fig-faraday-EMFExample_withDemo`). Then click STOP. The graph should show at least four pulses similar to {numref}`fig-faraday-EMFExample`.
+10. In this section you will compare the calculated and experimental $\mathcal{E}$ (EMF or voltage) induced in the wand's coil when the coil is allowed to swing through the magnet.
+11. The coil should be able to move freely through the gap between the magnet poles, with the poles as close together as possible (about $1.5\,\text{cm}$ or $3.0\,\text{cm}$ between the plates depending on the current case) without restricting the motion of the coil. The center of the coil should be moving right through the middle of the poles. The long axis of the plates is horizontal so the pendulum swings through a more uniform magnetic field.
+12. Switch the Capstone file to the second tab, with Voltage vs. time and angle vs. time plots.
+13. Ensure the Voltage Sensor banana plugs are plugged into the banana jacks on the end of the coil wand (see {numref}`fig-faraday-setup`). Drape the Voltage Sensor wires over the rods so the wires will not exert a torque on the coil as it swings.
+14. Test the pendulum: While the pendulum hangs *at rest*, press RECORD and pull the pendulum back. Release the pendulum to swing freely and ensure the pendulum can swing 10 oscillations over about 10 seconds. If it takes longer or the pendulum stops before 10 full cylces, you may have extra friction from the wand hitting/scraping against the magnet or wires or the wires getting caught. No data is needed for this step, just double check your setup. Once you're sure the pendulum can freely swing, move on to the next step.
+15. WITH THE PENDULUM AT REST, click RECORD, and ZERO the voltage sensor by looking in the bottom recording bar, with the voltage sensor selected, click the zero button (zero with two yellow arrows pointing towards each other). Pull the coil wand out a bit further than the zero-B-field position you measured previously in {ref}`Faraday_partI1MagneticField` ($\sim 25^{\circ}$). Release the wand and let it swing through the magnet out and back for one full cycle (see {numref}`fig-faraday-EMFExample_withDemo`). Then click STOP. The graph should show at least four pulses similar to {numref}`fig-faraday-EMFExample`.
 
 ```{figure} FaradayLawFigures/Figure_05.5_EMFSetupSwingExample.png
 :name: fig-faraday-EMFExample_withDemo
@@ -299,32 +295,30 @@ Example of releasing the wand and example of just half a cycle the start/stop ti
 Example of plots for this part.
 ```
 
-15. Press the "Stop" button on Capstone.
 16. Enlarge the portion of the voltage vs. time graph where the coil passed through the magnet.
 17. Enable and use the Multi-coordinates tool ![RCCircuit_multicoordinateTool](../Intro/CapstoneFigures/FigCapstone_001_MultiCoordinateTool_v02.png) to determine the difference in time from the beginning to the end of the first peak.
-    - Record initial and final times (see {numref}`fig-faraday-EMFExample_withDemo`).
-18. Find the average EMF $(\mathcal{E}_\text{avg})$ by highlighting the first peak from when voltage lifts off from zero and returns to zero:
-    - Find the experimental area under the curve of the voltage versus time graph for the first peak using the area tool ![FaradayArea](../Intro/CapstoneFigures/FigCapstone_012_IntegralAreaTool.png). 
+    - Record initial and final times (see {numref}`fig-faraday-EMFExample_withDemo` and {numref}`fig-faraday-EMFExample`).
+18. Find the average EMF $(\mathcal{E}_\text{avg})$ by analyzing the first peak from when voltage lifts off from zero and returns to zero:
+    - Find the experimental area under the curve of the voltage versus time graph for the first peak using the data highlight ![FaradayHighlight](../Intro/CapstoneFigures/FigCapstone_013_DataHighlightTool.png) and area tools ![FaradayArea](../Intro/CapstoneFigures/FigCapstone_012_IntegralAreaTool.png).
       - See {numref}`fig-faraday-EMFExample_withDemo` and {numref}`fig-faraday-EMFExample`.
       - *You will have to CHANGE the tool properties number format to show sufficient significant digits.*
     - Calculate your experimental value of the average EMF using your plot-derived values and the left-hand side of {eq}`eq-faraday-average`. (The integral is the area under the curve)
-    - Calculate the expected value of the average EMF using the right-hand side of {eq}`eq-faraday-average`.
+    - Calculate the expected value of the average EMF using the right-hand side of {eq}`eq-faraday-average`. Numer of turns and cross-sectional area of the coil are noted earlier.
     - Compare your experimental and expected values with a percent difference (reminder in {ref}`errorAnalysis-percentDiff-experimentalExpected`).
-    - Use $N = 200$ for the number of turns of the coil and $A = \pi r^2 = \pi (0.013\,\text{m})^2$ for its area.
 19. Find change in Magnetic Flux through ***a single loop***
     - Determine your experimental change in Magnetic flux for a single loop using your average EMF value and {eq}`eq-faraday-average` (think back to {eq}`eq-magnetic-flux` on what magnetic flux is).
     - Calculate the expected change in magnetic flux for a single loop calling back to {eq}`eq-magnetic-flux`.
     - Compare your experimental and expected values with a percent difference (reminder in {ref}`errorAnalysis-percentDiff-experimentalExpected`).
 20. ***PLOT 1 of 2*** --- for just the first case ($1.5\,\text{cm}$): take a photo/screenshot of Capstone's Voltage vs. Time and related Angle vs. Time for one full swing (out and back, example in {numref}`fig-faraday-EMFExample`).
-21. Increase the magnet gap to $3.0\,\text{cm}$ and repeat previous steps, still releasing the pendulum from the same position you used before.
+21. Increase the magnet gap to $3.0\,\text{cm}$ and repeat previous steps in {ref}`Faraday_partI1MagneticField` and {ref}`Faraday_partI2InducedEMF`, still releasing the pendulum from the same position you used before.
 
 
 
 #### ○ Part I.3: Lenz's Law
-- Think about this section as you will need to cover it in your post-lab submission.
-- Look at the circuit diagram showing the coil orientation printed on the Induction Wand (also shown in {numref}`fig-experimental-equipment`). Note that we have connected the red plug from the Voltage Sensor to the upper port and the black plug to the lower port. If coil current flows in the direction shown by the arrows (clockwise), then the upper port becomes positive due to excess positive charge there, and the lower port becomes negative due to decrease in positive charge. Since the red lead from the Voltage Sensor is attached to the upper port, the Voltage Sensor would read a positive voltage. Caution: although current flow in an external circuit is from positive to negative, current flow inside a battery or power supply must be from negative to positive.
-- Lenz’s Law states that the current induced in a coil by a changing magnetic field through the coil will flow in a direction to oppose the change which produced it. In particular, the field produced by the induced current will be in a direction to try and prevent the field through the coil from changing.
-- The magnetic field points from the north pole to the south pole. As the coil enters the magnet, the magnetic flux increases in that direction. Lenz’s Law says that the induced voltage opposes the change in flux. 
+22. Think about this section as you will need to cover it in your post-lab submission.
+    - Look at the circuit diagram showing the coil orientation printed on the Induction Wand (also shown in {numref}`fig-experimental-equipment`). Note that we have connected the red plug from the Voltage Sensor to the upper port and the black plug to the lower port. If coil current flows in the direction shown by the arrows (clockwise), then the upper port becomes positive due to excess positive charge there, and the lower port becomes negative due to decrease in positive charge. Since the red lead from the Voltage Sensor is attached to the upper port, the Voltage Sensor would read a positive voltage. Caution: although current flow in an external circuit is from positive to negative, current flow inside a battery or power supply must be from negative to positive.
+    - Lenz’s Law states that the current induced in a coil by a changing magnetic field through the coil will flow in a direction to oppose the change which produced it. In particular, the field produced by the induced current will be in a direction to try and prevent the field through the coil from changing.
+    - The magnetic field points from the north pole to the south pole. As the coil enters the magnet, the magnetic flux increases in that direction. Lenz’s Law says that the induced voltage opposes the change in flux. 
 
     ```{admonition} Lenz's Law?
     :class: question
@@ -347,18 +341,36 @@ This picture shows the resistive load attached to the coil wand. The cables lead
 ```
 --->
 
-### ● Part II: Energy Conservation Preliminary Setup
+### ● Part II: Energy Conservation
 
-1. Measure resistance of both the induction wand itself and the resistor itself. 
+
+```{admonition} PART II PROCEDURE OVERVIEW
+:class: note
+Run Part II for narrow magnet spacing with magnetic plates **removed**.
+  - Part II.1: Energy Conservation by parts
+    - Determine total energy loss by measuring **change in energy of each individual part** of the system
+      - Part II.1.Friction.: Energy lost to just **friction** using change in *gravitational potential energy (angles)*
+        - Use Angle vs. Time plot and swing **without** resistor
+      - Part II.1.Resistor.: Energy lost to just **resistor dissipation** using *power vs. time (power)*
+        - Use area under curve of Power vs. Time and swing **with resistor plugged in** to see amount of energy dissipated as heat by the resistor
+        - ● PLOT 2 of 2 ●: photo/screenshot of Capstone's Power vs. Time and related Angle vs. Time for one full swing (out and back).
+  - Part II.2.Total: Energy Conservation on the whole
+    - Determine total energy loss by measuring **change in energy of the whole system**
+      - Total energy lost (combination of friction and circuitry) using change in *gravitational potential energy (angles)*
+        - Use same Angle vs. Time plot from Part II.1.Resistor (**with resistor plugged in**)
+  - Compare sum of the parts in Part II.1 to Part II.2.Total total energy lost to friction and circuitry (resistor dissipation)
+```
+
+#### ○ Part II.0: Preliminary Setup
+
+23. Measure resistance of both the induction wand itself and the resistor itself. 
     - With the coil ***outside*** of the magnetic field, use an ohmmeter to:
       - Measure the resistance $R$ of the coil in the induction wand. *Why must the coil be out of the field of the horseshoe magnet when measuring resistance?*
       - Verify the resistance $r$ of the $\sim 4.5-5\,\Omega$ resistor. 
     - In Capstone, go to the next page. On the left side, click on the calculator. Update the resistance values in the calculator to be accurate to your setup and click accept. Finally click the calculator to close it. Before you start any additional trials, click the calculator to make sure the resistor values are correct and have not reverted to the default values.
 
 
-
-
-2. Change the setup to match {numref}`fig-resistor-overall-setup`.
+24. Change the setup to match {numref}`fig-resistor-overall-setup`.
     - Remove the magnet pole plates. (ASK FOR ASSISTANCE AS NEEDED) Move the magnets as close to each other as possible, making sure that you leave enough space for the coil to move through the gap.
 
 
@@ -370,7 +382,7 @@ This picture shows the resistive load attached to the coil wand. The cables lead
 This picture shows the overall setup for the current part. Note: magnetic pole plates are removed and magnet spacing shrunk. Resistive load attached to the coil wand. The cables leading to the voltage sensor are plugged into the resistor.
 ```
 
-3. Connect the voltage sensor wires with the $4.7\,\Omega$ resistor into the coil wand.
+25. Connect the voltage sensor wires with the $4.7\,\Omega$ resistor into the coil wand.
     - Make sure for the first part (friction only), only half of the resistor is plugged so current does not flow, but the weight distribution stays consistent (see {numref}`fig-resistor-overall-setup-unplugged`). *Check that the alignment generally matches the alignment you will have later when the resistor is plugged in ({ref}`data-taking-energy-lost-due-to-resistor`).*
 
 
@@ -383,18 +395,18 @@ This picture shows the resistor half plugged-in.
 ```
 
 
-3. Measure the distance of the center of mass of the wand (marked on the white piece of paper taped to the wand) from the pivot (the screw). Note the result in the data table. (see {numref}`fig-experimental-equipment`)
-4. Note the mass of the wand (also noted on the wand) in your data table.
+26. Measure the distance of the center of mass of the wand (marked on the white piece of paper taped to the wand) from the pivot (the screw). Note the result in the data table. (see {numref}`fig-experimental-equipment`)
+27. Note the mass of the wand (also noted on the wand) in your data table.
 
 
 
-#### ○ Part II.1.A: Energy Lost due to Only Friction
+#### ○ Part II.1.Friction: Energy Lost due to Only Friction
 
-5. First determine the amount of energy lost to friction by letting the pendulum swing through the magnet with the resistor disconnected. Reminder, this is done by having the resistor plugged into the wand with only one of the banana plugs connected (see {numref}`fig-experimental-equipment`). This makes sure that no current flows through the wand (and the resistor) while leaving the center of mass of the wand relatively unchanged.
-6. Press the "Record" button on Capstone with the coil **at rest** between the magnet poles. The rotary sensor zeros itself out whenever you start recording, we want to make sure $0°$ is when the wand is at rest inside the magnet.
-7. Rotate the wand to an initial angle of $25^{\circ}$ and let it go.
-8. Press the "Stop" button after the wand has reached the other side.
-9. Zoom in to the portion of the angle vs. time graph where the coil passed through the magnet. Select the peak and get the maximum (initial) and then the minimum (final) angle of the motion to find the initial angle ($\theta_{i}$) and the angle to which the pendulum rises after it has passed once through the magnet ($\theta_{f}$). (see {numref}`fig-faraday-POWERExample`-bottom)
+28. First determine the amount of energy lost to friction by letting the pendulum swing through the magnet with the resistor disconnected. Reminder, this is done by having the resistor plugged into the wand with only one of the banana plugs connected (see {numref}`fig-experimental-equipment`). This makes sure that no current flows through the wand (and the resistor) while leaving the center of mass of the wand relatively unchanged.
+29. Press the "Record" button on Capstone with the coil **at rest** between the magnet poles. The rotary sensor zeros itself out whenever you start recording, we want to make sure $0°$ is when the wand is at rest inside the magnet.
+30. Rotate the wand to an initial angle of $25^{\circ}$ and let it go.
+31. Press the "Stop" button after the wand has reached the other side.
+32. Zoom in to the portion of the angle vs. time graph where the coil passed through the magnet. Select the peak and get the maximum (initial) and then the minimum (final) angle of the motion to find the initial angle ($\theta_{i}$) and the angle to which the pendulum rises after it has passed once through the magnet ($\theta_{f}$). (see {numref}`fig-faraday-POWERExample`-bottom)
 
 
 ```{figure} FaradayLawFigures/Figure_11_examplePower_v04.png
@@ -405,12 +417,12 @@ This picture shows the resistor half plugged-in.
 Example of plots for this part.
 ```
 
-10. Calculate the energy lost to friction using {eq}`eq-energy-lost-angle`.
+33. Calculate the energy lost to friction using {eq}`eq-energy-lost-angle`.
 
 (data-taking-energy-lost-due-to-resistor)=
-#### ○ Part II.1.B: Energy Lost due to Only Resistor
+#### ○ Part II.1.Resistor: Energy Lost due to Only Resistor
 
-11. Now connect the resistor by plugging in both plugs in series with the wand ({numref}`fig-resistor-overall-setup-pluggedin`).
+34. Now connect the resistor by plugging in both plugs in series with the wand ({numref}`fig-resistor-overall-setup-pluggedin`).
 
 ```{figure} FaradayLawFigures/Figure_08_resistorPlugged_v03small.png
 :name: fig-resistor-overall-setup-pluggedin
@@ -420,28 +432,28 @@ Example of plots for this part.
 The resistor fully plugged-in.
 ```
 
-12. Press the "Record" button on Capstone with the coil at rest between the magnet poles.
-13. Rotate the wand to an initial angle of $25^{\circ}$ and let it go.
-14. Press the "Stop" button after the wand has reached the other side.
-15. Detemine energy dissipated by the resistor.
+35. Press the "Record" button on Capstone with the coil at rest between the magnet poles.
+36. Rotate the wand to an initial angle of $25^{\circ}$ and let it go.
+37. Press the "Stop" button after the wand has reached the other side.
+38. Detemine energy dissipated by the resistor.
     - Highlight both peaks on the power vs. time plot and find the area under the curve (area tool ![FaradayArea](../Intro/CapstoneFigures/FigCapstone_012_IntegralAreaTool.png)).
     - Right-click the displayed value to set the numeric format and increase sig. figs. Record this area as it equals the the energy dissipated by the resistor as presented in {eq}`eq-energy-loss`.
+39. Calculate the sum total energy lost by parts due to friction and resistor individually to compare to the next section.
 
+#### ○ Part II.2.Total: Energy Lost Overall
 
-#### ○ Part II.2: Energy Lost Overall
-
-16. Using the same data run as Part II.1.B, measure the initial angle ($\theta_{i}$) and the angle to which the pendulum rises after it has passed once through the magnet ($\theta_{f}$), but now that the resistor was fully plugged in.
-17. ***PLOT 2 of 2*** --- for just when the resistor was plugged in: take a photo/screenshot of Capstone's Power vs. Time and related Angle vs. Time for one-half swing (out but not back, example in {numref}`fig-faraday-POWERExample`).
-18. Calculate the total energy lost using {eq}`eq-energy-lost-angle`.
-19. Compare this total energy lost value (Part II.2) to the sum of the energy lost due to friction (Part II.1.A) and the energy dissipated by the resistor (Part II.1.B).
+40. Using the same data run as Part II.1.Resistor, measure the initial angle ($\theta_{i}$) and the angle to which the pendulum rises after it has passed once through the magnet ($\theta_{f}$), but now that the resistor was fully plugged in.
+41. ***PLOT 2 of 2*** --- for just when the resistor was plugged in: take a photo/screenshot of Capstone's Power vs. Time and related Angle vs. Time for one-half swing (out but not back, example in {numref}`fig-faraday-POWERExample`).
+42. Calculate the total energy lost using {eq}`eq-energy-lost-angle`.
+43. Compare this total energy lost value (Part II.2.Total) to the sum of the energy lost due to friction (Part II.1.Friction) and the energy dissipated by the resistor (Part II.1.Resistor).
     - Calculate the percent difference between the two.
 
 
 ### ● Summary & Cleanup
 
-1. Create a summary table of your data (e.g. relevant final result values and percent differences from Part I and Part II).
+44. Create a summary table of your data (e.g. relevant final result values and percent differences from Part I and Part II).
 
-2. When you are finished, reset your experimental setup before leaving.
+45. When you are finished, reset your experimental setup before leaving.
 
     ```{admonition} CLEAN UP
     :class: important
@@ -483,7 +495,7 @@ The resistor fully plugged-in.
 - In a **paragraph**, summarize the results you have determined for all cases. Consider:
   - What was the point of today's lab; what did we aim to discover?
   - PART I
-    - Do your experimental results for average EMF and change in flux from part 1 agree with the expected values? By how much?
+    - How well do your experimental results agree or disagree with expected values for average EMF and change in flux for a single loop? By how much?
     - What was the induced voltage of the coil of wire swinging into the magnetic field dependent on?
     - Looking at your plot from Capstone of Voltage vs. Time, there should be four spikes in voltage during one whole cycle forward and back.
       - Why are the first and second peaks opposite signs (positive vs. negative, look back on the wand's circuit diagram and think about how current would flow), and how does that relate to Lenz's Law? 
@@ -512,12 +524,12 @@ The resistor fully plugged-in.
 
 ## The Whiteboard
 
-```{figure} FaradayLawFigures/Faraday_Summer_2025_01_v01.jpg
+```{figure} FaradayLawFigures/Faraday_Summer_2025_01_v02.jpg
 :name: faraday_whiteboard_01
 :width: auto
 :align: center
 
-Old overview, majority still the same, but different induced voltage values to find.
+Overview.
 ```
 
 ```{figure} FaradayLawFigures/Faraday_Spring_2025_02_v01.jpg
@@ -528,7 +540,7 @@ Old overview, majority still the same, but different induced voltage values to f
 Multimeter settings, changing significant figures in Capstone (must be done every new data run).
 ```
 
-```{figure} FaradayLawFigures/Faraday_Spring_2025_03_v01.jpg
+```{figure} FaradayLawFigures/Faraday_Spring_2025_03_v02.jpg
 :name: faraday_whiteboard_03
 :width: auto
 :align: center
