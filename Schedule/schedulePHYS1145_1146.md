@@ -8,7 +8,7 @@ See printed schedule below {numref}`schedulePHYS1145L`.
 | Week Of | M | T | W | R | F |
 |--------|---|---|---|---|---|
 | 09-07   | ***Labor Day*** | ***[First Day of Classes]*** | --- | --- | --- |
-| 09-14   | [\| Lab 00 \|<br>Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall) | --- | [\| Lab 00 \|<br>Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall) | --- | --- |
+| 09-14   | [2 pm: \| Lab 00 \|<br>Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall)<br>[6 pm: \| Lab 00 \|<br>Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall)<br>[6 pm: \| Lab 0<br>Introductory Lab: Domino Size & Density](#intro-lab-dominos-overall) | --- | [\| Lab 00 \|<br>Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall) | --- | --- |
 | 09-21   | [\| Lab 0<br>Introductory Lab: Domino Size & Density](#intro-lab-dominos-overall) | --- | [\| Lab 0 \|<br>Introductory Lab: Domino Size & Density](#intro-lab-dominos-overall) | --- | --- |
 | 09-28   | [\| Lab 1 \|<br>Force Table with 3 Vectors at Equilibrium](#force-table-with-3-vectors-overall) | --- | [\| Lab 1 \|<br>Force Table with 3 Vectors at Equilibrium](#force-table-with-3-vectors-overall) | --- | --- |
 | 10-05   | [\| Lab 2 \|<br>Acceleration due to Gravity, g, with Glider on Tilted Air Track](#acceleration-due-to-g-overall) | --- | [\| Lab 2 \|<br>Acceleration due to Gravity, g, with Glider on Tilted Air Track](#acceleration-due-to-g-overall) | --- | --- |
@@ -27,7 +27,7 @@ See printed schedule below {numref}`schedulePHYS1145L`.
 
 ## Printed Lab Schedule
 
-```{figure} ScheduleFigures/2026_Fall_LabSchedulePrintout_1145L_ONLY_v1.png
+```{figure} ScheduleFigures/2026_Fall_LabSchedulePrintout_1145L_ONLY_v2.png
 :name: schedulePHYS1145L
 :width: 100%
 :class: full-height
