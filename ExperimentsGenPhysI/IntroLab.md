@@ -17,7 +17,7 @@
 Review and understand:
 - How to take length and mass measurements
 - Characterizing measurement uncertainties due to instrument precision
-- Characterizign measurement uncertainties with standard deviation
+- Characterizing measurement uncertainties with standard deviation
 ```
 
 

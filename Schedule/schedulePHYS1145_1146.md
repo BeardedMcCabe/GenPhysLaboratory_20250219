@@ -1,5 +1,5 @@
 (lab-days-1145-1146-links)=
-# Lab Days for PHYS 1145L (with links)
+# ● Lab Days for PHYS 1145L (with links)
 
 See printed schedule below {numref}`schedulePHYS1145L`.
 
@@ -8,9 +8,9 @@ See printed schedule below {numref}`schedulePHYS1145L`.
 | Week Of | M | T | W | R | F |
 |--------|---|---|---|---|---|
 | 09-07   | ***Labor Day*** | ***[First Day of Classes]*** | --- | --- | --- |
-| 09-14   | [2 pm: \| Lab 00 \|<br>Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall)<br>[6 pm: \| Lab 00 \|<br>Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall)<br>[6 pm: \| Lab 0<br>Introductory Lab: Domino Size & Density](#intro-lab-dominos-overall) | --- | [\| Lab 00 \|<br>Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall) | --- | --- |
-| 09-21   | [\| Lab 0<br>Introductory Lab: Domino Size & Density](#intro-lab-dominos-overall) | --- | [\| Lab 0 \|<br>Introductory Lab: Domino Size & Density](#intro-lab-dominos-overall) | --- | --- |
-| 09-28   | [\| Lab 1 \|<br>Force Table with 3 Vectors at Equilibrium](#force-table-with-3-vectors-overall) | --- | [\| Lab 1 \|<br>Force Table with 3 Vectors at Equilibrium](#force-table-with-3-vectors-overall) | --- | --- |
+| 09-14   | [2 pm: \| Lab 00 \|<br>Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall)<br> <br>[6 pm: \| Lab 00 \|<br>Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall)<br>[6 pm: \| Lab 0<br>Introductory Lab: Domino Size & Density](#intro-lab-dominos-overall) | --- | [\| Lab 00 \|<br>Excel and Spreadsheets, Syllabus](#data-acquisition-and-analysis-overall) | --- | --- |
+| 09-21   | [2 pm: \| Lab 0<br>Introductory Lab: Domino Size & Density](#intro-lab-dominos-overall)<br> <br>[6 pm: \| Lab 1 \|<br>Force Table with 3 Vectors at Equilibrium](#force-table-with-3-vectors-overall) | --- | [\| Lab 0 \|<br>Introductory Lab: Domino Size & Density](#intro-lab-dominos-overall) | --- | --- |
+| 09-28   | [2 pm: \| Lab 1 \|<br>Force Table with 3 Vectors at Equilibrium](#force-table-with-3-vectors-overall)<br> <br>6 pm: NONE | --- | [\| Lab 1 \|<br>Force Table with 3 Vectors at Equilibrium](#force-table-with-3-vectors-overall) | --- | --- |
 | 10-05   | [\| Lab 2 \|<br>Acceleration due to Gravity, g, with Glider on Tilted Air Track](#acceleration-due-to-g-overall) | --- | [\| Lab 2 \|<br>Acceleration due to Gravity, g, with Glider on Tilted Air Track](#acceleration-due-to-g-overall) | --- | --- |
 | 10-12   | ***Fall Break <br>(no lab)*** | ***Fall Break <br>(no lab)*** | [\| Lab 3 \|<br>Simple Projectile Motion with Kinematics](#simple-projectile-motion-overall) | --- | --- |
 | 10-19   | [\| Lab 3 \|<br>Simple Projectile Motion with Kinematics](#simple-projectile-motion-overall) | --- | [\| Lab 4 \|<br>Centripetal Force with Mass on Rotating Arm](#centripetal-force-lab-overall) | --- | --- |

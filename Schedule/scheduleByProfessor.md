@@ -1,5 +1,5 @@
 (weekly-meeting-times-makeup-procedure)=
-# Weekly Meeting Times by Instructor & Lab Makeup Procedure
+# ● Weekly Meeting Times by Instructor & Lab Makeup Procedure
 
 
 

@@ -1,4 +1,4 @@
-# Capstone Tips & Tools
+# ● Capstone Tips & Tools
 
 ## Sensor Precision & Notes
 

@@ -1,4 +1,4 @@
-# Vernier Calipers
+# ● Vernier Calipers
 
 ## The Apparatus
 

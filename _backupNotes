@@ -1,3 +1,56 @@
+
+```{admonition} Note
+:class: note
+note
+```
+
+```{admonition} Tip
+:class: tip
+tip
+```
+
+```{admonition} Important
+:class: important
+important
+```
+
+```{admonition} Warning
+:class: warning
+warning
+```
+
+```{admonition} Caution
+:class: caution
+caution
+```
+
+```{admonition} Attention
+:class: attention
+attention
+```
+
+```{admonition} Danger
+:class: danger
+danger
+```
+
+```{admonition} Error
+:class: error
+error
+```
+
+```{admonition} Hint
+:class: hint
+hint
+```
+
+```{admonition} See Also
+:class: seealso
+see also
+```
+
+
+
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:

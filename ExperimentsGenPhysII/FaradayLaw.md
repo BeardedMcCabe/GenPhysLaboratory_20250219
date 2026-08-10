@@ -354,11 +354,11 @@ Run Part II for narrow magnet spacing with magnetic plates **removed**.
       - Part II.1.Resistor.: Energy lost to just **resistor dissipation** using *power vs. time (power)*
         - Use area under curve of Power vs. Time and swing **with resistor plugged in** to see amount of energy dissipated as heat by the resistor
         - ● PLOT 2 of 2 ●: photo/screenshot of Capstone's Power vs. Time and related Angle vs. Time for one full swing (out and back).
-  - Part II.2.Total: Energy Conservation on the whole
+  - Part II.2.TotalE: Energy Conservation on the whole
     - Determine total energy loss by measuring **change in energy of the whole system**
       - Total energy lost (combination of friction and circuitry) using change in *gravitational potential energy (angles)*
         - Use same Angle vs. Time plot from Part II.1.Resistor (**with resistor plugged in**)
-  - Compare sum of the parts in Part II.1 to Part II.2.Total total energy lost to friction and circuitry (resistor dissipation)
+  - Compare sum of the parts in Part II.1 to Part II.2.TotalE total energy lost to friction and circuitry (resistor dissipation)
 ```
 
 #### ○ Part II.0: Preliminary Setup
@@ -440,12 +440,12 @@ The resistor fully plugged-in.
     - Right-click the displayed value to set the numeric format and increase sig. figs. Record this area as it equals the the energy dissipated by the resistor as presented in {eq}`eq-energy-loss`.
 39. Calculate the sum total energy lost by parts due to friction and resistor individually to compare to the next section.
 
-#### ○ Part II.2.Total: Energy Lost Overall
+#### ○ Part II.2.TotalE: Energy Lost Overall
 
 40. Using the same data run as Part II.1.Resistor, measure the initial angle ($\theta_{i}$) and the angle to which the pendulum rises after it has passed once through the magnet ($\theta_{f}$), but now that the resistor was fully plugged in.
 41. ***PLOT 2 of 2*** --- for just when the resistor was plugged in: take a photo/screenshot of Capstone's Power vs. Time and related Angle vs. Time for one-half swing (out but not back, example in {numref}`fig-faraday-POWERExample`).
 42. Calculate the total energy lost using {eq}`eq-energy-lost-angle`.
-43. Compare this total energy lost value (Part II.2.Total) to the sum of the energy lost due to friction (Part II.1.Friction) and the energy dissipated by the resistor (Part II.1.Resistor).
+43. Compare this total energy lost value (Part II.2.TotalE) to the sum of the energy lost due to friction (Part II.1.Friction) and the energy dissipated by the resistor (Part II.1.Resistor).
     - Calculate the percent difference between the two.
 
 

@@ -20,6 +20,32 @@ img {
 }
 
 /*
+@media (min-width: 1280px) {
+  .article-grid,
+  .xl\:article-grid {
+    grid-template-columns: [screen-start] .25rem [screen-inset-start] minmax(1rem, 4rem) [page-start] 3rem [page-inset-start] minmax(4rem, 9rem) [body-outset-start] 3rem [body-start gutter-left-start] 1rem [body-inset-start] minmax(8ch, 1fr) [middle-start] minmax(8ch, 1fr) [gutter-left-end] minmax(8ch, 1fr) minmax(8ch, 1fr) [gutter-right-start] minmax(8ch, 1fr) [middle-end] minmax(8ch, 1fr) [body-inset-end] 1rem [body-end gutter-right-end] 3rem [body-outset-end] minmax(5rem, 13rem) [page-inset-end] 3rem [page-end] minmax(1rem, 4rem) [screen-inset-end] .25rem [screen-end];
+  }
+}
+*/
+
+/*
+@media (min-width: 1280px) {
+  .article-grid,
+  .xl\:article-grid {
+    grid-template-columns: [screen-start] .125rem [screen-inset-start] minmax(.5rem, 2rem) [page-start] 3rem [page-inset-start] minmax(3rem, 7rem) [body-outset-start] 3rem [body-start gutter-left-start] 1rem [body-inset-start] minmax(8ch, 1fr) [middle-start] minmax(8ch, 1fr) [gutter-left-end] minmax(8ch, 1fr) minmax(8ch, 1fr) [gutter-right-start] minmax(8ch, 1fr) [middle-end] minmax(8ch, 1fr) [body-inset-end] 1rem [body-end gutter-right-end] 3rem [body-outset-end] minmax(3rem, 7rem) [page-inset-end] 3rem [page-end] minmax(.5rem, 2rem) [screen-inset-end] .125rem [screen-end];
+  }
+}
+*/
+/*
+@media (min-width: 1000px) {
+  .article-grid,
+  .xl\:article-grid {
+    grid-template-columns: [screen-start] .125rem [screen-inset-start] minmax(0rem, 18rem) [page-start] 3rem [page-inset-start] minmax(3rem, 7rem) [body-outset-start] 3rem [body-start gutter-left-start] 1rem [body-inset-start] minmax(8ch, 1fr) [middle-start] minmax(8ch, 1fr) [gutter-left-end] minmax(8ch, 1fr) minmax(8ch, 1fr) [gutter-right-start] minmax(8ch, 1fr) [middle-end] minmax(8ch, 1fr) [body-inset-end] 1rem [body-end gutter-right-end] 3rem [body-outset-end] minmax(3rem, 7rem) [page-inset-end] 3rem [page-end] minmax(0rem, 18rem) [screen-inset-end] .125rem [screen-end];
+  }
+}
+*/
+
+/*
 .inline-img-sm {
     height: 60px !important;
     width: auto !important;
