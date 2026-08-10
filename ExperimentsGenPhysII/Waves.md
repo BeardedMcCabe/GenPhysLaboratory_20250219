@@ -65,7 +65,6 @@ As you add more standing waves on that string, you find other possible patterns 
 Since the propagation velocity is only a function of the physical properties of the cord, the wavelength can be adjusted by selecting the appropriate frequencies of vibration that satisfy the normal-mode condition of 'nodes at least at the ends'. Since the length of the cord must be such that nodes exist at each end, the length of the cord $L$, tied at each end, must be an integral number of $\lambda$/2 {eq}`waves-wavelengthsEndToEndNode`. As an example for a standing wave on a string, we could find wavelength $\lambda_n$, where $n$ is the harmonic (here showing generalized version, first, second, and third harmonics, as visualized in {numref}`waves_harmonics_illustration`, and assuming end-to-end length of string $L = 0.6\,\text{m}$) when the **entire length of the string from first node to last node is considered**:
 
 
-
 ```{math}
 :label: waves-wavelengthsEndToEndNode
 \begin{aligned}
@@ -131,7 +130,7 @@ https://www.youtube.com/watch?v=fQfNq8tJp3s
 In this experiment, similar to that seen in {ref}`demo-video-1-wavemotion-highspeed` and {numref}`fig-string-vibrator-schematic`, one end of a horizontal cord is attached to the string vibrator; the other end, after passing over a pulley, is attached to a hanging mass. We can adjust the amplitude and the frequency of the wave by adjusting the output of the sine wave generator (see {numref}`fig-string-vibrator`), which powers the string vibrator. The tension is determined by the weight of the hanging mass. Therefore for a given tension and linear density, the frequency can be adjusted and measured for a standing wave condition. A measurement of node spacing establishes the wavelength. With the frequency and wavelength measured, the velocity can be determined from {eq}`eq-wave-frequency`. From a measurement of the linear density of the cord and the tension in the cord, we can independently determine the velocity from {eq}`eq-wave-velocity`. The two independently determined values of velocity of propagation can be compared.
 
 
-```{figure} WavesFigures/Figure_02_setupExample.png
+```{figure} WavesFigures/Figure_03_setupExample.png
 :name: fig-string-vibrator-schematic
 :align: center
 
@@ -160,10 +159,10 @@ Setup with sine wave generator and string vibrator.
 | **Signal Generation** | • Sine wave generator $(1 - 800\,\text{Hz}$, $0.1\,\text{Hz}$ resolution)<br>• Coarse and fine adjustment knobs ($1\,\text{Hz}$ and $0.1\,\text{Hz}$ increments)<br>• Amplitude control to adjust wave size (decrease to prevent string from hitting table) |
 | **Wave Apparatus** | • PASCO String vibrator |
 | **Electrical Connections** | • 2x banana-plug wires to connect sine wave generator to string vibrator |
-| **Measurement Tools** | • Meter sticks ($1\,\text{m}$ and $2\,\text{m}$, additional on front wall) |
+| **Measurement Tools** | • Meter sticks ($1\,\text{m}$ and $2\,\text{m}$, ***available on front wall***) |
 | **Mounting Hardware** | • Clamp to secure string vibrator to desk |
 | **Strings** | • 2 strings of different linear densities (yellow and white)<br>• Length: $\sim 1-1.5\,\text{m}$ |
-| **Mass & Tension System** | • Mass hanger of $\sim 50\,\text{g}$ with $100\,\text{g}$ and $200\,\text{g}$ disk masses (at front table)<br> • Black, low-friction pulley to convert hanging mass into string tension |
+| **Mass & Tension System** | • Mass hanger of $\sim 50\,\text{g}$ with $100\,\text{g}$ and $200\,\text{g}$ disk masses ***(at front table)***<br> • Black, low-friction pulley to convert hanging mass into string tension |
 | **Force Measurement** | • PASCO High-Resolution Force Sensor<br>• Resolution: $0.002\,\text{N}$ or $0.0002\,\text{kg}$ |
 ```
 
@@ -214,13 +213,13 @@ The cases today are as shown in {numref}`waves-cases-table`.
     - expected propagation velocities
     - expected propagation velocity uncertainties
 
-2. Measure the length and your estimated uncertainty of each cord by untying them completely and gently stretching them along a meter stick.
+2. Measure the length and your estimated uncertainty of each cord by untying them completely and gently stretching them along $1\,\text{m}$ or $2\,\text{m}$ sticks ***(available on front wall, either side of white board).***
 
 3. Weigh each cord using the force sensor as a digital scale with the provided Capstone file (see desktop). Zero sensor, hang string on hook; after values have settled (~5 - 10 seconds), highlight settled region of mass vs. time plot, see data table with associated data points highlighted, record mean and standard deviation (as mass uncertainty) to the nearest thousandth of a gram.
 
 4. Calculate each cord's linear density (mass per unit length, $\mu=m/L$) and uncertainty by maximizing and taking the difference ($\delta\mu= (m+\delta m)/(L - \delta L) - \mu$).
 
-5. Weigh each hanging mass (mass on hanger) and determine its uncertainty similar to how you found cords' masses earlier.
+5. Weigh each hanging mass (mass on hanger) and determine its uncertainty similar to how you found cords' masses earlier. ***Slotted masses at front table.***
 
 6. Calculate each hanging mass's related tension ($F_T = mg$) and uncertainty by maximizing and taking the difference ($\delta F_T = (m + \delta m) g - F_T$).
 
@@ -242,17 +241,22 @@ The cases today are as shown in {numref}`waves-cases-table`.
 --->
 
 8. Create a data table for the current case with rows for each trial (harmonic number $n = 1, 2, 3, 4, 5,$ and $6$) and average propagation velocity and uncertainty; columns for (but not limited to):
-    - measured node-to-furthest-best-node distance
-    - estimated node-to-furthest-best-node distance uncertainty
-    - measured/determined wavelength $\lambda_n$
-    - wavelength uncertainty $\delta \lambda_n$
+    - Harmonic number
     - minimum measured frequency $f_{n\text{,min}}$
     - maximum measured frequency $f_{n\text{,max}}$
     - the measured frequency $f_n$
     - the measured frequency uncertainty $\delta f_n$
     - the ratio $f_n/f_1$ of the $n$-harmonic's frequency to the fundamental
-    - calculated propagation velocity $v_n=\lambda_n f_n$
-    - calculated propagation velocity uncertainty
+    - Number of nodes used across length measurement
+    - Number of anti-nodes used across length measurement
+    - measured distance between your selected nodes
+    - estimated uncertainty in distance between your selected nodes
+    - determined wavelength $\lambda_n$
+    - wavelength uncertainty $\delta \lambda_n$
+    - calculated propagation velocity $v_n$
+    - calculated propagation velocity uncertainty $\delta v_n$
+    - difference between experimental and expected $v_n$
+    - sum of experimental and expected velocity uncertainties
 
 9. Tie one end of the cord to the vibrating blade, run it over the pulley, and hang the current case's total mass (slotted mass and hanger). 
 
@@ -262,9 +266,16 @@ The cases today are as shown in {numref}`waves-cases-table`.
 
 12. Determine the ratio of each frequency to the fundamental frequency, $f_n/f_1$. Does this make sense? What is the expected ratio?
 
-13. While at your determined frequency, measure the distance between nodes (i.e. node-to-furthest-best-node distance) and estimate its uncertainty. Calculate the wavelength $\lambda_n \pm \delta \lambda_n$.
+13. Determine wavelength and its uncertainty $\lambda_n \pm \delta \lambda_n$: While at your determined frequency, measure the distance between nodes (***Consider: Which nodes?***) and estimate its uncertainty. Calculate wavelength and uncertainty using either {eq}`waves-wavelengthsEndToEndNode` or {eq}`waves-wavelengthsAcrossAntinodes` depending on which and how many nodes you measured across.
+
     - For the first harmonic, you need to estimate the position of the node near the vibrating blade.
-    - For higher harmonics, you can avoid the node near the blade and focus on the node at the pulley and the node furthest away along the string. *What's your estimated uncertainty in the length measurement; more or less accurate when measuring across single or multiple antinodes?*
+    - For higher harmonics, you can avoid the node near the blade and focus on the node at the pulley and the node furthest away along the string.
+
+    ```{admonition} Discussion Point: Which Nodes?
+    :class: attention
+    What's your estimated uncertainty in the length measurement; *more* or *less* accurate when measuring across a single or multiple antinodes?
+    ```
+
 
 14. Calculate the propagation velocity with {eq}`eq-wave-frequency`. Similarly calculate the velocity uncertainty by maximizing and taking the difference $(\delta v_n= (\lambda_n + \delta\lambda_n) (f_n + \delta f_n) - v_n)$. *As you reach higher harmonics for the current case, how do they compare to each other? Do you expect them to be the same or different, why?*
 
@@ -277,7 +288,7 @@ The cases today are as shown in {numref}`waves-cases-table`.
 
 ### ● Graphical Analysis Velocity
 
-18. Plot wavelength $\lambda$ vs. the inverse of the frequency $1/f$ for the current case. As you complete additional cases, add each case to the same single plot (include trendlines like normal) as you go.
+18. Plot wavelength $\lambda$ vs. the inverse of the frequency $1/f$ for the current case. As you complete additional cases, ***add each case to the same single plot*** (include trendlines like normal) as you go.
 
 19. Use `LINEST(y-values,x-values,TRUE,TRUE)` to calculate the slope and use {eq}`eq-wavelength-inverse-frequency` to determine the slope-derived propagation velocity ($v_\text{slope-derived} \pm \delta v_\text{slope-derived}$). Consider the uncertainty in the slope. Do your plot-derived propagation velocities agree with the expected velocities? Your plot will be represented by the reorganization of {eq}`eq-wave-frequency`:
 
@@ -296,6 +307,22 @@ The cases today are as shown in {numref}`waves-cases-table`.
 
 22. Using a cord with a different linear density, repeat for Case III (at {ref}`section-waves-experimental-velocity`).
 
+
+
+### ● Summary & Cleanup
+
+23. Create a summary table of your data (e.g. relevant expected, average, and slope-derived values with uncertainties, differences, and total uncertainties).
+
+24. When you are finished, reset your experimental setup before leaving.
+
+    ```{admonition} CLEAN UP
+    :class: important
+    Please return your experimental station back to the way you found it or better:
+     - Turn off signal generator
+     - Untie strings and return to equipment box
+     - Return slotted masses to collection bin
+     - Return rulers and meter sticks
+    ```
 
 
 

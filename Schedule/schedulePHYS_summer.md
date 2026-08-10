@@ -1,5 +1,5 @@
 (lab-days-1171_1172_summer-links)=
-# Lab Days for SUMMER 2026 --- PHYS 1172L (with links)
+# ● Lab Days for SUMMER 2026 --- PHYS 1172L (with links)
 
 See printed schedule below {numref}`schedulePHYSSummer`.
 

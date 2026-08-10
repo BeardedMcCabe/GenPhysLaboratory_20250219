@@ -50,7 +50,7 @@ There are two methods of vector addition to consider:
 - The graphical method (reviewed here, but not conducted during lab today)
 - The method of components (conducted during lab today)
 
-### ● Graphical Method
+### ● Graphical Method (Shown but not Conducted Today)
 
 Vectors $\vec{F}_1$ and $\vec{F}_2$ ({numref}`M01Fig01`) are added graphically as follows:
 Beginning at a convenient point on a piece of graph paper, usually at the origin of a rectangular coordinate system draw one of the vectors as an arrow to scale and pointing in the proper direction. Place the second vector with its tail at the tip of the first, again drawn to scale and pointing in the proper direction. The resultant $\vec{R}$ is the vector drawn from the tail of the first vector to the tip of the second. The process is illustrated in {numref}`M01Fig02` demonstrating the addition operation does not depend on the order of addition. Thus, like scalar addition,
@@ -78,7 +78,7 @@ Adding 2 vectors $\vec{F}_1$ and $\vec{F}_2$, using the graphical ("tail-to-tip"
 
 It is important that an appropriate scale be selected with which the vectors are drawn (e.g. 1 N = 10 cm). The magnitude of $\vec{R}$ is determined using a ruler, and the angle $\theta$ is measured using a protractor. Since the negative of a vector is merely the vector pointing in the opposite direction, subtraction is addition with the negative vector pointing in the opposite direction. Errors can be significantly reduced by using a scale that makes the drawing as large as possible. Neatness counts!
 
-### ● Method of Components
+### ● Method of Components (Today's Experiment)
 
 The method of components is a much more useful and quantitatively accurate method of vector addition. Each vector is resolved into components along the $x$- and $y$-axes. That is to say, the vector addition of the two components of the vector is the vector itself. Thus if two vectors are to be added, we add the components along each axis to form the components of the resultant.
 
@@ -167,7 +167,7 @@ In this laboratory, an object will be presented with two known forces acting on 
 Illustration of the method to determine the force $\vec{F}_{3}$ needed to balance two given forces $\vec{F}_{1}$ and $\vec{F}_{2}$.
 ```
 
-Here $\vec{F}_3$ is the equilibrant force necessary to equilibrate $\vec{F}_1$ and $\vec{F}_2$. Note that the resultant of all the vectors for today's lab should add up to zero, i.e.
+Here $\vec{F}_3$ is the equilibrant force necessary to balance $\vec{F}_1$ and $\vec{F}_2$. Note that the resultant of all the vectors for today's lab should add up to zero, i.e.
 
 ```{math}
 :label: eq-M01-allVectorsResultant
@@ -182,19 +182,16 @@ Recall that $\vec{R}=\vec{F}_1+\vec{F}_2$, therefore the equilibrant force $\vec
 :label: eq-M01-equilibrant
 \vec{F}_3 = -\vec{R}.
 ```
-We conclude that the force necessary to equilibrate two or more forces is equal and opposite to the resultant of the two (or more) forces. This is additionally illustrated in an example of the force table apparatus we will use in {numref}`M01Fig06`.
+We thus conclude that the force necessary to equilibrate two or more forces is equal and opposite to the resultant of the two (or more) forces. This is additionally illustrated in an example of the force table apparatus we will use in {numref}`M01Fig06`.
 
-## Apparatus
+### ● Equipment
 
-```{figure} VectorTableFigures/M1_ForceTable_06_table_v2025-01.png
-:name: M01Fig06
-:width: auto
-:align: center
 
-(Left) Illustration of the force table. (Right) An example of how to determine the force $\vec{F}_{3}$ needed to balance two given forces $\vec{F}_{1}$ and $\vec{F}_{2}$.
-```
 
-The apparatus for this experiment consist of a force table, weight holders, and weights (see {numref}`M01Fig06`). The force table consists of a circular tabletop mounted on a vertical rod held in a tripod support with leveling screws. The rim of the circular top has a 360° scale engraved on it along which it is possible to clamp a number of pulleys. At the center of the table is a small ring held in place by means of a removable pin. The ends of three cords are tied to the ring with each cord leading over a pulley and ending with a weight holder tied to its other end. When the forces along the cords acting upon the small ring are balanced, or in static equilibrium, the ring remains stationary. For this lab, the force pulling on the ring is the tension of the string, which is merely translated from horizontal on the table to vertical.
+The apparatus for this experiment consists of a force table, weight holders, and weights (see {numref}`M01Fig06` and {numref}`force-table-equipment-table`).
+
+<!--- The force table consists of a circular tabletop mounted on a vertical rod held in a tripod support with leveling screws. The rim of the circular top has a 360° scale engraved on it along which it is possible to clamp a number of pulleys. At the center of the table is a small ring held in place by means of a removable pin. The ends of three cords are tied to the ring with each cord leading over a pulley and ending with a weight holder tied to its other end. When the forces along the cords acting upon the small ring are balanced, or in static equilibrium, the ring remains stationary. For this lab, the force pulling on the ring is the tension of the string, which is merely translated from horizontal on the table to vertical.
+--->
 
 Each hanging mass has an associated weight (force) due to being pulled *down* by gravity. This weight is balanced by the *upward* tension force of the vertical part of the cord which is merely translated from vertical to horizontal tension by the pulley. Thus, the force pulling the ring in the direction of the cord is
 
@@ -203,17 +200,58 @@ Each hanging mass has an associated weight (force) due to being pulled *down* by
 \vec{F}_\text{weight} = m \cdot \vec{g} = \vec{F}_\text{tension}
 ```
 
-For accurate measurements of the angles involved, each cord must be aimed directly at the peg at the center of the ring requiring that the equilibrium condition must be established when the ring is exactly centered around the pin on the table. Use consistently  the same counterclockwise protractor.
+For accurate measurements of the angles involved, *each cord must be aimed directly at the peg at the center of the ring* requiring that the equilibrium condition must be established when the ***ring is exactly centered around the pin*** on the table. Use the counterclockwise protractor to determine angle values.
 
+
+
+```{figure} VectorTableFigures/M1_ForceTable_06_table_v2025-02.png
+:name: M01Fig06
+:width: auto
+:align: center
+
+(Left) Illustration of the force table. (Right) An example of how to determine the force $\vec{F}_{3}$ needed to balance two given forces $\vec{F}_{1}$ and $\vec{F}_{2}$.
+```
+
+
+```{table} Equipment
+:name: force-table-equipment-table
+
+| Category | Items |
+|---|---|
+| **Force Table** | • Circular tabletop mounted on a vertical rod<br>• Tripod support with leveling screws<br>• $360^\circ$ counter-clockwise scale engraved/printed around the rim |
+| **Black Super Pulleys** | • Multiple pulleys clamped to the rim<br>• Positionable to different angles to establish force directions<br>• Redirect cord tension from vertical to horizontal |
+| **Center Ring** | • Small ring located at the center of the table<br>• Held in place by a removable pin<br>• Three cords attached to the ring |
+| **Cords** | • Three cords extend from the center ring<br>• Each cord passes over a pulley<br>• Each cord terminates at a weight holder |
+| **Weight Hangers<br>and Weights** | • $\sim50\,\text{g}$ weight hangers attached to the cords<br>• Slotted weights ***(available at front table)*** |
+| **Unlabeled Masses** | • Two figurines, slotted for the weight hangers<br>• Black Pikachu<br>• White Corgi |
+```
 
 
 ## Experimental Procedure
 
-### ● Preview & Examples
-
+```{admonition} OVERVIEW
+:class: note
 For today's lab, two different cases will be assigned involving two given vectors and the **determination of the equilibrant vector**. A third case involves the **determination of the mass of two unlabeled masses** by balancing the system from a single known mass.
+```
 
-#### ○ EXAMPLE --- Finding the Equilibrant (First two cases)
+
+```{admonition} Reminder on Data Taking
+:class: warning
+It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUING TO THE NEXT CASE**. If you have some error in your experimental method or in your calculation, you can correct it before completing all the other cases. The layout of the data table for additional cases can then be created by copying the first case after you are confident in your results from the first case.
+```
+
+### ● CASE 1 & 2 --- Finding the Equilibrant Vector (Balancing Force)
+
+```{admonition} CASE 1 & 2 Preview
+:class: note
+- Understand how to add and balance vectors using the **method of components** by:
+    - Conducting 2 cases of two additive, known vectors (weights at given angles in Table {ref}`tab-case12`) to experimentally determine the third balancing or equilibrant vector.
+    - Compare the experimental results to theoretically expected vectors.
+    - **Assume** 0° is the +x direction, 90° is the +y direction
+```
+
+
+#### ○ EXAMPLE (Case 1 & 2)
 
 For each of the first two cases, you will have two given masses at given angles (direction). Each mass, consisting of a 50 g hanger plus the necessary additional mass, will be hung from a cord routed over a pulley at the assigned angular positions and finally tied to the ring. A third cord, hanger, and pulley assembly is put in place for the third, unknown force vector. Each force is the weight of the hanging mass at the pulley angle. Determine the unknown forces for each of the two cases.
 
@@ -238,7 +276,159 @@ Having established the given magnitudes and directions for each of the given for
 
 To determine the equilibrant vector experimentally $\vec{F}_{3}$, you will record both the angular position (**direction**) and total mass (to determine **magnitude** of the balancing force from the total hanging weight) required to balance $\vec{F}_{1}$ and $\vec{F}_{2}$. You will then compare this vector to the expected vector based on your theoretical calculations.
 
-#### ○ EXAMPLE --- Determining 2 Unlabeled Masses (Third case)
+(experimental_data_case12_vectorTable)=
+#### ○ Experimental Data (Case 1 & 2)
+
+For these first two cases, with given initial values in Table {ref}`tab-case12`, experimentally determine the 3rd (equilibrant) vector and compare your results to your expected values.
+
+```{table} Case 1 & 2 Given Values
+:name: tab-case12
+
+| Hanger (i.e. Vector)   | Mass (g) | Angle (°) |
+|----------|----------|-----------|
+|    | **Case 1**           |
+|  1 | 150      | 0°        |
+|  2 | 150      | 70°       |
+|  3 (equilibrant) | ?        | ?         |
+|    | **Case 2**           |
+|  1 | 100      | 75°       |
+|  2 | 200      | 115°      |
+|  3 (equilibrant) | ?        | ?         |
+```
+
+
+```{admonition} Run First Case Calculations (Start to finish before moving on to the second case)
+:class: warning
+Reminder, run first case fully before moving on to additional cases. Don't just take all of your data without checking your methodology.
+```
+
+1. Create data tables for the first case. NOTE: The data layout for each of the first two cases is the same. Create for the first case and run the whole experiment, then you can copy/paste the same data table for the additional case(s).
+   - Common data section with accepted value of $g$ (9.803 m/s²), mass of the hanger, list of slotted masses with their uncertainties (see table {ref}`tab-slotted` later in the procedure), and any other common values. You will reference these values in the calculations.
+   - An experimental data table (e.g. {ref}`experimental-data-vectortable`) to record your experimental results with:
+     - With **three rows** (1 for each of the 3 vectors).
+     - Include **columns** for:
+       - $m_i$: hanging mass in kilograms (kg)
+       - $\delta m_i$: your estimate of the experimental uncertainty [± value] of the masses in kg
+          ```{admonition} Greek
+          :class: note
+          The Greek letter $\delta$ (said as “delta”) is representing the *measurement* uncertainty of each variable (e.g. $m \pm \delta_m$)
+          ```
+       - $F_i$: calculated magnitude of the force in Newtons (N)
+       - $\theta_i$: direction of the force vector in degrees
+       - $\delta \theta_i$: your estimate of the experimental uncertainty of the angle in degrees
+       - $F_{i,x}$: calculated $x$-component of each force vector in N
+       - $F_{i,y}$: calculated $y$-component of each force vector in N
+   - An analysis table (e.g. {ref}`analysis-vectortable-resultant-and-sum`) to analyze the results of your measurements. This is effectively one row as there would be just a single value for each of the variables. The columns should include variables:
+     - $R_x$: the $x$ component of the resultant vector $\vec{R}$ in N
+     - $R_y$: the $y$ component of the resultant vector $\vec{R}$ in N
+     - $R$: magnitude of the resultant vector $\vec{R}$ in N
+     - $\theta_{R}$: direction of the resultant vector $\vec{R}$ in degrees
+     - $F_{x\text{,total,experimental}}$ & $F_{y\text{,total,experimental}}$: total of all vector components in N
+     - $\vec{F}_{\text{total,experimental}}$: total overall magnitude of all vectors which we will also treat as $\delta \vec{F}_3$ in N
+   - A secondary analysis table (e.g. {ref}`analysis-vectortable-theory`) to analyze your expected values. This is also effectively one row as there would be just a single value for each of the variables. The columns should include variables:
+     - $F_{3,\text{theoreticalMagnitude}}$: your expected or theoretical magnitude of the equilibrant force in N
+     - $m_{3,\text{theoretical}}$: theoretical equilibrant mass in kg
+     - $\theta_{3,\text{theoretical}}$: theoretical equilibrant direction in degrees
+
+2. Starting with the first case, add slotted masses to hangers 1 & 2 to set their masses equal to the given values in Table {ref}`tab-case12`. 
+    ```{admonition} Note
+    :class: note
+    - Hangers are 50 g.
+    - Slotted masses are available at the table at the front of the room.
+    ```
+3. Loosen the screws of the black pulleys to rotate them around the tabletop to their given angles and retighten.
+
+4. With hanger 3 (unknown vector), add or subtract slotted masses and scoot the pulley with hanger and masses around the force table until the system is at equilibrium.
+    ```{admonition} For equilibrium
+    :class: note
+    - The ring should be as perfectly centered around the center pin as possible.
+    - You should see all the strings point from the pulley directly towards the center pin.
+    ```
+
+5. Double check the given vectors are still lined up with their given angles. If not, readjust as needed.
+
+6. Note your $m_i$ & $\theta_i$ values. 
+
+7. Also note both of your estimated uncertainties $\delta m_i$ & $\delta \theta_i$. 
+   - For $\delta \theta_i$, estimate this based on the force table's increments and your confidence that the ring is still centered on the center pin. Example: move the pulley left or right until you're no longer convinced the ring is centered; however far you've shifted it, that will be your $\delta \theta_i$ range. 
+   - For $\delta m_i$, add up the total uncertainty of each of your slotted masses. For today, assume each hanger is exactly 50 g, but utilize the list of uncertainties for the *slotted masses* is below. Example: if you had measured $123$ g from just slotted masses, you could have used one of each `100, 20, 2, 1 g`, which would end up giving an uncertainty of $123 \pm (1 + 0.2 + 0.04 + 0.03)$ g or $123 \pm 1.27$ g:
+
+      ```{table} Slotted Masses
+      :name: tab-slotted
+      | Mass (g) | Uncertainty (g) |
+      |:--------:|:---------------:|
+      |   200    |       2.0     |
+      |   100    |       1.0     |
+      |    50    |       0.5     |
+      |    20    |       0.2     |
+      |    10    |       0.1     |
+      |    5     |       0.1     |
+      |    2     |       0.04    |
+      |    1     |       0.03    |
+      ```
+
+8. Calculate the hangers' respective forces $F_i$ using {eq}`eq-M01-ForceG`.
+
+9. Determine the hangers' respective $x$ and $y$ components $F_{i,x}$ and $F_{i,y}$. See {eq}`eq-M01-cosSinAngle`. 
+
+    ```{admonition} Excel Uses Radians
+    :class: tip
+    Excel functions require angles to be in radians; use `RADIANS()` function to convert.
+    ```
+
+10. In your analysis table, determine $R_x$ and $R_y$, the $x$ and $y$ components of the resultant vector $\vec{R}$ of this case's two given force vectors $\vec{F}_1$ and $\vec{F}_2$.
+
+11. Determine the magnitude $R$ of the resultant vector (see Pythagorean Theorem in {eq}`eq-M01-resultantMag`).
+
+12. Determine the direction $\theta_R$ of the resultant vector. See {eq}`eq-M01-arctan`. Use the `ATAN2()` Excel function to get the angle as measured counterclockwise from 0°.
+
+    ```{admonition} We Use Degrees
+    :class: tip
+    Excel trig functions return angles in radians; use `DEGREES()` function to convert.
+    ```
+
+13. Determine $F_{x\text{,total,experimental}}$ & $F_{y\text{,total,experimental}}$, the sum totals of the $x$ and $y$ experimental components from all of your vectors, i.e. $\vec{R}$ and $\vec{F}_3$ (see also {eq}`eq-M01-resultant-sum`, {eq}`eq-M01-addXComponenets`, {eq}`eq-M01-addYComponenets`, and {eq}`eq-M01-allVectorsResultant`). Could also be stated as $\sum_{i=1}^{n=3} F_{i,x}$ and $\sum_{i=1}^{n=3} F_{i,y}$.
+<!---; use them to determine $\delta \vec{F}_3$.--->
+
+14. Determine $F_{\text{total,experimental}}$ (also treated as $\delta F_3$), the ***sum total experimental magnitude of all three of your vectors*** determined in similar fashion to {eq}`eq-M01-resultantMag`, but with $F_{x\text{,total,experimental}}$ & $F_{y\text{,total,experimental}}$.
+
+    ```{admonition} $F_3$ Error Approximation
+    :class: note
+    - For simplicity in your error analysis, we will also treat this value as the minimum uncertainty $\delta F_3$ of the magnitude of your experimentally determined equilibrant vector such that your experimental magnitude would be $F_3 \pm \delta F_3$. 
+    - ***Consider***: The **sum of all three vectors** or **total force *should* be zero** because the ring and vectors are in equilibrium with no acceleration (Newton's 2nd Law). The difference between the experimental total force (probably not zero) and theoretical total force (zero) can therefore be an approximation of the ***minimum experimental uncertainty***. Your error in reality may be larger, but your error bars are at minimum $\delta F_3$ away from zero.
+    ```
+
+15. In your secondary analysis table, based on the resultant $\vec{R}$ of the two given vectors, determine your theoretical equilibrant vector $\vec{F}_{3,\text{theoretical}}$ that would balance the resultant, and its associated expected mass (see {eq}`eq-M01-equilibrant`):
+    - magnitude $F_{3,\text{theoreticalMagnitude}}$
+    - direction $\theta_{3,\text{theoretical}}$
+    - mass $m_{3,\text{theoretical}}$
+
+16. COMPARE your experimental results of hanger/vector 3 to the theoretical values. Does $F_3 \pm \delta F_3$ overlap (and therefore agree) with your theoretical value $F_{3,\text{theoreticalMagnitude}}$? What about $m_3$ and $\theta_3$? If not, are there significant issues that may be contributing to the discrepancy? Discuss with instructor if so. To be further discussed in Section {ref}`postlabs_vectorTable`.
+
+    ```{admonition} Continue to additional case?
+    :class: warning
+    ***If you are satisfied your calculations are complete and results seem reasonable (feel free to check with your professor), it is at this point that you may continue to the second case.***
+    ```
+
+17. Repeat {numref}`experimental_data_case12_vectorTable` for the second case (see Table {ref}`tab-case12`) **once you have completed the entire analysis procedure for Case 1** and are satisfied in your values and calculations.
+
+
+
+### ● CASE 3 --- Determining 2 Unlabeled Masses
+
+```{admonition} CASE 3 Preview
+:class: note
+- Understand how to determine **two unknown values** of a 3 vector system using the **method of components**:
+    - *CONSIDER*: Each vector has two pieces of information, **magnitude** and **direction** --- how many pieces of information total do we have to work from?
+    - Determine the masses of two figurines (one is a black Pikachu, the other is a white corgi that can each sit on their respective hangers) by balancing the force vectors. Treat Pikachu-black as $m_2$ and the corgi-white as $m_3$.
+    - Compare the experimental results to actual masses as measured with a triple-beam balance.
+    - **Assume** the angles for both Pikachu and the corgi, once found, are *treated as given values* (so you only have two unknowns with two equations).
+```
+
+
+
+
+#### ○ EXAMPLE (Case 3)
 
 In the third case, you will experimentally **determine two unlabeled masses** by balancing the $x$ and $y$ components of the force of a single known mass.
 Place the pulley with the known mass $M_1 = 50\,\text{g}$ at $\theta_1 = 0°$.
@@ -301,163 +491,11 @@ After algebraically solving for $M_2$, you can use the known values to solve for
 You would then measure $M_{2,actual}$ and $M_{3,actual}$ on the scale and enter the values in the table and comare.
 
 
-```{admonition} Reminder on Data Taking
-:class: warning
-It is good practice to **COMPLETE THE ANALYSIS OF THE FIRST CASE BEFORE CONTINUING TO THE NEXT CASE**. If you have some error in your experimental method or in your calculation, you can correct it before completing all the other cases. The layout of the data table for additional cases can then be created by copying the first case after you are confident in your results from the first case.
-```
 
-### ● CASE 1 & 2 -- Finding the Equilibrant Vector (Balancing Force)
+#### ○ Experimental Data (Case 3)
 
-```{admonition} OVERVIEW
-:class: note
-- Understand how to add and balance vectors using the **method of components**.
-- Conduct 2 cases of two additive, known vectors (weights at given angles in Table {ref}`tab-case12`) to experimentally determine the third balancing or equilibrant vector.
-- Compare the experimental results to theoretically expected vectors.
-- **Assume** 0° is the +x direction, 90° is the +y direction
-```
+Experimentally determine the ***mass*** of just the Pikachu (black figurine) and the corgi (white figurine) and compare to actual values. The angles for hangers 2 & 3 will be treated as given values once experimentally determined. ***Reminder, the hangers are 50 g each.***
 
-```{table} Case 1 & 2 Given Values
-:name: tab-case12
-
-| Hanger (i.e. Vector)   | Mass (g) | Angle (°) |
-|----------|----------|-----------|
-|    | **Case 1**           |
-|  1 | 150      | 0°        |
-|  2 | 150      | 70°       |
-|  3 | ?        | ?         |
-|    | **Case 2**           |
-|  1 | 100      | 75°       |
-|  2 | 200      | 115°      |
-|  3 | ?        | ?         |
-```
-
-For these first two cases, with given initial values in Table {ref}`tab-case12`, experimentally determine the 3rd (equilibrant) vector and compare your results to your expected values.
-
-```{admonition} Run First Case Calculations (Start to finish before moving on to the second case)
-:class: warning
-Reminder, run first case fully before moving on to additional cases. Don't just take all of your data without checking your methodology.
-```
-
-1. Create data tables for the first case. NOTE: The data layout for each of the first two cases is the same. Create for the first case and run the whole experiment, then you can copy/paste the same data table for the additional case(s).
-   - Common data section with accepted value of $g$ (9.803 m/s²), mass of the hanger, list of slotted masses with their uncertainties (see table {ref}`tab-slotted` later in the procedure), and any other common values. You will reference these values in the calculations.
-   - An experimental data table (e.g. {ref}`experimental-data-vectortable`) to record your experimental results with:
-     - With **three rows** (1 for each of the 3 vectors).
-     - Include **columns** for:
-       - $m_i$: hanging mass in kilograms (kg)
-       - $\delta m_i$: your estimate of the experimental uncertainty [± value] of the masses in kg
-          ```{admonition} Greek
-          :class: note
-          The Greek letter $\delta$ (said as “delta”) is representing the *measurement* uncertainty of each variable (e.g. $m \pm \delta_m$)
-          ```
-       - $F_i$: calculated magnitude of the force in Newtons (N)
-       - $\theta_i$: direction of the force vector in degrees
-       - $\delta \theta_i$: your estimate of the experimental uncertainty of the angle in degrees
-       - $F_{i,x}$: calculated $x$-component of each force vector in N
-       - $F_{i,y}$: calculated $y$-component of each force vector in N
-   - An analysis table (e.g. {ref}`analysis-vectortable-resultant-and-sum`) to analyze the results of your measurements. This is effectively one row as there would be just a single value for each of the variables. The columns should include variables:
-     - $R_x$: the $x$ component of the resultant vector $\vec{R}$ in N
-     - $R_y$: the $y$ component of the resultant vector $\vec{R}$ in N
-     - $R$: magnitude of the resultant vector $\vec{R}$ in N
-     - $\theta_{R}$: direction of the resultant vector $\vec{R}$ in degrees
-     - $F_{x\text{,total,experimental}}$ & $F_{y\text{,total,experimental}}$: total of all vector components in N
-     - $\vec{F}_{\text{total,experimental}}$: total overall magnitude of all vectors which we will also treat as $\delta \vec{F}_3$ in N
-   - A secondary analysis table (e.g. {ref}`analysis-vectortable-theory`) to analyze your expected values. This is also effectively one row as there would be just a single value for each of the variables. The columns should include variables:
-     - $F_{3,\text{theoreticalMagnitude}}$: your expected or theoretical magnitude of the equilibrant force in N
-     - $m_{3,\text{theoretical}}$: theoretical equilibrant mass in kg
-     - $\theta_{3,\text{theoretical}}$: theoretical equilibrant direction in degrees
-
-2. Starting with the first case, add slotted masses to hangers 1 & 2 to set their masses equal to the given values in Table {ref}`tab-case12`. 
-    ```{admonition} Note
-    :class: note
-    - Hangers are 50 g.
-    - Slotted masses are available at the table at the front of the room.
-    ```
-3. Loosen the screws of the black pulleys to rotate them around the tabletop to their given angles and retighten.
-
-4. With hanger 3 (unknown vector), add or subtract slotted masses and scoot the pulley with hanger and masses around the force table until the system is at equilibrium.
-    ```{admonition} For equilibrium
-    :class: note
-    - The ring should be as perfectly centered around the center pin as possible.
-    - You should see all the strings point from the pulley directly towards the center pin.
-    ```
-
-5. Double check the given vectors are still lined up with their given angles. If not, readjust as needed.
-
-6. Note your $m_i$ & $\theta_i$ values. 
-
-7. Also note both of your estimated uncertainties $\delta m_i$ & $\delta \theta_i$. 
-   - For $\delta \theta_i$, estimate this based on the force table's increments and your confidence that the ring is still centered on the center pin. Example: move the pulley left or right until you're no longer convinced the ring is centered; however far you've shifted it, that will be your $\delta \theta_i$ range. 
-   - For $\delta m_i$, add up the total uncertainty of each of your slotted masses. For today, assume each hanger is exactly 50 g, but the list of uncertainties for the *slotted masses* is below. Example: if you had measured $123$ g from just slotted masses, you could have used one of each `100, 20, 2, 1 g`, which would end up giving an uncertainty of $123 \pm (1 + 0.2 + 0.04 + 0.03)$ g or $123 \pm 1.27$ g:
-
-      ```{table} Slotted Masses
-      :name: tab-slotted
-      | Mass (g) | Uncertainty (g) |
-      |:--------:|:---------------:|
-      |   200    |       2.0     |
-      |   100    |       1.0     |
-      |    50    |       0.5     |
-      |    20    |       0.2     |
-      |    10    |       0.1     |
-      |    5     |       0.1     |
-      |    2     |       0.04    |
-      |    1     |       0.03    |
-      ```
-
-8. Calculate the hangers' respective forces $F_i$ using {eq}`eq-M01-ForceG`.
-
-9. Determine the hangers' respective $x$ and $y$ components $F_{i,x}$ and $F_{i,y}$. See {eq}`eq-M01-cosSinAngle`. 
-
-    ```{admonition} Excel Uses Radians
-    :class: note
-    Excel functions require angles to be in radians; use `RADIANS()` function to convert.
-    ```
-
-10. In your analysis table, determine $R_x$ and $R_y$, the $x$ and $y$ components of the resultant vector $\vec{R}$ of this case's two given force vectors $\vec{F}_1$ and $\vec{F}_2$.
-
-11. Determine the magnitude $R$ of the resultant vector (see Pythagorean Theorem in {eq}`eq-M01-resultantMag`).
-
-12. Determine the direction $\theta_R$ of the resultant vector. See {eq}`eq-M01-arctan`. Use the `ATAN2()` Excel function to get the angle as measured counterclockwise from 0°.
-
-    ```{admonition} We Use Degrees
-    :class: note
-    Excel trig functions return angles in radians; use `DEGREES()` function to convert.
-    ```
-
-13. Determine $F_{x\text{,total,experimental}}$ & $F_{y\text{,total,experimental}}$, the sum totals of the $x$ and $y$ experimental components from all of your vectors, i.e. $\vec{R}$ and $\vec{F}_3$ (see also {eq}`eq-M01-resultant-sum`, {eq}`eq-M01-addXComponenets`, {eq}`eq-M01-addYComponenets`, and {eq}`eq-M01-allVectorsResultant`). Could also be stated as $\sum_{i=1}^{n=3} F_{i,x}$ and $\sum_{i=1}^{n=3} F_{i,y}$.
-<!---; use them to determine $\delta \vec{F}_3$.--->
-
-14. Determine $F_{\text{total,experimental}}$ (also treated as $\delta F_3$), the sum total experimental magnitude of all three of your vectors determined in similar fashion to {eq}`eq-M01-resultantMag`, but with $F_{x\text{,total,experimental}}$ & $F_{y\text{,total,experimental}}$.
-
-    ```{admonition} $F_3$ Error Approximation
-    :class: note
-    - For simplicity in your error analysis, we will also treat this value as the minimum uncertainty $\delta F_3$ of the magnitude of your experimentally determined equilibrant vector such that your experimental magnitude would be $F_3 \pm \delta F_3$. 
-    - ***Consider***: The **sum of all three vectors** or **total force *should* be zero** because the ring and vectors are in equilibrium with no acceleration (Newton's 2nd Law). The difference between the experimental total force (probably not zero) and theoretical total force (zero) can therefore be an approximation of the ***minimum experimental uncertainty***. Your error in reality may be larger, but your error bars are at minimum $\delta F_3$ away from zero.
-    ```
-
-15. In your secondary analysis table, based on the resultant $\vec{R}$ of the two given vectors, determine your theoretical equilibrant vector $\vec{F}_{3,\text{theoretical}}$ that would balance the resultant, and its associated expected mass (see {eq}`eq-M01-equilibrant`):
-    - magnitude $F_{3,\text{theoreticalMagnitude}}$
-    - direction $\theta_{3,\text{theoretical}}$
-    - mass $m_{3,\text{theoretical}}$
-
-16. COMPARE your experimental results of hanger/vector 3 to the theoretical values. Does $F_3 \pm \delta F_3$ overlap (and therefore agree) with your theoretical value $F_{3,\text{theoreticalMagnitude}}$? What about $m_3$ and $\theta_3$? If not, are there significant issues that may be contributing to the discrepancy? Discuss with instructor if so. To be further discussed in Section {ref}`postlabs_vectorTable`.
-
-    ```{admonition} Continue to additional case?
-    :class: warning
-    ***If you are satisfied your calculations are complete and results seem reasonable (feel free to check with your professor), it is at this point that you may continue to the second case.***
-    ```
-
-17. Repeat for the second case (see Table {ref}`tab-case12`) once you have completed the entire analysis procedure for Case 1 and are satisfied in your values and calculations.
-
-### ● CASE 3 -- Determining 2 Unlabeled Masses
-
-```{admonition} OVERVIEW
-:class: note
-- Understand how to determine two unknown values of a 3 vector system using the **method of components**.
-- *CONSIDER*: Each vector has two pieces of information, **magnitude** and **direction** --- how many pieces of information total do we have to work from?
-- Determine the masses of two figurines (one is a black Pikachu, the other is a white corgi that can each sit on their respective hangers) by balancing the force vectors. Treat Pikachu-black as $m_2$ and the corgi-white as $m_3$.
-- Compare the experimental results to actual masses as measured with a triple-beam balance.
-- **Assume** the angles for both Pikachu and the corgi, once found, are treated as given values (so you only have two unknowns with two equations).
-```
 
 ```{table} Case 3 Initial Given Values
 :name: tab-case3
@@ -470,7 +508,6 @@ Reminder, run first case fully before moving on to additional cases. Don't just 
 |  3 (corgi-white, $M_3$)| ?        | ?         |
 ```
 
-Experimentally determine the ***mass*** of just the Pikachu (black figurine) and the corgi (white figurine) and compare to actual values. The angles for hangers 2 & 3 will be treated as given values once experimentally determined. ***Reminder, the hangers are 50 g each.***
 
 1. Create data table for this case with columns for (e.g. {ref}`vectortable-case3data`):
    - Experimental masses $m_{i\text{,experimental}}$ in kg
@@ -483,7 +520,7 @@ Experimentally determine the ***mass*** of just the Pikachu (black figurine) and
 3. Unscrew the black pulleys to rotate the figurines around the tabletop until you find equilibrium in similar fashion to the first two cases.
 
     ```{admonition} NO ADDITIONAL MASS IS REQUIRED
-    :class: note
+    :class: attention
     You are only changing the angles of $\theta_{2,\text{Pikachu-black}}$ & $\theta_{3,\text{corgi-white}}$ to balance the system.
     ```
 
@@ -502,7 +539,7 @@ Experimentally determine the ***mass*** of just the Pikachu (black figurine) and
 
 6. Measure and record the actual masses of each figurine, $m_{2,\text{Pikachu-black, actual}}$ and $m_{3,\text{corgi-white, actual}}$, with a triple-beam balance. 
     ```{admonition} Calibration
-    :class: note
+    :class: tip
     *Reminder: ensure the balance is zeroed before measurements. You can use the adjustment knob on the left side under the silver weighing platform to ensure the pointers at the right end are aligned*.
     ```
 

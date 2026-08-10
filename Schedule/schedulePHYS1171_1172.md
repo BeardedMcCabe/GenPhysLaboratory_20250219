@@ -1,5 +1,5 @@
 (lab-days-1171-1172-links)=
-# Lab Days for PHYS 1171L (with links)
+# ● Lab Days for PHYS 1171L (with links)
 
 See printed schedule below {numref}`schedulePHYS1171L`.
 
@@ -29,7 +29,7 @@ See printed schedule below {numref}`schedulePHYS1171L`.
 
 ## Printed Lab Schedule
 
-```{figure} ScheduleFigures/2026_Fall_LabSchedulePrintout_1171L_ONLY_v1.png
+```{figure} ScheduleFigures/2026_Fall_LabSchedulePrintout_1171L_ONLY_v2.png
 :name: schedulePHYS1171L
 :width: 100%
 :class: full-height

@@ -275,7 +275,7 @@ Some clarifications/notes:
 - Give about 10 minutes for the cathode to fully heat up
 - Increasing/decreasing current shows the beam path take a tighter/wider circle, respectively
 - Increasing/decreasing voltage shows the beam path take a wider/tighter circle, respectively
-- Example of parallax towards end. In YouTube, you can jump forward/back with `,` and `.` keys to go frame-by-frame and notice the beam's reflection in the mirror relative to the ruler.
+- Example of parallax towards end. In YouTube, you can jump forward/back with comma `,` and period `.` keys to go frame-by-frame and notice the beam's reflection in the mirror relative to the ruler.
 
 <div style="text-align: center;">
   <iframe
@@ -290,6 +290,24 @@ Some clarifications/notes:
   </iframe>
   <figcaption>Demonstration video. Reviews parts of the second experiment. *No audio*</figcaption>
 </div>
+
+<!---
+<div style="text-align: center; width: 80%; max-width: 800px; height: 400px; margin: 0 auto;">
+  <iframe
+    src="https://www.youtube.com/embed/vqtHMKxzGdg"
+    style="width: 80%; height: 100%; border: 0;"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+  <figcaption>
+  Demonstration video. Reviews parts of the second experiment. *No audio*
+  </figcaption>
+</div>
+
+--->
 
 If embedding is broken, follow: <a href="https://www.youtube.com/watch?v=vqtHMKxzGdg" target="_blank" rel="noopener noreferrer">
 https://www.youtube.com/watch?v=vqtHMKxzGdg

@@ -1,9 +1,9 @@
 (full-lab-schedule-with-meeting-times)=
-# Full Lab Schedule with Meeting Times
+# ● Full Lab Schedule with Meeting Times
 
 ## Printed Lab Schedule
 
-```{figure} ScheduleFigures/2026_Fall_LabSchedulePrintoutWithAllTimes_1145L_1171L_v2.png
+```{figure} ScheduleFigures/2026_Fall_LabSchedulePrintoutWithAllTimes_1145L_1171L_v3.png
 :name: schedulePHYS1145Land1171LAllTimes
 :width: 100%
 :class: full-height

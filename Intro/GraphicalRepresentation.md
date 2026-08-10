@@ -1,5 +1,5 @@
 (graphical-representation-overallSection)=
-# Graphical Representation of Experimental Data
+# ● Graphical Representation of Experimental Data
 
 From an examination of the tabulated values of a number of measurements of related quantities, it is often difficult to grasp the relationships existing between the numbers. A method widely used to discover such relationships is the graphical method, which gives a pictorial view of the results and makes it possible to interpret the data by a quick glance.
 
