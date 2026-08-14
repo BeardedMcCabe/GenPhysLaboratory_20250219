@@ -3,7 +3,7 @@
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important
-**❓❓ See {ref}`postlabs_intro_dominos` ❓❓**
+**❓❓ See {ref}`postlabs_intro_dominoes` ❓❓**
 ```
 
 
@@ -78,8 +78,8 @@ Each member of the lab group will independently:
   - Propagate measurement uncertainties into derived density calculations.
 And as a group:
   - Characterize uncertainties with standard deviation.
-  - Organize the dominos by person or by color.
-  - Compare the dominos to water (should be roughly the same).
+  - Organize the dominoes by person or by color.
+  - Compare the dominoes to water (should be roughly the same).
 ```
 
 <!--- add exapmle of % difference or % change to know what it is, or not yet?--->
@@ -119,21 +119,23 @@ Left) Dominoes provided. Right) Relevant length, width, height dimensions of the
       - Initials of the experimenter
       - Color of the domino
       - In the units of the instruments (e.g. mm, g, etc.):
-        - Dominos length $l$, width $w$, height $h$ (see {numref}`M00_intro_Fig01`) measured with Vernier calipers
-        - Dominos mass $m$ measured with the triple beam balance
+        - Domino length $l$, width $w$, height $h$ (see {numref}`M00_intro_Fig01`) measured with Vernier calipers
+        - Domino mass $m$ measured with the triple beam balance
       - Converted to SI units:
         - $l$, $w$, $h$, and $m$
       - Calculated volume $V_\text{color}$ for the trial in SI units
       - Minimum volume and maximum volume (SI units)
+      - Volume uncertainty $\delta V$
       - Calculated density $\rho_\text{color}$ for the trial in SI units
       - Minimum density and maximum density (SI units)
+      - Density uncertainty $\delta \rho$
 
 
 ### ● Experimental Data Collection
 
 ```{admonition} Run Single Trial with Calculations First (Start to finish of just one trial)
 :class: warning
-Each group member will independently measure each of the four dominoes (i.e. four trials per person). ***HOWEVER***, have each group member start with one domino, then go through all the steps of error propagation to minimize and maximize $V$ and $\rho$ before continuing to additional dominos to ensure your calculations in Excel are behaving properly and that your maeasurement methods are accurate with the calipers and balance. Otherwise, you may find yourselves redoing the whole experiment if you fail to check your measurement techniques early on in the process.
+Each group member will independently measure each of the four dominoes (i.e. four trials per person). ***HOWEVER***, have each group member start with one domino, then go through all the steps of error propagation to minimize and maximize $V$ and $\rho$ before continuing to additional dominoes to ensure your calculations in Excel are behaving properly and that your maeasurement methods are accurate with the calipers and balance. Otherwise, you may find yourselves redoing the whole experiment if you fail to check your measurement techniques early on in the process.
 ```
 
 
@@ -155,22 +157,36 @@ Each group member will independently measure each of the four dominoes (i.e. fou
 
 You will now analyze your domino measurements in a few ways, through measurement uncertainties and through average and standard deviation (i.e. the spread of the data from the average).
 
-8. In your data table, for each trial, calculate the minimized and maximized values for both $V$ and $\rho$.
-    - To minimize $V$, minimize the values that go into that calculation ($l$, $w$, $h$) by the caliper's measurement uncertainty in {eq}`M00_intro_Eq02` which results in:
+8. In your data table, for each trial, determine the volume and density uncertainties $\delta V$ and $\delta \rho$ by calculating the minimized and maximized values for both $V$ and $\rho$, and taking half their difference:
+
+    - To minimize $V$, **minimize the values that go into that calculation** ($l$, $w$, $h$) by the caliper's measurement uncertainty treated, for the purposes of today, as each value's uncertainty in {eq}`M00_intro_Eq02`. This results in:
 
     ```{math}
     :label: M00_intro_Eq_volumeMin
     V_{\min} = (l-\delta_l)\cdot(w-\delta_w)\cdot(h-\delta_h)
     ```
 
-    - Maximize $V$ in a similar manner, now by maximizing $l$, $w$, $h$.
+    - Maximize $V$ in a similar manner, now by maximizing $l$, $w$, $h$ by their measurement uncertainty.
+
+    - Calculate the volume's uncertainty $\delta V$ by taking half the difference between max and min volume values:
+
+    ```{math}
+    :label: M00_intro_Eq_deltaV
+    \delta V = \frac{V_{\max} - V_{\min}}{2}
+    ```
+
     - In a similar way, minimize and maximize $\rho$ by using either $V_{\max}$ or $V_{\min}$ with $m$ minimized or maximized.
       - e.g. for $\rho_{\min}$, you would minimize the numerator and maximize the denominator such as:
 
-```{math}
-:label: M00_intro_Eq_densityMin
-\rho = \frac{m_{\min}}{V_{\max}} = \frac{m-\delta_m}{V_{\max}}
-```
+
+    ```{math}
+    :label: M00_intro_Eq_densityMin
+    \rho_{\min} = \frac{m_{\min}}{V_{\max}} = \frac{m-\delta_m}{V_{\max}}
+    ```
+
+    - Calculate the density's uncertainty $\delta \rho$ by similarly taking half the difference between max and min values.
+
+
 
 9. At this point, you should have a complete trial with a range of densities based on your measurement uncertainties. 
 
@@ -199,11 +215,11 @@ Up to this point, each individual trial has its own range of densities based on 
 
     ```{admonition} Domnios vs. Water?
     :class: attention
-    Based on your data, do you expect some or all of the dominos to float, sink, or stay neutrally buoyant in room-temperature water? Before you leave, there should be a bucket of water near the front of the lab, test it out!
+    Based on your data, do you expect some or all of the dominoes to float, sink, or stay neutrally buoyant in room-temperature water? Before you leave, there should be a bucket of water near the front of the lab, test it out!
     ```
 
 
-(postlabs_intro_dominos)=
+(postlabs_intro_dominoes)=
 ## Post-Lab Submission --- Interpretation of Results
 <!---
 - Make sure to submit your finalized data table (Excel sheet).
