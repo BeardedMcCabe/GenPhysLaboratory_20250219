@@ -98,7 +98,7 @@ Example of small and large spacers used to incline the air track. Remember to pu
 
 ## Experimental Procedure
 
-### ● Procedure Preview
+### ● Preview
 
 ```{admonition} OVERVIEW
 :class: note

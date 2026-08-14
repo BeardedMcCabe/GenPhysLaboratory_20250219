@@ -126,7 +126,7 @@ U_s = mg \, \Delta s \frac{H}{D}
 
 ## Experimental Procedure
 
-### ● Procedure Preview
+### ● Preview
 
 ```{admonition} OVERVIEW
 :class: note

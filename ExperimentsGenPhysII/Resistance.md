@@ -193,7 +193,7 @@ Example of Hardware Setup, selecting Output Voltage-Current Sensor, and Signal G
 
 
 ## Experimental Procedure
-### ● Procedure Preview
+### ● Preview
 
 ```{admonition} OVERVIEW
 :class: note

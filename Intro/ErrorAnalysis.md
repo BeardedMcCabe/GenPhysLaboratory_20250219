@@ -1,5 +1,5 @@
 (error-analysis-overall-section)=
-# ● Error Analysis Review
+# || Error Analysis Review
 
 In laboratory work, it is usually necessary to use experimental apparatus to measure physical quantities. The measurements are seldom, if ever, perfect. As a result, imperfections must be taken into account in any set of physical measurements. One of the most important things to be learned in the laboratory is how to make reliable estimates of the uncertainties involved in any physical measurements and how to handle the propagation of these errors, i.e., to know how the uncertainties affect calculated results of an experiment.
 
@@ -102,7 +102,7 @@ Experimental measurements are characterized by **precision** and **accuracy**.
 - A set of measurements is both *accurate* and *precise* if the measurements are closely clustered close to the expected value. (e.g. {numref}`ErrorAnalysis_Fig01`-right)
 
 
-**Random errors** increase scatter and reduce precision. They arise from uncontrollable variations and inherent limitations of the equipment; they can be estimated and reduced by repeated measurements. **Systematic errors** arise from calibration issues or faulty methods; they can reduce precision and cannot themselves be reduced by repeated measurements. Often you can estimate precision errors by considering the equipment and its specifications.
+**Random errors** *increase scatter* and *reduce precision*. They arise from uncontrollable variations and inherent limitations of the equipment; they can be estimated and reduced by repeated measurements. **Systematic errors** arise from calibration issues or faulty methods; they can reduce *accuracy* and cannot themselves be reduced by repeated measurements. Often you can estimate precision errors by considering the equipment and its specifications.
 
 ---
 
@@ -194,14 +194,14 @@ and the standard deviation of the individual measurements is
 
 In Excel, these operations can be carried out using the functions `AVERAGE()` and `STDEV()` or `STDEV.S()`.
 
-If you perform many measurements, then your estimate of the average value improves. The **standard deviation of the mean** (a.k.a. **standard error**) for $N$ measurements is
+Say you want to focus on how **precise your average value is.** You can reduce the effect of random variation on the mean by performing *many more* measurements. As your take more measurements, your estimate of the average value generally becomes more precise. To decribe how precise that average value is, you can use the **standard deviation of the mean** (a.k.a. **standard error of the mean**) for $N$ measurements as:
 
 ```{math}
 :label: eq-errorSigmaMeanX
-\sigma_{\mbox{mean}} = \frac{\sigma}{\sqrt{N-1}}.
+\sigma_{\mbox{mean}} = \frac{\sigma}{\sqrt{N}}.
 ```
 
-Your **best estimate of a measurement** $x$ is then $\bar{x} \pm \sigma_{\text{mean}}$.
+Your **best estimate of a measurement** $x$ from the average of all your values is then $\bar{x} \pm \sigma_{\text{mean}}$.
 
 
 ### Example of Average $\pm$ Standard Error
@@ -220,10 +220,10 @@ and the standard deviation is
 ```{math}
 \sigma = \sqrt{\frac{(7.65-7.65)^2 + (7.61-7.65)^2 +
 (7.66-7.65)^2 + (7.68-7.65)^2}{4-1}\,\text{cm}^2}
-= 0.029\,\text{cm}.
+= 0.0294\,\text{cm}.
 ```
 
-The standard error (i.e. standard deviation of the mean) of the average value is thus reduced to $ 0.029\,\text{cm} / \sqrt{3} = 0.017\,\text{cm}$ and therefore the best estimate of the length is $\bar{x} = 7.65\,\text{cm} \pm 0.017\,\text{cm}$.
+The standard error (i.e. standard deviation of the mean) of the average value is thus reduced to $ 0.0294\,\text{cm} / \sqrt{4} = 0.0147\,\text{cm}$ and therefore the best estimate of the length is $\bar{x} = 7.65\,\text{cm} \pm 0.0147\,\text{cm}$.
 
 
 ### Estimation through Variation or Instrumentation
@@ -233,6 +233,11 @@ Frequently, a set of measurements has to be taken in an experiment under a presc
 Finally, the measuring devices (meter stick, voltmeter, and so on) are not perfectly accurate even if one could make a precise reading with them. The manufacturer specifies the accuracy in the measuring device; for example, a particular type of voltmeter may be guaranteed to give readings accurate to $\pm 1\%$ of full scale reading. Part of this tolerance is random error that can average out by taking multiple readings. As discussed in the next section, another part of the instrument error is systematic. An ammeter may always read $0.5\%$ high because of the value of a resistor internal to the device.
 
 
+### Examples of Random Errors
+
+- The reading of a Vernier caliper may not be zero when the jaws are in contact. This so-called zero error must be corrected for in using the instrument, i.e., the instrument must be calibrated. Otherwise, all measurements made with the caliper will be in error by a determinate amount, the zero error.
+
+- A significant random error encountered with a stopwatch is variations in human reaction time. This could arise due to things like changes in attentiveness or judgement of events, etc.
 
 
 ---
@@ -250,9 +255,11 @@ These errors are often *more important* than the random errors. Calibrating the 
 
 - The reading of a Vernier caliper may not be zero when the jaws are in contact. This so-called zero error must be corrected for in using the instrument, i.e., the instrument must be calibrated. Otherwise, all measurements made with the caliper will be in error by a determinate amount, the zero error.
 
+- Mis-calibrated or non-zeroed balance or sensor. This introduces an offset keeping resulting values always a little larger or small than they should be.
+
 - In many experiments time is measured with a stopwatch. Using a stopwatch that does not run at the proper rate would introduce an instrumental systematic error. A watch that ran too fast would cause all times recorded to be too high. 
 
-- A more significant systematic error encountered with a stopwatch is reaction time error. In measuring the time for an air track glider to travel down an incline, the observer may introduce a systematic error due to the reaction time required to stop the watch and a random error due to variation in reaction time. 
+- A more significant systematic error encountered with a stopwatch is reaction time error. In measuring the time for an air track glider to travel down an incline, the observer may introduce a systematic error due by always reacting a little early or a little late to the event being timed.
 
 Report these sources of error as **Vernier caliper error** or **reaction time error.** The expression **human error** is too ambiguous to be useful in describing measurement errors.
 

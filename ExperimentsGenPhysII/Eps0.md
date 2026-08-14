@@ -12,12 +12,15 @@
 
 ### ● Background Overview
 
-```{danger}
+```{admonition} DANGER: HIGH VOLTAGE
+:class: danger
 **⚠️⚠️⚠️⚠️ WARNING ⚠️⚠️⚠️⚠️**
 
 **⚠️⚠️⚠️⚠️ HIGH VOLTAGE IN USE TODAY ⚠️⚠️⚠️⚠️**
 
 **⚠️⚠️⚠️⚠️ DO NOT TOUCH THE METAL PLATES ⚠️⚠️⚠️⚠️**
+
+**⚠️⚠️⚠️⚠️ DO NOT TOUCH WIRE PLUGS, CONNECTORS, KNIFE EDGES ⚠️⚠️⚠️⚠️**
 
 **⚠️⚠️⚠️⚠️ YOU CAN GET SERIOUSLY INJURED ⚠️⚠️⚠️⚠️**
 

@@ -266,7 +266,7 @@ https://www.youtube.com/watch?v=qIOAo6_dHeY
 
 
 ## Experimental Procedure
-### ● Procedure Preview
+### ● Preview
 
 ```{admonition} OVERVIEW
 :class: note

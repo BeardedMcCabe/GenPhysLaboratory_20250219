@@ -1,5 +1,5 @@
 (lab-days-1171-1172-links)=
-# ● Lab Days for PHYS 1171L (with links)
+# || Lab Days for PHYS 1171L (with links)
 
 See printed schedule below {numref}`schedulePHYS1171L`.
 

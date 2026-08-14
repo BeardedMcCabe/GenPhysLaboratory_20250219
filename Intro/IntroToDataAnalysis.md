@@ -1,4 +1,4 @@
-# ● Introduction
+# || Introduction
 
 All scientists and engineers, whatever their field, use fairly standard procedures to record and analyze experimental data. One key objective of this laboratory is that students explore the experiments using scientific methods that are common to all experiments, both in this laboratory and beyond.
 

@@ -134,7 +134,7 @@ Controls and parameters for the CRT of the *Complete Properties of Electrons App
 ## Experimental Procedure
 
 
-### ● Procedure Preview \& Preliminary Setup
+### ● Preview \& Preliminary Setup
 
 
 ```{admonition} OVERVIEW

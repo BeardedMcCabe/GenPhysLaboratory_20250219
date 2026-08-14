@@ -7,7 +7,7 @@ root: intro
 parts:
   - caption: Schedule
     chapters:
-    - file: Schedule/schedulePHYS_summer
+#    - file: Schedule/schedulePHYS_summer
     - file: Schedule/scheduleByMeetingTimesAll
     - file: Schedule/schedulePHYS1171_1172
     - file: Schedule/schedulePHYS1145_1146
@@ -20,9 +20,10 @@ parts:
     - file: Intro/GraphicalRepresentation
   - caption: Software & Equipment
     chapters:
-    - file: Intro/CapstoneNotes
+    - file: Intro/TripleBeamBalance
     - file: Intro/VernierCaliper
-    - file: Intro/GeneralEquipment
+    - file: Intro/CapstoneNotes
+#    - file: Intro/GeneralEquipment
   - caption: Gen. Phys. Lab I (Fall) --- Experiments
     chapters:
       - file: ExperimentsGenPhysI/IntroLab
