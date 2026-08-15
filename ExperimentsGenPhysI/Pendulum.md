@@ -161,7 +161,7 @@ When the pendulum swings with very small angles, the period is essentially indep
 
 ## Experimental Procedure
 
-### ● Procedure Preview
+### ● Preview
 
 ```{admonition} OVERVIEW
 :class: note

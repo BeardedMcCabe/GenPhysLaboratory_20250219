@@ -8,18 +8,20 @@
 
 ## Background
 
-```{danger}
-⚠️ ⚠️ ⚠️ ⚠️ WARNING ⚠️ ⚠️ ⚠️ ⚠️
+```{admonition} DANGER: HIGH ALTERNATING CURRENT
+:class: danger
+**⚠️⚠️⚠️⚠️ WARNING ⚠️⚠️⚠️⚠️**
 
-⚠️ ⚠️ ⚠️ ⚠️ HIGH CURRENT IN USE TODAY ⚠️ ⚠️ ⚠️ ⚠️
+**⚠️⚠️⚠️⚠️ HIGH CURRENT IN USE TODAY ⚠️⚠️⚠️⚠️**
 
-⚠️ ⚠️ ⚠️ ⚠️ DO NOT TOUCH THE METAL CONDUCTORS (BARS) or WIRE PLUGS ⚠️ ⚠️ ⚠️
+**⚠️⚠️⚠️⚠️ DO NOT TOUCH THE METAL CONDUCTORS (BARS) ⚠️⚠️⚠️⚠️**
 
-⚠️ ⚠️ ⚠️ ⚠️ YOU CAN BE SERIOUSLY INJURED ⚠️ ⚠️ ⚠️ ⚠️
+**⚠️⚠️⚠️⚠️ DO NOT TOUCH WIRE PLUGS, CONNECTORS, KNIFE EDGES ⚠️⚠️⚠️⚠️**
 
-⚠️ ⚠️ ⚠️ ⚠️ WARNING ⚠️ ⚠️ ⚠️ ⚠️
+**⚠️⚠️⚠️⚠️ YOU CAN BE SERIOUSLY INJURED ⚠️⚠️⚠️⚠️**
+
+**⚠️⚠️⚠️⚠️ WARNING ⚠️⚠️⚠️⚠️**
 ```
-
 
 ### ● Background Overview
 

@@ -140,7 +140,7 @@ v_0 = X \sqrt{\frac{g}{2 Y}}.
 
 ## Experimental Procedure
 
-### ● Procedure Preview
+### ● Preview
 
 ```{admonition} OVERVIEW
 :class: note

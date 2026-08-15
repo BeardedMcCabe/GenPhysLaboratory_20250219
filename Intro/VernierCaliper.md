@@ -1,4 +1,5 @@
-# ● Vernier Calipers
+(vernier-calipers-overall)=
+# || Vernier Calipers
 
 ## The Apparatus
 
@@ -59,7 +60,7 @@ A diagram showing Vernier calipers and their main measurement scales. The second
 (reading-the-vernier-scale-help)=
 ## Reading the Vernier scale
 
-### Simplified example
+### ● Simplified example
 
 Vernier scales, as used on the calipers and on many other types of high quality measuring instruments provide a means of reading accurately fractions of a scale division that otherwise have to be estimated. In {numref}`VernierManual_Fig02`, we have two illustrated main scales with their Vernier scales. To measure, the three simplified steps are as in the figure. 
 
@@ -82,7 +83,7 @@ A diagram showing two examples of reading measurements from *Vernier* calipers. 
 
 
 
-### Precautions
+### ● Precautions
 
 For successful use of the calipers, {numref}`VernierManual_Fig03` includes suggested techniques to ensure accurate measurement readings. Do's are shown by the open circle, while don'ts are shown by a circle with a line through it.
 
@@ -96,7 +97,7 @@ A diagram showing precautions necessary for successful use of *Vernier* calipers
 
 
 
-### Web Example
+### ● Web Examples
 
 Use the following online resources to test yourself whether you are reading the Main and **Vernier** scales on the **Vernier** calipers correctly.
 
@@ -106,7 +107,7 @@ Use the following online resources to test yourself whether you are reading the 
 
 
 
-### Additional example with estimation
+### ● Additional example with estimation
 
 ```{figure} IntroductionFigures/VernierCalipers02a.jpg
 :name: Vernier_Fig02_again

@@ -297,6 +297,7 @@ The cases today are as shown in {numref}`waves-cases-table`.
 \lambda = v \frac{1}{f}
 ```
 
+<!--- Bob Cordery suggestion for additional plot: I suggested that they plot f vs n and use the slope instead of f_1. The intercept is related to how the wavelength differs from 2L/n --->
 
 
 ### ● Continue to Additional Cases
@@ -358,12 +359,12 @@ The cases today are as shown in {numref}`waves-cases-table`.
 
 ## The Whiteboard
 
-```{figure} WavesFigures/waves_2025_Spring_01_v02.jpg
+```{figure} WavesFigures/waves_2025_Spring_04_v03.jpg
 :name: waves_whiteboard_01
 :width: auto
 :align: center
 
-Overview. Notes. Equation numbers have changed. Using error propagation instead of standard deviation. 3 Cases instead of 4, old case three is dropped.
+Overview. Notes. Using error propagation.
 ```
 
 ```{figure} WavesFigures/waves_2025_Spring_02_v01.jpg
