@@ -277,7 +277,7 @@ For each case, perform 5 trials per person (i.e. 10 or 15 total data points per 
     - Count one cycle as the mass returns to the starting point, i.e. after one complete swing out and back.
       ```{admonition} Suggestion for Counting: Index at 0
       :class: tip
-      If you index your counting by starting at 0, where you would start the  stopwatch when you say zero, and stop the stopwatch when you say ten, you will have counted 10 full cycles.
+      If you index your counting by starting at 0, where you would start the stopwatch when you say zero, and stop the stopwatch when you say ten, you will have counted 10 full cycles.
       ```
 7. Estimate your trial's time uncertainty $\delta t_{10\text{cycles}}$ based on your reaction time (generally ranging ~0.100 -- 0.300 seconds) and your stopwatch precision. (i.e. results are $t_{10\text{cycles}} \pm \delta t_{10\text{cycles}}$). *CONSIDER*: Where do the uncertainties come from?
 
