@@ -24,6 +24,9 @@ parts:
     - file: Intro/VernierCaliper
     - file: Intro/CapstoneNotes
 #    - file: Intro/GeneralEquipment
+  - caption: Example Labs
+    chapters:
+    - file: Intro/ExampleLab/HarmonicMotion
   - caption: Gen. Phys. Lab I (Fall) --- Experiments
     chapters:
       - file: ExperimentsGenPhysI/IntroLab
