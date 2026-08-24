@@ -1,5 +1,5 @@
 (magnetic-force-mu0-overall)=
-# Lab 6 | Magnetic Force & the Determination of μ₀
+# || Lab 6 | Magnetic Force & the Determination of μ₀
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important
