@@ -141,13 +141,14 @@ Each group member can measure at the same time to be able to save time while sti
 Before assembling the glider and springs on the airtrack, we must determine the spring constants of the two springs. These very light springs are capable of stretching 20 times their rest length. **Please be very careful not to damage them through careless handling or overstretching.** Create common data table and spring data tables for each of the two springs to measure the spring constant by measuring the extension of the spring at two different displacements from $y_0$ to $\sim 0.95\,\text{m}$ and $\sim 1.55\,\text{m}$.
 
 1. Create a common data table including:
-    - masses of large, small, small-with-sail gliders in kg
-    - first spring's average spring contant $k_\text{avg,spring1}$
-    - second spring's average spring contant $k_\text{avg,spring2}$
-    - total effective spring constant $k_\text{eff}$
-    - expected periods $T$ for each of the three glider cases
+    - $m_\text{glider}$: masses of large, small, small-with-sail gliders in kg
+    - $\delta m_\text{glider}$: uncertainty in masses of large, small, small-with-sail gliders in kg
+    - first spring's average spring contant $k_\text{avg,spring1}$ and its uncertainty $\delta k_\text{avg,spring1}$
+    - second spring's average spring contant $k_\text{avg,spring2}$ and its uncertainty $\delta k_\text{avg,spring2}$
+    - total effective spring constant $k_\text{eff}$ and its uncertainty $\delta k_\text{eff}$
+    - expected periods $T$ and their uncertainties $\delta T$ for each of the three glider cases
 
-2. Measure and record the masses with a triple beam balance:
+2. Measure and record the mass and uncertainty with a triple beam balance for:
     - large glider
     - small glider
     - small glider with sail holder and sail
@@ -157,12 +158,12 @@ Before assembling the glider and springs on the airtrack, we must determine the 
     ```
 
 3. Create the spring-1 data table for the first spring with a row for each displacement trial including columns of:
-    - height $y_0$ of the bottom of the loop on the spring (no mass)
-    - applied mass (including hanger)
-    - gravitational force due to the mass
-    - height $y_n$ at the bottom of the loop on the spring with the masses 
-    - total displacement $\Delta y$ due to the applied force
-    - spring constant
+    - height $y_0$ and its uncertainty of the bottom of the loop on the spring (no mass)
+    - applied hanging mass (including hanger) and its uncertainty
+    - gravitational force and its uncertainty due to hanging mass
+    - height $y_n$ and its uncertainty at the bottom of the loop on the spring with the masses 
+    - total displacement $\Delta y$ and its uncertainty due to the applied force
+    - spring constant and its uncertainty
 
 
 ```{figure} HarmonicMotionFigures/Figure02.png
@@ -175,8 +176,8 @@ Experimental method to measure $\Delta y$ for a spring.
 
 4. For each spring, perform the following steps to determine its average spring constant $k_{\text{spring }n}$ from two displacement trials. Refer to {numref}`harmonic_motion_Fig02`.
     - Orient the 2-meter stick with the zero end at the top. It is only the change in $y$ with force that matters in this measurement.
-    - Attach one end of the spring to the ring stand and allow the spring to hang free with no mass hanging. Record $y_0$.
-    - Carefully hang enough mass on a weight holder on the end of the spring until it extends a total displacement of $\sim 0.95\,\text{m}$ from $y_0$ and record the exact position $y_1$ and mass used as $m_1$ (don't forget the hanger is 50 grams itself). Take the measurements with the spring and any weights hanging stationary.
+    - Attach one end of the spring to the ring stand and allow the spring to hang free with no mass hanging. Record $y_0 \pm \delta y_0$.
+    - Carefully hang enough mass on a weight holder on the end of the spring until it extends a total displacement of $\sim 0.95\,\text{m}$ from $y_0$ and record the exact position $y_1 \pm \delta y_1$ and hangin mass used as $m_1 \pm \delta m_1$ (don't forget the hanger is 50 grams itself). Take the measurements with the spring and any weights hanging stationary.
     - Calculate the applied gravitational force and total displacement $\Delta y_\text{1,spring1} = y_1 - y_0$
     - Calculate the spring constant $k_\text{1,spring1}$ at this first displacement using {eq}`harmonic_motion_Faccel`
     - Add a additional mass to the weight holder on the end of the spring until it extends a total displacement of $\sim 1.55\,\text{m}$ from $y_0$ and record the exact position $y_2$ and mass used as $m_2$ (don't forget the hanger is 50 grams itself). Take the measurements with the spring and any weights hanging stationary.
@@ -344,14 +345,19 @@ Defend why your data agrees with or disagrees with the actual value of $g$ and p
 - In a **paragraph**, summarize your error analysis. Be both qualitative and quantitative.
   - What is the precision of your equipment?
   - What are possible sources of systematic (i.e. affecting accuracy) and random (i.e. affecting variance) errors?
-  - What are your measured uncertainties, and, based on these uncertainties, how would your measure period change? I.e. do your different measurement uncertainties make your final results larger or smaller?
+    - Discuss those from spring characterization
+    - Discuss those in the *undamped* cases
+    - Discuss those in the *damped* case
+  - How do your measured uncertainties in hanging mass and spring constants affect your expected periods; by how much; which showed a larger impact?
 
   
 - In a **paragraph**, summarize the results you have determined in each case. Consider:
-  - For all three cases, do the the measured periods of the glider agree with the expected value?
+  - For all three cases, how do the the measured periods of the glider compare to expected periods? I.e. do they agree within uncertainty and standard deviation ranges?
   - Comment (qualitatively) on the behavior of the curves from each plot. Do the trends make sense? Explain with physical concepts.
-  - From the damped-oscillator plot, what do you expect amplitude of the glider to be after 50 cycles?
-  - Does the amplitude affect the period? Why or why not?
+    - From the damped-oscillator plot, what do you expect amplitude of the glider to be after 50 cycles?
+  - Does the amplitude affect the period? Why or why not? Argue a physical answer supported by your data; discuss whether your data supports the theory for:
+    - An *undamped oscillator*
+    - An *damped oscillator*
   - How does the period depend on the mass of the glider? Is this expected?
   - How does an increased air drag affect the result for the period?
   - How does the amplitude depend on the number of cycles (relate this to energy conservation)?

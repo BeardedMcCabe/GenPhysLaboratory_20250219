@@ -1,5 +1,5 @@
 (force-table-with-3-vectors-overall)=
-# Lab 1 | Force Table with 3 Vectors at Equilibrium
+# || Lab 1 | Force Table with 3 Vectors at Equilibrium
 
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
@@ -229,11 +229,12 @@ For accurate measurements of the angles involved, *each cord must be aimed direc
 
 ## Experimental Procedure
 
+### ● Preview
+
 ```{admonition} OVERVIEW
 :class: note
 For today's lab, two different cases will be assigned involving two given vectors and the **determination of the equilibrant vector**. A third case involves the **determination of the mass of two unlabeled masses** by balancing the system from a single known mass.
 ```
-
 
 ```{admonition} Reminder on Data Taking
 :class: warning
