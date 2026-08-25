@@ -1,12 +1,11 @@
 (ideal-gas-absolute-zero-lab-overall)=
 # || Lab 7-[1145L-ONLY] | Ideal Gas Law with Isothermal & Adiabatic Compression; Estimating Absolute Zero
 
-```{admonition} Review Post-lab Interpretation Questions before lab
-:class: important
-**❓❓ See {ref}`postlabs_ideal_gas_law` ❓❓**
+```{admonition} INDIVIDUAL Post-lab Writeup<br>Review Post-lab Interpretation Questions before lab
+:class: danger
+- Today's lab will have an 🟥 🟥 ***INDIVIDUAL*** 🟥 🟥 post-lab write-up. Submissions must be your own analysis and written work.
+- **❓❓ See {ref}`postlabs_ideal_gas_law` ❓❓**
 ```
-
-
 
 
 ## Background
@@ -332,6 +331,12 @@ Take **1 trial** of data by doing the following hot-warm-cold procedure.\
 	  - What does absolute zero represent about a system?
 	  - What is your extrapolated result for absolute zero? How does it compare to the accepted value?
 --->
+
+
+```{admonition} Defend your conclusions with your data
+:class: important
+Defend why your data agrees with or disagrees with the expected values. Use error propagation from your uncertainties and precision of your equipment to help your argument.
+```
 
 This week's lab is built of essentially two different, but still related to thermodynamics, experiments. To assist in your analysis and writeups, the suggested talking points below are broken up into the Thermodynamic Processes and Absolute Zero parts of the lab. You will still have single document for error analysis and single document for results as assignments in Blackboard.
 

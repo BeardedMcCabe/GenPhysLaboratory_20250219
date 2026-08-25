@@ -1,9 +1,11 @@
 (intro-lab-dominos-overall)=
 # || Lab 0 | Introductory Lab: Domino Size & Density
 
-```{admonition} Review Post-lab Interpretation Questions before lab
+
+```{admonition} GROUP Post-lab Writeup<br>Review Post-lab Interpretation Questions before lab
 :class: important
-**❓❓ See {ref}`postlabs_intro_dominoes` ❓❓**
+- Today's lab will have a 🔵 🔵 ***GROUP*** 🔵 🔵 post-lab write-up. Please thoroughly discuss and review with your lab group members before submission.
+- **❓❓ See {ref}`postlabs_intro_dominoes` ❓❓**
 ```
 
 

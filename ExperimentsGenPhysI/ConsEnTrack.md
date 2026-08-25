@@ -1,9 +1,10 @@
 (cons-energy-glider-track-lab-overall)=
 # || Lab 5 | Conservation of Energy with Glider on Tilted Air Track
 
-```{admonition} Review Post-lab Interpretation Questions before lab
-:class: important
-**❓❓ See {ref}`postlabs_cons_energy_track` ❓❓**
+```{admonition} INDIVIDUAL Post-lab Writeup<br>Review Post-lab Interpretation Questions before lab
+:class: danger
+- Today's lab will have an 🟥 🟥 ***INDIVIDUAL*** 🟥 🟥 post-lab write-up. Submissions must be your own analysis and written work.
+- **❓❓ See {ref}`postlabs_cons_energy_track` ❓❓**
 ```
 
 
@@ -124,6 +125,38 @@ therefore the potential energy, $U$, at some position, $s$, along the track is f
 U_s = mg \, \Delta s \frac{H}{D}
 ```
 
+
+
+### ● Equipment
+
+The airtrack apparatus for this experiment is depicted in {numref}`M05Fig04`. It will be inclined by the addition of spacers as seen in {ref}`M05Fig07`. All equipment is listed in {numref}`airtrack_energyCons-equipment-table`.
+
+
+```{table} Equipment
+:name: airtrack_energyCons-equipment-table
+
+| Category | Items |
+|---|---|
+| **Airtrack** | • Effectively frictionless surface for gliders |
+| **Gliders** | • Two gliders, small and BIG for two different weight cases |
+| **Glider-Release Mechanism** | • White, adjustable glider-release bar that can quickly release the glider with minimal friction and pushing impacts on glider travel (see {numref}`M05Fig09`-left) |
+| **Airtrack Inlclination** | • Two spacers, small (red) and BIG (white) for two different height cases (see {numref}`M05Fig07`) |
+| **Measurement Tools** | • {ref}`Triple beam balance<triple-beam-balance-overall>`<br>• {ref}`Vernier Calipers<vernier-calipers-overall>`<br>• 2x Pasco photogates used with CAPSTONE software on lab computers |
+
+```
+
+
+```{figure} ConsEnTrackFigures/Figure08_airtrack_spacers_placed_v2026-02.JPG
+:name: M05Fig07
+:width: auto
+:align: center
+
+Example of small and BIG spacers used to incline the air track. There are slots in the spacers to help measure height from bottom of spacer to bottom of black foot. Remember to put the black plastic footer when levelling the airtrack and on top of the spacers.
+```
+
+
+
+
 ## Experimental Procedure
 
 ### ● Preview
@@ -144,7 +177,7 @@ U_s = mg \, \Delta s \frac{H}{D}
 :class: tip
 - The presumed frictionless inclined plane will be an air track.
 - The mass will be a glider, which floats on the air track.
-- Placing a spacer (essentially a big slotted mass, see {numref}`M05Fig05`) of height $H$ under the leg at one end of the track, which is a distance $D$ from the pivoting leg(s) at the opposite end, will incline the track.
+- Placing a spacer (see {numref}`M05Fig07`) of height $H$ under the leg at one end of the track, which is a distance $D$ from the pivoting leg(s) at the opposite end, will incline the track.
 - Time measured by PASCO photogate for velocity calculation in **Capstone** (stated precision of 0.0001 seconds).
 - The relevant **Capstone** file will be on the desktop. Please ***DO NOT*** save when you are done, just exit without saving, thanks.
 ```
@@ -158,13 +191,7 @@ U_s = mg \, \Delta s \frac{H}{D}
 Experimental setup for the Conservation of Energy experiment.
 ```
 
-```{figure} ConsEnTrackFigures/Figure05_spacers_v2025-02.png
-:name: M05Fig05
-:width: auto
-:align: center
 
-Example of small and large spacers used to incline the air track. The cases today will be the BIG and Stacked heights. Remember to put the black plastic footer on top of the spacers as shown in the *stacked* case.
-```
 
 
 
@@ -177,7 +204,7 @@ Example of small and large spacers used to incline the air track. The cases toda
     - accepted value of $g$ of $9.803\,\text{m/s}^2$ for Fairfield, CT
     - the masses of each of the gliders in kg
     - the distance $D$ between the legs of the air track in meter (m)
-    - the heights $H$ of the two spacers (big slotted masses) in m
+    - the heights $H$ of the two spacers (short red and taller white) in m
     - $s_1$: starting point at the top
     - $s_0$: stopping point at the bottom
     - $\Delta s_1$: distance between the photogates that the glider travels down along the track
@@ -188,7 +215,7 @@ Example of small and large spacers used to incline the air track. The cases toda
     *Reminder: ensure the balance is zeroed before measurements. You can use the adjustment knob on the left side under the silver weighing platform to ensure the pointers at the right end are aligned*.
     ```
 
-4. **Level the airtrack.** Without the spacer present and the air track resting directly on the tabletop (with the black circle feet), place one of the gliders on the track (somewhere between the photogates, center) and note any preferential drift of the glider. Adjust the height of the single leg (screw clockwise in or counter-clockwise out) until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, make sure to note that for your discussion purposes. 
+4. **Level the airtrack.** Without the spacer present (see {ref}`M05Fig07`-left) and the air track resting directly on the tabletop (with the black circle feet), place one of the gliders on the track (somewhere between the photogates, center) and note any preferential drift of the glider. Adjust the height of the single leg (screw clockwise in or counter-clockwise out) until the air track is level, as indicated by no preferential drift. Check both orientations of the glider on the track to check if the car is asymmetric and has a significant preferential drift on an otherwise level track. If this occurs, make sure to note that for your discussion purposes. 
 
     ```{admonition} Drift
     :class: tip
@@ -197,7 +224,7 @@ Example of small and large spacers used to incline the air track. The cases toda
 
 5. Measure and record the distance $D$. This is the center-to-center distance between the legs. 1 m and 2 m long meter sticks are available for this measurement, with additional meter sticks at the front wall of the room.
 
-6. Measure and record the heights, $H$, of each of the two spacers (big slotted masses) with the provided Vernier caliper. If you need a refresher on using Vernier calipers, see {ref}`reading-the-vernier-scale-help`. Since we'll be stacking the spacers for some of the cases today, include a stacked spacers value in your common data table for easier use of the height later.
+6. Measure and record the heights, $H$, of each of the two spacers with the provided Vernier caliper. There are slots in the spacers to help measure height from bottom of spacer to bottom of black foot. If you need a refresher on using Vernier calipers, see {ref}`reading-the-vernier-scale-help`.
 
 7. Take a look at the gliders and determine a convenient point on the glider to use with the scale ($\sim2.5$ meter ruler) attached on the side of air track. It doesn't matter what point on the glider you choose, only that you be consistent and use the same point for all determinations of distance along the track $S$ for that glider. A convenient point is the ***lower front or rear corner*** of the glider since it is a clear point on the glider that will overlap or be quite close to the length scale on the track itself (see {numref}`M05Fig04`).
 
@@ -237,15 +264,15 @@ Suggested points on glider to read position on airtrack scale.
     Be careful not to bump the photogates, as that could change their positions and lead to inaccurate distances. Check during each case; if need be, expand your common data table with additional $s_0$ and $s_1$ positions.
     ```
 
-10. Four cases will be performed as listed in {numref}`tab-four-glider-spacer-cases-ConsEnTrack`. For each of the four cases, perform the following steps listed in {ref}`detailsteps-ConsEnTrack` and record the data appropriately in your spreadsheet. ***Note: We are not doing the small spacer by itself today.***
+10. Four cases will be performed as listed in {numref}`tab-four-glider-spacer-cases-ConsEnTrack`. For each of the four cases, perform the following steps listed in {ref}`detailsteps-ConsEnTrack` and record the data appropriately in your spreadsheet.
     ```{table} Four experimental cases with spacers and gliders
     :name: tab-four-glider-spacer-cases-ConsEnTrack
     | Case | Spacer Size | Glider Size |
     |:----:|:-----------:|:-----------:|
-    |  1   |   Stacked BIG + small [see {numref}`M05Fig05`]     |   small     |
-    |  2   |   Stacked BIG + small [see {numref}`M05Fig05`]     |    BIG      |
-    |  3   |    BIG      |   small     |
-    |  4   |    BIG      |    BIG      |
+    |  1   |   BIG (white)     |   small     |
+    |  2   |   BIG (white)     |    BIG      |
+    |  3   |    small (red)      |   small     |
+    |  4   |    small (red)      |    BIG      |
     ```
 
 
@@ -288,7 +315,7 @@ Reminder, run your first case completely **before** moving on to additional case
 
 12. Ensure $s_1$ and $s_0$ haven't changed.
 
-13. Raise the single leg side of the track by placing the case-relevant spacer under the black foot as seen in {numref}`M05Fig03` and {numref}`M05Fig05`.
+13. Raise the single leg side of the track by placing the case-relevant spacer under the black foot as seen in {numref}`M05Fig03` and {numref}`M05Fig07`.
 
 14. Before you take the recorded data in the next steps, take some practice runs. Your subsequent data will be much improved by your training! Review the following demo videos as well.
 
@@ -308,7 +335,7 @@ Reminder, run your first case completely **before** moving on to additional case
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen>
       </iframe>
-      <figcaption>Demonstration of glider release to minimize initial velocity.</figcaption>
+      <figcaption>Demonstration of glider release to minimize initial velocity. Note: this red bar is a previous iteration, but process is the same.</figcaption>
     </figure>
   </div>
    
@@ -325,7 +352,7 @@ Reminder, run your first case completely **before** moving on to additional case
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen>
   </iframe>
-  <figcaption>Demo video: Trial of Energy Conservation on the Airtracks. Note: This video predates the use of the timer in Capstone, so you will see an older style of timer.</figcaption>
+  <figcaption>Demo video: Trial of Energy Conservation on the Airtracks. Note: This video predates the use of the timer in Capstone, so you will see an older style of timer as well as no release mechanism.</figcaption>
 </div>
 
 
@@ -348,7 +375,16 @@ Reminder, run your first case completely **before** moving on to additional case
     - Groups of 3 students, each student will release the glider for 2 trials
     ```
 
-    **a.** Position the glider so it is blocking the top photogate and the red light is on. Use the red glider-release mechanism to hold the glider in place. ***Shift the mechanism up or down the track as necessary to move and hold the glider just before the photogate beam such that the red light on the photogate just goes out.***
+    **a.** Referencing {numref}`M05Fig09`. position the glider so it is blocking the top photogate and the red light is on. Use the white glider-release mechanism to hold the glider in place. ***Shift the mechanism up or down the track as necessary to move and hold the glider just before the photogate beam such that the red light on the photogate just goes out.***
+
+    ```{figure} ConsEnTrackFigures/Figure09_airtrack_gliderRelease_v2026-01.JPG
+    :name: M05Fig09
+    :width: auto
+    :align: center
+
+    Left) Updated glider-release mechanism. Center) Starting position just as the photogate light is off. Right) Immediately after the glider is released, the photogate light turns on and starts the timer.
+    ```
+
 
     **b.** Check the Capstone timer is ready, then release the glider by *quickly* flipping the glider release bar to minimize any additional push or pull on the glider to **ensure its initial velocity is zero**. (reminder, see {ref}`demo-video-ConsEnTrack-gliderRelease`).
 

@@ -1,12 +1,11 @@
 (force-table-with-3-vectors-overall)=
 # || Lab 1 | Force Table with 3 Vectors at Equilibrium
 
-
-```{admonition} Review Post-lab Interpretation Questions before lab
-:class: important
-**❓❓ See {ref}`postlabs_vectorTable` ❓❓**
+```{admonition} INDIVIDUAL Post-lab Writeup<br>Review Post-lab Interpretation Questions before lab
+:class: danger
+- Today's lab will have an 🟥 🟥 ***INDIVIDUAL*** 🟥 🟥 post-lab write-up. Submissions must be your own analysis and written work.
+- **❓❓ See {ref}`postlabs_vectorTable` ❓❓**
 ```
-
 
 
 ## Background
@@ -224,6 +223,7 @@ For accurate measurements of the angles involved, *each cord must be aimed direc
 | **Cords** | • Three cords extend from the center ring<br>• Each cord passes over a pulley<br>• Each cord terminates at a weight holder |
 | **Weight Hangers<br>and Weights** | • $\sim50\,\text{g}$ weight hangers attached to the cords<br>• Slotted weights ***(available at front table)*** |
 | **Unlabeled Masses** | • Two figurines, slotted for the weight hangers<br>• Black Pikachu<br>• White Corgi |
+| **Measurement Tool** | • {ref}`Triple beam balance<triple-beam-balance-overall>` |
 ```
 
 

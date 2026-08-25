@@ -1,11 +1,11 @@
 (simple-pendulum-g-lab-overall)=
 # || Lab 9 | Determination of Acceleration due to Gravity, *g*, with Simple Pendulum
 
-```{admonition} Review Post-lab Interpretation Questions before lab
-:class: important
-**❓❓ See {ref}`postlabs_simple_pendulum` ❓❓**
+```{admonition} INDIVIDUAL Post-lab Writeup<br>Review Post-lab Interpretation Questions before lab
+:class: danger
+- Today's lab will have an 🟥 🟥 ***INDIVIDUAL*** 🟥 🟥 post-lab write-up. Submissions must be your own analysis and written work.
+- **❓❓ See {ref}`postlabs_simple_pendulum` ❓❓**
 ```
-
 
 
 ## Background

@@ -104,7 +104,7 @@ Example mass value **as read** from scales of $387.9\,\text{g}$. The hundredths 
 
 
 
-## Web Examples
+## Web Simulation & Example
 
 Use the following online resources to review and test yourself on whether you are reading the mass scales correctly.
 
@@ -112,6 +112,13 @@ Use the following online resources to review and test yourself on whether you ar
 
 [Triple Beam Balance Tutorial - OHAUS](https://us.ohaus.com/en-us/tutorials/triple-beam)
 
+```{figure} IntroductionFigures/tbb_007_WebExample_v01.png
+:name: triplebeambalance_Fig_WebExample01
+:width: auto
+:align: center
+
+Simulation example: [Triple Beam Balance Tutorial - OHAUS](https://us.ohaus.com/en-us/tutorials/triple-beam).
+```
 
 ### ● Video Tutorial
 

@@ -97,17 +97,40 @@ A diagram showing precautions necessary for successful use of *Vernier* calipers
 
 
 
-### ● Web Examples
+## Web Simulations & Examples
 
 Use the following online resources to test yourself whether you are reading the Main and **Vernier** scales on the **Vernier** calipers correctly.
 
+### ● Our Style of Caliper
+
 [Simulated Vernier Caliper in the style of the calipers we use in lab](https://www.stefanelli.eng.br/en/virtual-vernier-caliper-simulator-05-millimeter/)
+
+```{figure} IntroductionFigures/VernierCaliper_WebExample_01.png
+:name: Vernier_Fig_WebExample_01
+:width: auto
+:align: center
+
+Simulation example 1: [Simulated Vernier Caliper in the style of the calipers we use in lab](https://www.stefanelli.eng.br/en/virtual-vernier-caliper-simulator-05-millimeter/).
+```
+
+
+### ● Simplified Caliper
 
 [Simulated Vernier Caliper measurements of an object, simplified](https://www.compadre.org/osp/EJSS/4168/195.htm)
 
+```{figure} IntroductionFigures/VernierCaliper_WebExample_02.png
+:name: Vernier_Fig_WebExample_02
+:width: auto
+:align: center
+
+Simulation example 2: [Simulated Vernier Caliper measurements of an object, simplified](https://www.compadre.org/osp/EJSS/4168/195.htm).
+```
 
 
-### ● Additional example with estimation
+
+
+
+## Additional example with estimation
 
 ```{figure} IntroductionFigures/VernierCalipers02a.jpg
 :name: Vernier_Fig02_again

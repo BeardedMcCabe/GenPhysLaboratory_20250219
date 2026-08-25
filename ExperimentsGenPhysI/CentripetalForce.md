@@ -1,11 +1,11 @@
 (centripetal-force-lab-overall)=
 # || Lab 4 | Centripetal Force with Mass on Rotating Arm
 
-```{admonition} Review Post-lab Interpretation Questions before lab
+```{admonition} GROUP Post-lab Writeup<br>Review Post-lab Interpretation Questions before lab
 :class: important
-**❓❓ See {ref}`postlabs_CentripetalForce` ❓❓**
+- Today's lab will have a 🔵 🔵 ***GROUP*** 🔵 🔵 post-lab write-up. Please thoroughly discuss and review with your lab group members before submission.
+- **❓❓ See {ref}`postlabs_CentripetalForce` ❓❓**
 ```
-
 
 
 
