@@ -1,5 +1,5 @@
 (intro-lab-dominos-overall)=
-# Lab 0 | Introductory Lab: Domino Size & Density
+# || Lab 0 | Introductory Lab: Domino Size & Density
 
 ```{admonition} Review Post-lab Interpretation Questions before lab
 :class: important
@@ -141,12 +141,12 @@ Each group member will independently measure each of the four dominoes (i.e. fou
 
 3. Record the trial number, group member's name or initials, and the domino color
 4. Using the **Vernier calipers** (reviewed in {ref}`vernier-calipers-overall`):
-    - note the caliper's measurement uncertainty in your **common data** table (smallest measureable increment, $\delta_{\text{caliper}} = \delta_l = \delta_w = \delta_h$). The Greek letter $\delta$ (said as “delta”) is representing the *measurement* uncertainty of each variable (e.g. $l \pm \delta_l$). Then measure and record, in the units of the calipers, the:
+    - note the caliper's *measurement precision* in your **common data** table. For today, we will treat this *smallest measureable increment* as the same for each dimensional measurement uncertainty, $\delta_{\text{caliper}} = \delta_l = \delta_w = \delta_h$. NOTES: Measurement uncertainties can be larger than the precision of your tools; this will happen throughout the semester depending upon your confidence in the measurements. The Greek letter $\delta$ (said as “delta”) is representing the *measurement* uncertainty of each variable (e.g. $l \pm \delta_l$). Then measure and record, in the units of the calipers, the:
       - length $l$
       - width $w$
       - height $h$
 5. Using the **triple beam balance** (reviewed in {ref}`triple-beam-balance-overall`):
-    - note the balance's measurement uncertainty (smallest *measureable* increment, $\delta_m$) in your **common data** table. Then measure & record the mass $m$, in the units of the balance (e.g. grams).
+    - note the balance's measurement precision (smallest *measureable* increment, $\delta_m$) in your **common data** table. Then measure & record the mass $m$, in the units of the balance (e.g. grams).
 
 6. Convert your measurements into SI units (e.g. kilogram kg, meter m, second s, etc.).
 
@@ -270,28 +270,28 @@ Example data tables are shown below to assist you in building your spreadsheet f
 
 | Variable (units) | Value |
 |------------------------|---|
-| Mass uncertainty (SI units) |   |
-| Caliper uncertainty (SI units)|   |
+| Mass precision (SI units) |   |
+| Caliper precision (SI units)|   |
 
 ---
 
 (trial-data)=
 ### ● Trial Data
 
-| Trial number | Group Member Initials | Color  | Length (measurement units, mm) | Width (measurement units, mm) | Height (measurement units, mm) | Mass  (measurement units, g) | Length (SI units) | Width (SI units) | Height (SI units) | Mass (SI units) | Volume (SI units) | Min Volume (SI units) | Max Volume (SI units) | Density (SI units) | Min Density (SI units) | Max Density  (SI units) |
-|--------------|------------------------|--------|-------------|------------|-------------|----------|------------|-----------|------------|-----------|-------------|-----------------|-----------------|-----------------|---------------------|---------------------|
-| 1            | AB                     | pink   |             |            |             |          |            |           |            |           |             |                 |                 |                 |                     |                     |
-| 2            | AB                     | green  |             |            |             |          |            |           |            |           |             |                 |                 |                 |                     |                     |
-| 3            | AB                     | orange |             |            |             |          |            |           |            |           |             |                 |                 |                 |                     |                     |
-| 4            | AB                     | blue   |             |            |             |          |            |           |            |           |             |                 |                 |                 |                     |                     |
-| 5            | CD                     | pink   |             |            |             |          |            |           |            |           |             |                 |                 |                 |                     |                     |
-| 6            | CD                     | green  |             |            |             |          |            |           |            |           |             |                 |                 |                 |                     |                     |
-| 7            | CD                     | orange |             |            |             |          |            |           |            |           |             |                 |                 |                 |                     |                     |
-| 8            | CD                     | blue   |             |            |             |          |            |           |            |           |             |                 |                 |                 |                     |                     |
-| 9            | EF                     | pink   |             |            |             |          |            |           |            |           |             |                 |                 |                 |                     |                     |
-| 10           | EF                     | green  |             |            |             |          |            |           |            |           |             |                 |                 |                 |                     |                     |
-| 11           | EF                     | orange |             |            |             |          |            |           |            |           |             |                 |                 |                 |                     |                     |
-| 12           | EF                     | blue   |             |            |             |          |            |           |            |           |             |                 |                 |                 |                     |                     |
+| Trial number | Group Member Initials | Color  | Length (measurement units, mm) | Width (measurement units, mm) | Height (measurement units, mm) | Mass (measurement units, g) | Length (SI units) | Width (SI units) | Height (SI units) | Mass (SI units) | Volume (SI units) | Min Volume (SI units) | Max Volume (SI units) | Volume Uncertainty $\delta V$ (SI units) | Density (SI units) | Min Density (SI units) | Max Density (SI units) | Density Uncertainty $\delta \rho$ (SI units) |
+| ------------ | --------------------- | ------ | ------------------------------ | ----------------------------- | ------------------------------ | --------------------------- | ----------------- | ---------------- | ----------------- | --------------- | ----------------- | --------------------- | --------------------- | ------------------ | ------------------ | ---------------------- | ---------------------- | ------------------- |
+| 1            | AB                    | pink   |                                |                               |                                |                             |                   |                  |                   |                 |                   |                       |                       |                    |                    |                        |                        |                     |
+| 2            | AB                    | green  |                                |                               |                                |                             |                   |                  |                   |                 |                   |                       |                       |                    |                    |                        |                        |                     |
+| 3            | AB                    | orange |                                |                               |                                |                             |                   |                  |                   |                 |                   |                       |                       |                    |                    |                        |                        |                     |
+| 4            | AB                    | blue   |                                |                               |                                |                             |                   |                  |                   |                 |                   |                       |                       |                    |                    |                        |                        |                     |
+| 5            | CD                    | pink   |                                |                               |                                |                             |                   |                  |                   |                 |                   |                       |                       |                    |                    |                        |                        |                     |
+| 6            | CD                    | green  |                                |                               |                                |                             |                   |                  |                   |                 |                   |                       |                       |                    |                    |                        |                        |                     |
+| 7            | CD                    | orange |                                |                               |                                |                             |                   |                  |                   |                 |                   |                       |                       |                    |                    |                        |                        |                     |
+| 8            | CD                    | blue   |                                |                               |                                |                             |                   |                  |                   |                 |                   |                       |                       |                    |                    |                        |                        |                     |
+| 9            | EF                    | pink   |                                |                               |                                |                             |                   |                  |                   |                 |                   |                       |                       |                    |                    |                        |                        |                     |
+| 10           | EF                    | green  |                                |                               |                                |                             |                   |                  |                   |                 |                   |                       |                       |                    |                    |                        |                        |                     |
+| 11           | EF                    | orange |                                |                               |                                |                             |                   |                  |                   |                 |                   |                       |                       |                    |                    |                        |                        |                     |
+| 12           | EF                    | blue   |                                |                               |                                |                             |                   |                  |                   |                 |                   |                       |                       |                    |                    |                        |                        |                     |
 
 ---
 

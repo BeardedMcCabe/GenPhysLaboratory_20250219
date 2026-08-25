@@ -9,8 +9,8 @@ parts:
     chapters:
 #    - file: Schedule/schedulePHYS_summer
     - file: Schedule/scheduleByMeetingTimesAll
-    - file: Schedule/schedulePHYS1171_1172
-    - file: Schedule/schedulePHYS1145_1146
+#    - file: Schedule/schedulePHYS1171_1172
+#    - file: Schedule/schedulePHYS1145_1146
     - file: Schedule/scheduleByProfessor
   - caption: Data Analysis Information
     chapters:

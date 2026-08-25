@@ -49,7 +49,7 @@ Please email and include (note, all the emails below end with ***\@fairfield.edu
 
 
 ## Printed Weekly Lab Schedule
-
+<!---
 ```{figure} ScheduleFigures/2026_Fall_LabSchedulePrintoutTimes_1145L_1171L_v1.png
 :name: schedule
 :width: 100%
@@ -57,7 +57,7 @@ Please email and include (note, all the emails below end with ***\@fairfield.edu
 :align: center
 Printed lab schedule by section for PHYS 1145L & 1171L. Included are the instructors' email addresses.
 ```
-
+--->
 
 
 <!---

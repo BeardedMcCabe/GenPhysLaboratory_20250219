@@ -35,6 +35,7 @@ Use a separate row for each trial and a separate column for each measured or cal
 
 ### Excel Function Syntax
 
+(data-acquisition-and-analysis-trigonometric-functions)=
 #### Trigonometric Functions
 
   - Excel *functions* like `SIN()`, `COS()`, etc. take some `input` between the parentheses (e.g. `SIN(input)`) and then return a value such that `output = SIN(input)`. 
