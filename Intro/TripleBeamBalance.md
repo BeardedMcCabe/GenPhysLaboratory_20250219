@@ -1,11 +1,9 @@
 (triple-beam-balance-overall)=
 # || Triple Beam Balance
 
+Here is an overview of how to use a triple beam balance for 0.1 gram precision mass measurements.
+
 ## The Apparatus
-
-<!--- The instrument illustrated in {numref}`Vernier_Fig01` is a set of calipers. The calipers have jaws $c$ and $d$ for measuring the diameter of a sphere or cylinder, $A$, or the thickness of any object placed between them. The inside diameter of a cavity is measured with jaws $e$ and $f$. The depth of a hole is measured with the depth gauge, $g$. The latter, and jaws $f$ and $d$ form part of a slide on which is engraved an auxiliary scale, the *Vernier scale* $v$. The scale on the fixed part (which carries jaws $c$ and $e$) is called the main scale. Only the metric scales are shown in the drawing, although the instrument have both U.S. and metric main and Vernier scales.
---->
-
 
 
 The instrument illustrated in {numref}`triplebeambalance_Fig01` is a **triple beam balance** that can be used to determine the ***mass of an object***. The left-hand side has a platform where the object whose mass you seek to measure can be placed. The weights can slide along the balance beam scales to determine mass values, and there is a magnetic damper to bring the balance to rest more quickly. This works thanks to two knife-edges on bearings. One is the main pivot point from which the platform and sliding masses are calibrated. The second knife-edged point of contact is between the platform and the beam which allows the object in question to be *placed anywhere on the metal pan*, but have a constant distance from the main pivot point. 
