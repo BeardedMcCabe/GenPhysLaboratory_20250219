@@ -16,14 +16,14 @@ Please email and include (note, all the emails below end with ***\@fairfield.edu
 - Instructor of the other lab section you are requesting to attend (emails below)
 
     - 1145L-01 --- Dr. Sharp --- **lsharp**
-    - 1145L-02 --- tbd --- **tbd**
+    - 1145L-02 --- Dr. Engfer --- **tbd**
     - 1145L-03 --- Dr. Slattery --- **nslattery**
 
     - 1171L-01 --- Dr. Multunas --- **cmultunas**
     - 1171L-02 --- Dr. Cornelison --- **jcornelison**
-    - 1171L-03 --- tbd --- **tbd**
+    - 1171L-03 --- Northem --- **tbd**
     - 1171L-04 --- Prof. Scrofani – **dscrofani**
-    - 1171L-05 --- Dr. Moss --- **tbd**
+    - 1171L-05 --- Dr. Moss --- **gmoss**
 
 <!---
 
