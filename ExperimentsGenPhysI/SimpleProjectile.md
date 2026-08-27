@@ -1,11 +1,11 @@
 (simple-projectile-motion-overall)=
 # || Lab 3 | Simple Projectile Motion
 
-```{admonition} Review Post-lab Interpretation Questions before lab
-:class: important
-**❓❓ See {ref}`postlabs_simpleProjectileMotion` ❓❓**
+```{admonition} INDIVIDUAL Post-lab Writeup<br>Review Post-lab Interpretation Questions before lab
+:class: danger
+- Today's lab will have an 🟥 🟥 ***INDIVIDUAL*** 🟥 🟥 post-lab write-up. Submissions must be your own analysis and written work.
+- **❓❓ See {ref}`postlabs_simpleProjectileMotion` ❓❓**
 ```
-
 
 
 ## Background

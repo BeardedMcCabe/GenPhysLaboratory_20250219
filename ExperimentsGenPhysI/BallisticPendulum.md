@@ -1,12 +1,11 @@
 (ballistic-pendulum-lab-overall)=
 # || Lab 6 | Conservation of Energy & Linear Momentum with Ballistic Pendulum & Projectile Motion
 
-```{admonition} Review Post-lab Interpretation Questions before lab
+```{admonition} GROUP Post-lab Writeup<br>Review Post-lab Interpretation Questions before lab
 :class: important
-**❓❓ See {ref}`postlabs_ballisticPendulum` ❓❓**
+- Today's lab will have a 🔵 🔵 ***GROUP*** 🔵 🔵 post-lab write-up. Please thoroughly discuss and review with your lab group members before submission.
+- **❓❓ See {ref}`postlabs_ballisticPendulum` ❓❓**
 ```
-
-
 
 
 ## Background
@@ -22,10 +21,14 @@ Use a ballistic pendulum to:
 ```
 
 ```{admonition} DO NOT FIRE LAUNCHER WITHOUT BALL
-:class: important
+:class: warning
 To prevent damage to the piston, please only fire the spring-loaded piston gun with a ball loaded. Damage has been done before, therefore this note is now here. Thanks.
 ```
 
+```{admonition} ⚠️⚠️⚠️ CAUTION: HIGH SPEED PROJECTILES AND PISTON ⚠️⚠️⚠️
+:class: danger
+Keep clear of the pendulum and piston when spring-loaded gun is cocked. Fingers can be crushed.
+```
 
 
 Two techniques will be employed today.

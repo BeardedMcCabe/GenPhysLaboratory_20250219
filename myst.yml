@@ -93,10 +93,10 @@ site:
           url: /consentrack
         - title: Lab 6 | Energy & Momentum, Ballistic Pendulum
           url: /ballisticpendulum
-        - title: Lab 7-[1171L-ONLY] | Rotational Dynamics
-          url: /rotationalmotion
         - title: Lab 7-[1145L-ONLY] | Ideal Gas Law; Absolute Zero
           url: /idealgas
+        - title: Lab 7-[1171L-ONLY] | Rotational Dynamics
+          url: /rotationalmotion
         - title: Lab 8 | Fluid Physics
           url: /fluids
         - title: Lab 9 | Simple Pendulum

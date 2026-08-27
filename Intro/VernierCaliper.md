@@ -1,15 +1,11 @@
 (vernier-calipers-overall)=
 # || Vernier Calipers
 
+Here is an overview of how to use Vernier calipers for sub-millimeter-precision length measurements.
+
 ## The Apparatus
 
-<!--- The instrument illustrated in {numref}`Vernier_Fig01` is a set of calipers. The calipers have jaws $c$ and $d$ for measuring the diameter of a sphere or cylinder, $A$, or the thickness of any object placed between them. The inside diameter of a cavity is measured with jaws $e$ and $f$. The depth of a hole is measured with the depth gauge, $g$. The latter, and jaws $f$ and $d$ form part of a slide on which is engraved an auxiliary scale, the *Vernier scale* $v$. The scale on the fixed part (which carries jaws $c$ and $e$) is called the main scale. Only the metric scales are shown in the drawing, although the instrument have both U.S. and metric main and Vernier scales.
---->
-
 The instrument illustrated in {numref}`Vernier_Fig02` and {numref}`VernierManual_Fig01` is a set of calipers. The calipers have two measurement scales, the main scale for large values, and the moveable *Vernier scale* for smaller increments.
-
-
-
 
 
 ```{figure} IntroductionFigures/VernierCalipers02a.jpg
@@ -19,16 +15,6 @@ The instrument illustrated in {numref}`Vernier_Fig02` and {numref}`VernierManual
 
 Main and *Vernier* scales on a Vernier caliper.
 ```
-
-<!---
-```{figure} IntroductionFigures/VernierCalipers01.jpg
-:name: Vernier_Fig01
-:width: auto
-:align: center
-
-A diagram showing Vernier calipers and their main measurement scales.
-```
---->
 
 
 Focusing on {numref}`VernierManual_Fig01`, we can see:
@@ -97,17 +83,40 @@ A diagram showing precautions necessary for successful use of *Vernier* calipers
 
 
 
-### ● Web Examples
+## Web Simulations & Examples
 
 Use the following online resources to test yourself whether you are reading the Main and **Vernier** scales on the **Vernier** calipers correctly.
 
+### ● Our Style of Caliper
+
 [Simulated Vernier Caliper in the style of the calipers we use in lab](https://www.stefanelli.eng.br/en/virtual-vernier-caliper-simulator-05-millimeter/)
+
+```{figure} IntroductionFigures/VernierCaliper_WebExample_01.png
+:name: Vernier_Fig_WebExample_01
+:width: auto
+:align: center
+
+Simulation example 1: [Simulated Vernier Caliper in the style of the calipers we use in lab](https://www.stefanelli.eng.br/en/virtual-vernier-caliper-simulator-05-millimeter/).
+```
+
+
+### ● Simplified Caliper
 
 [Simulated Vernier Caliper measurements of an object, simplified](https://www.compadre.org/osp/EJSS/4168/195.htm)
 
+```{figure} IntroductionFigures/VernierCaliper_WebExample_02.png
+:name: Vernier_Fig_WebExample_02
+:width: auto
+:align: center
+
+Simulation example 2: [Simulated Vernier Caliper measurements of an object, simplified](https://www.compadre.org/osp/EJSS/4168/195.htm).
+```
 
 
-### ● Additional example with estimation
+
+
+
+## Additional example with estimation
 
 ```{figure} IntroductionFigures/VernierCalipers02a.jpg
 :name: Vernier_Fig02_again

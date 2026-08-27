@@ -1,11 +1,21 @@
 (data-acquisition-and-analysis-overall)=
 # || Data Acquisition & Analysis in Excel & Capstone
 
-In this lab you will perform measurements and calculate results from the measurements. Each trial requires similar calculations. The best way to perform repetitive calculation tasks is to use a computer program such as a spreadsheet. The effort to set up the calculation is more than compensated by the reliability and ease of repeating calculations. Several experiments will make use of sensors to aid in measurements and data gathering. The data in these experiments is collected by an advanced computer program called **Capstone**, which is installed on all computers in the lab. The program is also able to organize, analyze, and display the data. This section will give an overview of the program, explain how to set up sensors, and how to display data. More detailed information will be given in the specific experiments, which will make use of the sensors and data acquisition.
+## Purpose
 
-## Spreadsheets - In Microsoft Excel, how to access
+Throughout this lab, you will perform measurements and interpret the results by using **spreadsheets** and a variety of measurement tools and sensors, some of which are controlled and monitored by PASCO's **Capstone** software. When appropriate, data analysis will entail conducting calculations, finding averages, uncertainties, standard deviations, or other error estimates.
 
-To access Microsoft Excel, you can do so through the browser with your Fairfield U. student login. We recommend doing your work in a browser to work with your lab group members on a shared Excel sheet, as that appears to be the most reliable and quick way to edit the same Excel spreadsheet. Follow the instructions here to access:
+Our experiments will often require many trials or multiple cases that require similar calculations. Spreadsheets and other computer programs can make these repetitive tasks more reliable, faster, reproducible, and presentable. The effort to set up the calculation is more than compensated by the subsequent ease of repeating calculations. Several experiments will make use of sensors connected to the lab computers to aid in measurements and data gathering. You can use **Capstone** to organize, analyze, and display that data.
+
+This section presents:
+  - How to access Microsoft Excel (used throughout the course)
+  - Review of data manipulation and anlysis in Excel
+  - Explain how to set up sensors and use **Capstone**. More detailed information will be given in the specific experiments.
+
+
+## Microsoft Excel Spreadsheets --- How to Access
+
+Throughout the course, we will use Microsoft Excel for all spreadsheets. To access Excel, you can do so through the browser with your Fairfield U. student login. We recommend doing your work in a browser to work with your lab group members on a shared Excel sheet, as that appears to be the most reliable and quick way to edit the same Excel spreadsheet. Follow the instructions here to access:
 
 <a href="https://fairfield-university.atlassian.net/wiki/spaces/ITSKB/pages/30345528/Office+365+at+Fairfield+University" target="_blank">Access Office 365 in a browser at Fairfield University with your student login</a>
 
@@ -13,30 +23,49 @@ To access Microsoft Excel, you can do so through the browser with your Fairfield
 (spreadsheet-data-analysis-setup)=
 ## Data Analysis with Spreadsheets
 
-Data for each experiment has a set of measurements and calculations.
-A spreadsheet is a grid of rows and columns where you can enter text, numerical values or formulas.
-Spreadsheet programs provide all the mathematical functions, formatting, and graphing that you need for this lab.
-You will often have a table of common values, another for measurements, and a table for summary calculations.
-The standard way to structure a data analysis spreadsheet saves calculation errors and reduces repetitive typing.
-Use a separate row for each trial and a separate column for each measured or calculated value.
+### Spreadsheet Orgnaization
 
+A spreadsheet is a grid of **cells** organized into rows and columns where you can enter text, numerical values, or formulas. Spreadsheet programs provide all the mathematical functions, formatting, and graphing tools that you need for this lab course. They provide structure to data analysis that reduces calculation errors and repetitive typing.
+
+You will often have multiple data tables within your speadsheet labeled with names and units including:
+  - Common data values
+  - Measurements and calculations
+  - Summaries
+
+For every data table, you will enter descriptors and values in different cells, **NEVER PLACE A NUMBER AND TEXT IN THE SAME CELL**, otherwise the spreadsheet won't be able to run calculations on that "string" of text:
+  - Don't: `|9.803 m/s|`
+  - Do: `|9.803|` and `|m/s|` as separate cells
+
+Suggested use of separate rows and columns are:
 - Use a row for each trial, labeled in the left cell with, for example, "Trial #1".
 - Use a column for each measured or calculated value, labeled in the top cell with a description of the column and with units.
-- Reference cells you need for a calculation.
-  - Each accepted physical value such as $g$ and all commond data for the experiment must be entered in cells and referenced in formulas that use that quantity. The cells must be labeled with a name and units.
-  - Do not retype numbers. Use `$` for row or column coordinates you don't want to change. 
+
+### Cell & Value Referencing
+
+When you need a value for a calculation in a different cell, ***reference the value's cell*** rather than repeatedly, and sometime erroneously, typing in the same value:
+  - Each accepted physical value such as $g$ and all common data for the experiment must be entered in cells and referenced in formulas that use that quantity.
+  - **Do not retype** numbers. Use `$` to hold row or column coordinates constant that you don't want to change when copying formulas to different cells.
     - `$D5` will always refer to column `D` but the row will change.
     - `D$5` will always refer to row `5` but the column will change. 
-    - `$D$5` will always refer to the same cell.
-- Never enter a value calculated outside the spreadsheet, for example, on your calculator. Any value you can find on the calculator can be calculated and updated automatically on the spreadsheet.
-- Use the spreadsheet's "fill down" capability by selecting a set of cells in a row and fill down by dragging with the little square in the bottom-right of the selected cells. Formulas will copy and the row numbers of referenced cells that are not preceded by `$` will increment automatically.
-  - This approach makes it efficient to create a spreadsheet to analyze your data and to correct errors. If you make a mistake in a formula, you can correct the first trial and then correct the other trials by filling down.
-- Wherever appropriate, data analysis includes finding averages, standard deviations, or error esitmates.
+    - `$D$5` will always refer to the same singlular cell.
+- **Never** enter a value calculated outside the spreadsheet, for example, on your calculator. Any value you can find on the calculator can be calculated and updated automatically on the spreadsheet. Additionally, the spreadsheet shows your work, the outside calculator does not.
 
-### Excel Function Syntax
+### Equations & Functions Syntax
+
+You will create your own equations and use many built-in functions that exist in Excel and other spreadsheet programs to perform specific tasks on the input and return some output. Functions are often similar between spreadsheet programs, but not always, make sure to double check your syntax as needed. To start an equation or use a function in any given cell, you must first enter the equals sign: `=`. Say you wanted some simple addition, you would input `=3+5` and press enter at which point the cell would show a returned value of `8`.
+
+Examples of other common functions are:
+  - `=AVERAGE()` which returns the average of the referenced cells input between the parentheses
+  - `=STDEV()` which returns the standard deviation of the referenced cells input between the parentheses
+  - `=PI()` which returns the value of $\pi.$ NOTE: no input between parentheses
+
+You can copy formulas to other cells by using the spreadsheet's "fill down" capability. Select an individual cell or a set of cells in a row and fill down by dragging with the little square in the bottom-right corner of the selected cell(s). Formulas will copy and the row numbers of referenced cells that are not preceded by `$` will increment automatically.
+  - This approach makes it efficient to create a spreadsheet to analyze your data and to correct errors. If you make a mistake in a formula, you can correct the first trial and then correct the other trials by filling down.
+  - This similarly works for columns filling right or left, or rows upward.
+
 
 (data-acquisition-and-analysis-trigonometric-functions)=
-#### Trigonometric Functions
+### Trigonometric Functions
 
   - Excel *functions* like `SIN()`, `COS()`, etc. take some `input` between the parentheses (e.g. `SIN(input)`) and then return a value such that `output = SIN(input)`. 
   - Reminder, Excel likes radians; Excel's trig functions are expecting the input to be in units of ***radians***
@@ -49,13 +78,15 @@ Use a separate row for each trial and a separate column for each measured or cal
 
 
 (data-acquisition-plotting-in-excel)=
-### Plotting in Excel
+### Plotting in Excel & LINEST
 
-- Unless otherwise stated, use Excel for graphs and for fitting data. Display the trendline (the equation of the fit, usually slope and intecept) on the graph itself.
+Unless otherwise stated, use Excel for graphs and for fitting data:
+- Display the trendline (the equation of the fit, usually slope and intecept) on the graph itself.
 - When applicable, conduct all error propagation analysis in your Excel spreadsheet.
-- Assuming a linear fit, $Y = mx +b$, use the `LINEST` function to calculate a plotted data's slope and y-intercept as well as their uncertainties. This allows us to have a referenceable cell for calculations that require the use of a trendline's values without having to manually copy the trendline infor from the plot (which could introduce a chance of mistyping and messing up your calculations).
+- ***LINEST function for linear estimation***: When assuming a linear fit, $Y = mx +b$, use the `LINEST` function to calculate a plotted data's slope and y-intercept as well as their uncertainties. This allows us to have a referenceable cell for calculations that require the use of a trendline's values without having to manually copy the trendline information from the plot (which could introduce a chance of mistyping and messing up your calculations, or changes if you retest previous values).
   - Determine the slope of your graph using the `LINEST` function:
     - `=LINEST(y-values,x-values,TRUE/FALSE,TRUE/FALSE)`
+      - unless otherwise stated, use of `LINEST` throughout the course will be ***`...TRUE,TRUE)`***
     - y-values are from your dependent variable
     - x-values are from your independent variable
     - Y-intecept
@@ -68,18 +99,18 @@ Use a separate row for each trial and a separate column for each measured or cal
     :name: tab-excel-linest-simplified-overview
     | Row | Column 1 (Slope)                         | Column 2 (Intercept)                         |
     |:---:|-------------------------------------------|-----------------------------------------------|
-    |  1  | **Slope value $m$** – best-fit line slope     | **Intercept value** – y-intercept of the line |
-    |  2  | **Slope uncertainty $\delta m$** – std. error of m   | **Intercept uncertainty** – std. error of b   |
+    |  1  | **Slope value $m$** – best-fit line slope     | **Intercept value $b$** – y-intercept of the line |
+    |  2  | **Slope uncertainty $\delta m$** – std. error of *m*   | **Intercept uncertainty $\delta b$** – std. error of *b*   |
     |  3  | *(Ignored for this course)* R² and related metrics        | *(Ignored for this course)*                                   |
     |  4  | *(Ignored for this course)* Additional regression stats   | *(Ignored for this course)*                                   |
     |  5  | *(Ignored for this course)* Residual statistics           | *(Ignored for this course)*                                   |
     ```
 
 
-
+(capstone-setup-data-aquisition)=
 ## Capstone
 
-May of our experiments use the *Capstone* program to communicate with the measurement hardware and collect the data. This section is a very brief introduction to using the *Capstone* software.
+Many of our experiments use the *Capstone* program to communicate with measurement hardware and collect data. This section is a very brief introduction to using the *Capstone* software. Additional tools and tips can be found in {ref}`capstone-tools-tips-additional`.
 
 ### Setting up Hardware
 

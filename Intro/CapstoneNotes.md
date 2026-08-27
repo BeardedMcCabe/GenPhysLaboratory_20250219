@@ -1,4 +1,7 @@
-# || Capstone Tips & Tools
+(capstone-tools-tips-additional)=
+# || Capstone Tools & Tips
+
+While additional **Capstone** tools and tips are discussed here, a review of setting up **Capstone** can be found at {ref}`capstone-setup-data-aquisition` within {ref}`data-acquisition-and-analysis-overall`.
 
 ## Sensor Precision & Notes
 

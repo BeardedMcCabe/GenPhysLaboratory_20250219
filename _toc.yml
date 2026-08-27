@@ -11,6 +11,7 @@ parts:
     - file: Schedule/scheduleByMeetingTimesAll
 #    - file: Schedule/schedulePHYS1171_1172
 #    - file: Schedule/schedulePHYS1145_1146
+    - file: Schedule/schedulePostLabIndivGroup
     - file: Schedule/scheduleByProfessor
   - caption: Data Analysis Information
     chapters:
@@ -24,7 +25,7 @@ parts:
     - file: Intro/VernierCaliper
     - file: Intro/CapstoneNotes
 #    - file: Intro/GeneralEquipment
-  - caption: Example Labs
+  - caption: Example Lab
     chapters:
     - file: Intro/ExampleLab/HarmonicMotion
   - caption: Gen. Phys. Lab I (Fall) --- Experiments
@@ -36,8 +37,8 @@ parts:
       - file: ExperimentsGenPhysI/CentripetalForce
       - file: ExperimentsGenPhysI/ConsEnTrack
       - file: ExperimentsGenPhysI/BallisticPendulum
-      - file: ExperimentsGenPhysI/RotationalMotion
       - file: ExperimentsGenPhysI/IdealGas
+      - file: ExperimentsGenPhysI/RotationalMotion
       - file: ExperimentsGenPhysI/Fluids
       - file: ExperimentsGenPhysI/Pendulum
   - caption: Gen. Phys. Lab II (Spring) --- Experiments
