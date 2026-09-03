@@ -15,16 +15,21 @@ Please email and include (note, all the emails below end with ***\@fairfield.edu
 - Dr. McCabe (Lab Coordinator) --- **rmccabe**  
 - Instructor of the other lab section you are requesting to attend (emails below)
 
-    - 1145L-01 --- Dr. Sharp --- **lsharp**
-    - 1145L-02 --- Dr. Engfer --- **tbd**
-    - 1145L-03 --- Dr. Slattery --- **nslattery**
+---
 
-    - 1171L-01 --- Dr. Multunas --- **cmultunas**
-    - 1171L-02 --- Dr. Cornelison --- **jcornelison**
-    - 1171L-03 --- Northem --- **tbd**
-    - 1171L-04 --- Prof. Scrofani – **dscrofani**
-    - 1171L-05 --- Dr. Moss --- **gmoss**
+- 1145L-01 --- Dr. Sharp --- **lsharp**
+- 1145L-02 --- Dr. Engfer --- **dengfer**
+- 1145L-03 --- Dr. Slattery --- **nslattery**
 
+---
+
+- 1171L-01 --- Dr. Multunas --- **cmultunas**
+- 1171L-02 --- Dr. Cornelison --- **jcornelison**
+- 1171L-03 --- Dr. Northem --- **dnorthem**
+- 1171L-04 --- Prof. Scrofani – **dscrofani**
+- 1171L-05 --- Dr. Moss --- **gmoss**
+
+---
 <!---
 
     - 1146L-01 --- Dr. Sharp --- **lsharp**
@@ -49,15 +54,15 @@ Please email and include (note, all the emails below end with ***\@fairfield.edu
 
 
 ## Printed Weekly Lab Schedule
-<!---
-```{figure} ScheduleFigures/2026_Fall_LabSchedulePrintoutTimes_1145L_1171L_v1.png
+
+```{figure} ScheduleFigures/2026_Fall_LabSchedulePrintoutTimes_1145L_1171L_v2.png
 :name: schedule
 :width: 100%
 :class: full-height
 :align: center
 Printed lab schedule by section for PHYS 1145L & 1171L. Included are the instructors' email addresses.
 ```
---->
+
 
 
 <!---
